@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="leicester.plonetheme">
+
+ <object name="leicester_theme_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_theme_images"/>
+ <object name="leicester_theme_templates"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_theme_templates"/>
+ <object name="leicester_theme_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_theme_styles"/>
+ <object name="leicester_purpleskin_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_purpleskin_styles"/>
+
+ <skin-path name="leicester.plonetheme" based-on="Sunburst Theme">
+  <layer name="leicester_theme_images"
+     insert-after="custom"/>
+  <layer name="leicester_theme_templates"
+     insert-after="leicester_theme_images"/>
+  <layer name="leicester_theme_styles"
+     insert-after="leicester_theme_templates"/>
+ </skin-path>
+
+ <skin-path name="purpleskin" based-on="leicester.plonetheme">
+  <layer name="leicester_purpleskin_styles"
+     insert-after="custom"/>
+ </skin-path>
+
+</object>

@@ -1,0 +1,1535 @@
+/* UOL Theme CSS */
+/*----------------PUBLIC.CSS------------------*/
+body {
+font-size:1em; 
+color:#333;
+}
+
+/*makes background of kupu editor white*/
+.kupu-html, .kupu{
+background:#FFF;
+}
+
+h1,h2,h3,h4,h5,h6 {
+line-height:1.45em;
+margin-bottom:10px;
+margin-top:6px;
+font-family:Arial, FreeSans, sans-serif;
+}
+
+/*------this stops users double bolding headings or links-----------*/
+h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, a:link b, a:visited b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, a:link strong, a:visited strong {
+font-weight: bold;
+}
+
+h1.documentFirstHeading {
+font-size:1.65em;
+color:#000;
+}
+
+h1,h2 {
+font-size:1.45em;
+letter-spacing:0;
+}
+
+h3 {
+font-size:1.25em;
+}
+
+h4,h5,h6 {
+font-size:1.05em;
+}
+
+p,p.opening {
+margin-bottom:12px;
+font-size:1em;
+line-height:1.5em;
+}
+
+a:visited {
+color:#639;
+}
+
+a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited, #portal-column-one a:link, #portal-column-one a:visited, #portal-column-two a:link, #portal-column-two a:visited {
+font-weight:bold;
+} 
+
+/*------Makes all heading links appear grey rather than blue, still active but not visually affected - hover state colour change but no underline------*/
+h2 a:link,h2 a:visited,h3 a:link,h3 a:visited,h4 a:link,h4 a:visited {
+color:#444 !important;
+}
+
+h2 a:hover,h3 a:hover,h4 a:hover {
+text-decoration:none !important;
+}
+
+hr {
+color:#ccc;
+background-color:#ccc;
+border:0;
+height:1px;
+margin:0.5em 0 0.8em;
+}
+
+/* header which will be customised */
+#portal-top .position-0,#portal-footer-wrapper .position-0 {
+margin-left:-100%;
+}
+
+#portal-footer-wrapper .width-full{
+width:100%;
+}
+	
+#portal-header,#portal-footer-wrapper {
+background-color:transparent;
+width:990px !important;
+margin:0 auto;
+}
+
+#portal-logo {
+margin:0.7em 0;
+}
+
+#portal-globalnav {
+background:rgba(0, 0, 0, 0.4);
+color:#FFF;
+border-bottom:1px solid #FFF;
+margin:0;
+padding:0;
+}
+   
+#portal-globalnav li a {
+color:#FFF;
+display:inline-block;
+background:transparent;
+white-space:normal;
+border:0.1em solid #FFF;
+line-height:140%;
+border-style:none solid none none;
+padding:0.5em 1em;
+}
+   
+#portal-globalnav li.selected a,#portal-globalnav li a:hover {
+background:#C2C2C2;
+border:0.1em solid #FFF;
+color:#FFF;
+border-style:none solid none none;
+}
+
+#portal-globalnav li.selected a:hover {
+background:#DDD;
+color:#205c90;
+}
+
+#portal-personaltools {
+background:rgba(255, 255, 255, 0.4);
+}
+/*makes 'web editor login' white*/
+dt.actionMenuHeader a#user-name, #portal-personaltools #anon-personalbar a{color:#fff;}
+
+.searchSection{display:none;}
+
+
+/* breadcrumbs */
+#portal-breadcrumbs {
+font-size:80%;
+background:#d7d7d7;
+line-height:1.5em;
+margin:0;
+padding:5px 5px 5px 12px;
+}
+
+#portal-breadcrumbs a {
+border-bottom:none;
+display:inline-block;
+}
+
+#portal-breadcrumbs a:hover{
+color:#75AD0A!important;
+}
+
+#breadcrumbs-you-are-here{
+display:none;
+}
+
+/*--hopefully not need but!*/
+#portal-column-content #portal-breadcrumbs{
+display:none;}
+
+#uolmiddleimage {
+position:relative;
+}
+
+.tabposition {
+height:139px;
+}
+
+.uolheader {
+position:absolute;
+bottom:0;
+background:url("++resource++leicester.plonetheme.images/banner_title_bg.gif") repeat-x;
+margin-bottom:-1px;
+-moz-border-radius-topright:8px;
+-webkit-border-top-right-radius:8px;
+border-top-right-radius:8px;
+padding:0 15px 0 12px;
+}
+
+.uolheader h1 {
+border-bottom:none;
+font-size:145%;
+font-weight:normal;
+margin:4px 0;
+}
+
+.uolheader h1 a {
+color:#333;
+text-shadow:0 1px 0px rgba(255, 255, 255, 0.75);
+}
+/*---------------------footer----------------------------------*/
+
+/*-------------portlets------------------------------*/
+dl.portlet {
+border-bottom:1px solid #ccc;
+}
+
+span.portletItemDetails {
+margin-left:0;
+}
+
+dl.portlet a.tile img{
+display:none;
+}
+
+dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails{
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+-webkit-border-top-left-radius: 8px;
+-webkit-border-top-right-radius: 8px;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-topright: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+border:1px solid #cccccc; }
+		
+dl.portlet dd.portletItem,dl.portlet dd.portletFooter,dl.portlet dd.portletFooter,dl.portletError dd {
+border-left:1px solid #ccc; 
+border-right:1px solid #ccc;
+line-height:1.4em;
+padding:0.6em 1em;
+}
+
+div.managePortletsLink,a.managePortletsFallback {
+font-size:100%;
+background:transparent;
+border-radius:0;
+-webkit-border-radius:0;
+-moz-border-radius:0;
+margin:1em auto;
+padding:0;
+}
+	
+div.managePortletsLink a:link,div.managePortletsLink a:visited,a.managePortletsFallback,#content .contentHistory a:link,#content .contentHistory a:visited {
+text-shadow:0 1px 0 rgba(47,72,19,0.5);
+color:#FFF !important;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+background-color:#75AD0A;
+display:block;
+margin:1em auto;
+padding:0.5em;
+}
+
+div.managePortletsLink a:hover,a.managePortletsFallback:hover,#content .contentHistory a:hover {
+text-decoration:none;
+background-color:#205c90 !important;
+color:#FFF !important;
+}
+ 
+#content div.documentByLine {
+padding-bottom:10px;
+}
+
+#content .contentHistory a:link,#content .contentHistory a:visited {
+display:inline;
+font-size:130%!important;
+margin-bottom:5px;
+}
+
+/*-------------navigation portlets-------------
+switches icons off in navigation */
+.icons-on dl.portletNavigationTree a {
+background-image:none;
+}
+
+.icons-on .contenttype-document, .icons-on .contenttype-event,.icons-on .contenttype-folder,.icons-on .contenttype-link,.icons-on .contenttype-news-item,.icons-on .contenttype-plone-site,.icons-on .contenttype-topic,.icons-on #plone-contentmenu-factories .contenttype-file,.icons-on #plone-contentmenu-factories .contenttype-image {
+line-height: 1.6em;
+}
+
+dl.portletNavigationTree {
+border-bottom:none !important;
+margin:0;
+}
+
+/*makes navigation black/grey rather than default link colour*/
+dl.portlet ul.navTree li a {
+color:#444 !important;
+padding:7px 8px 6px 0;
+}
+
+dl.portlet ul.navTree li a:hover,#portal-column-one dl.portlet ul.navTree li a:hover,#portal-column-two dl.portlet ul.navTree li a:hover {
+background-color:#444;
+color:white !important;
+text-decoration:none;
+}
+
+/*makes private content red in navigation*/
+dl.portlet ul.navTree li a.state-private{
+color:red!important;}
+
+/*switches off the ability to show the portlet header on navigation portlets*/
+dl.portletNavigationTree dt.portletHeader {
+display:none;
+}
+
+dl.portletNavigationTree dd.portletItem {
+border:none;
+padding:0;
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem,dl.portlet ul.navTreeLevel1 > .navTreeItem,dl.portlet ul.navTreeLevel2 > .navTreeItem,dl.portlet ul.navTreeLevel3 > .navTreeItem,dl.portlet ul.navTreeLevel4 > .navTreeItem,dl.portlet ul.navTreeLevel5 > .navTreeItem {
+border-bottom:0.1em dotted #999;
+border-top:none;
+margin:0;
+padding:0;
+}
+
+.navTreeItem,dl.portlet ul.navTreeLevel1 > .navTreeItem,dl.portlet ul.navTreeLevel2 > .navTreeItem,dl.portlet ul.navTreeLevel3 > .navTreeItem,dl.portlet ul.navTreeLevel4 > .navTreeItem,dl.portlet ul.navTreeLevel5 > .navTreeItem {
+border-top:0.1em dotted #ddd;
+border-bottom:none;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+border-left:0;
+margin:0;
+}
+
+ul.navTree img {
+display:none !important;
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+line-height: 1.6em;}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem a {
+padding-left:8px!important;
+}
+
+dl.portlet ul.navTreeLevel1 > .navTreeItem a {
+padding-left:25px!important;
+}
+
+dl.portlet ul.navTreeLevel1 > .navTreeItem a:before {
+content:"\2192";
+margin-left:-18px;
+padding-right:2px;
+}
+
+dl.portlet ul.navTreeLevel2 > .navTreeItem a {
+padding-left:37px!important;
+}
+
+dl.portlet ul.navTreeLevel2 > .navTreeItem a:before {
+content:"\2013";
+margin-left:-14px;
+padding-right:4px;
+}
+
+dl.portlet ul.navTreeLevel3 > .navTreeItem a {
+padding-left:48px!important;
+}
+
+dl.portlet ul.navTreeLevel3 > .navTreeItem a:before {
+content:"\203A";
+margin-left:-12px;
+padding-right:4px;
+}
+
+dl.portlet ul.navTreeLevel4 > .navTreeItem a {
+padding-left:54px!important;
+}
+
+dl.portlet ul.navTreeLevel4 > .navTreeItem a:before {
+content:"\00b7";
+margin-left:-12px;
+padding-right:4px;
+}
+
+/*additional style because static portlets with no border increases the font size */
+#portal-column-one div.portletStaticText,#portal-column-two div.portletStaticText {
+font-size:80%;
+margin-bottom:10px;
+}
+
+dl.portletStaticText ul,div.portletStaticText ul,dl.portlet ol {
+padding-left:1.5em;
+overflow:hidden;
+margin:0;
+}
+
+dl.portletStaticText ul, div.portletStaticText ul, #content ul.listTypeSquare{ 
+list-style-type: disc;
+}
+/*------------------------Content Area----------------------------------*/
+#content {
+margin:0.25em 0.25em 2em;
+}
+
+#content a:visited,dl.portlet a:visited {
+color:#639;
+border-bottom:0;
+}
+
+#content a:hover,dl.portlet a:hover {
+text-decoration:underline;
+}
+
+#content a:link, dl.portlet a:link {
+border-bottom:0;
+}
+
+/*stops the double bolding of links*/
+#content a b, dl.portlet a b {
+font-weight:bold;
+}
+
+#category a.link-category,span.selectedTag {
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+line-height:1.8em;
+}
+
+#category a.link-category:hover {
+color:#fff !important;
+}
+
+#content ul,#content ol {
+overflow:hidden;
+padding-left:2em;
+margin:0;
+}
+
+#content .documentDescription,#content #description {
+line-height:1.4em;
+font-weight:normal;
+margin-bottom:10px;
+}
+
+#content div.newsImageContainer p.discreet {
+width:183px;
+top:-0.2em;
+padding:0.5em 0.78em;
+}
+
+#content .eventDetails {
+margin-top: 0;
+border:none;
+border:1px solid #CCC;
+}
+
+#content .eventDetails .eventDetail h3{
+padding-top:0;
+text-align: left;
+width:35%;
+padding-left:4%;
+}
+
+#content .eventDetails h2 {
+margin-top: 0;
+padding-left:10px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border:none;}
+
+#content .eventDetails .eventDetail div {
+width: 53%;
+padding-left:4%;
+}
+
+.explain{
+font-weight:bold;}
+
+
+/*-----------------------------------Tables-------------------------------------------*/
+/*this the private documents in the contents view red*/
+#content table.listing a.state-private {
+color:red!important;
+}
+
+table, table.invisible, table.plain, table.blocktable, table.data, table.listing, table.horizontallinestable {
+width:100%;
+}
+
+table th {
+color:#333;
+vertical-align:top;
+font-size:15px;
+line-height:19px;
+text-align:left;
+margin:0;
+padding:0.3em 0.55em;
+}
+
+table td {
+vertical-align:top;
+font-weight:normal;
+font-size:13px;
+line-height:18px;
+margin:0;
+padding:0.3em 0.55em 0.35em;
+}
+
+/* ------old hacks for setting column width because kupu never could---------*/
+td.half,th.half {
+width:49.5%!important;
+}
+
+td.fifth,th.fifth {
+width:19.8%!important;
+}
+
+td.quarter,th.quarter {
+width:24.8%!important;
+}
+
+td.third,th.third {
+width:32.8%!important;
+}
+
+td.nopadding,th.nopadding {
+padding:0!important;
+}
+
+/*table links*/
+#content table th a,#content table td a {
+color:#205c90 !important;
+font-weight:bold !important;
+}
+
+#content table td a:hover,#content table th a:hover {
+color:#75ad0a !important;
+text-decoration:underline !important;
+}
+
+/*------this is a style if people use a heading tag around a table ------------------*/
+#content h2 table,#content h3 table,#content h4 table,#content h5 table {
+font-size:100%;
+}
+/* this stop the ability to double bold-*/
+#content table th strong, #content table th b{
+font-weight:bold;
+}
+
+/*This controls the size of the text inside a cell whatever the level not ideal as it uses fixed sizes - alternative would be good*/
+table th h2,table th h3,table th h4,table th h5,table th p,table th a {
+color:#333;
+font-size:15px;
+line-height:19px!important;
+margin:0 0 10px;
+padding:0;
+}
+
+table td h2,table td h3,table td h4,table td h5,table td p,table td a {
+color:#333;
+font-size:13px;
+line-height:18px!important;
+font-weight:normal !important;
+margin:0 0 10px;
+padding:0;
+}
+
+/*listing and plain tables are already set to this*/
+table.data,table.horizontallinestable,table.keyfactstable {
+border-spacing:0;
+border-collapse:collapse;
+}
+
+table.invisible th,table.invisible td,table.plain th,table.plain td,table.blocktable th,table.blocktable td,table.listing td,table.listing th {
+border:none;
+text-align:left;
+vertical-align:top;
+margin:0;
+padding:0.3em 0.55em;
+}
+
+table.invisible th, table.invisible td, table.plain th, table.plain td, table.blocktable th, table.blocktable td{
+border: none;
+}
+
+table.data th, table.data td{
+border: 1px solid #ddd;
+}
+
+table.data tbody tr.odd {
+background: #D9ECF6;
+}
+
+table.keyfactstable {
+width:38%!important; 
+float:right; 
+background:#EAEAEA; 
+margin-left:2%;
+} 
+
+table.keyfactstable th {
+color:#fff !important;
+background:#667375 !important;
+text-align:left;
+border:0.1em solid #e7e7e7;
+border-style:solid solid none;
+}
+
+table.keyfactstable td{
+background: #EAEAEA!important;
+}
+
+/*this forces the table to be grey and not adjustable by the editors*/
+table.keyfactstable th h2, table.keyfactstable th h3, table.keyfactstable th h4{
+background:transparent!important;
+}
+
+/*----counters a style in plone board---*/	
+table.listing th {
+color:#fff !important;
+background:#667375;
+font-size:15px!important;
+line-height:19px!important;
+}
+
+table.listing tbody tr.odd td {
+background-color:#fff !important;
+border-top:1px solid #DDD;
+border-right:1px solid #DDD;
+}
+
+table.listing tbody tr.even td {
+border-top:1px solid #DDD;
+border-right:1px solid #DDD;
+}
+
+table.grid tbody tr.odd td {
+background-color:#EEEEEE !important;
+}
+
+table.horizontallinestable th {
+border-bottom:2px solid #666;
+}
+
+table.horizontallinestable td {
+border-bottom:1px solid #666;
+}
+
+
+/*defines the colours in all the tables*/
+th.yellow,th.yellowglossy,th.yellowshadow,th.yellow h2,th.yellowglossy h2,th.yellowshadow h2,th.yellow h3,th.yellowglossy h3,th.yellowshadow h3,th.yellow h4,th.yellowglossy h4,th.yellowshadow h4,th.yellow h5,th.yellowglossy h5,th.yellowshadow h5,th.yellow p,th.yellowglossy p,th.yellowshadow p,th.orange,th.orangeglossy,th.orangeshadow,th.orange h2,th.orangeglossy h2,th.orangeshadow h2,th.orange h3,th.orangeglossy h3,th.orangeshadow h3,th.orange h4,th.orangeglossy h4,th.orangeshadow h4,th.orange h5,th.orangeglossy h5,th.orangeshadow h5,th.orange p,th.orangeglossy p,th.orangeshadow p {
+background:#F79646 !important;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+color:#fff !important;
+}
+
+th.blue,th.blueglossy,th.blueshadow,th.blue h2,th.blueglossy h2,th.blueshadow h2,th.blue h3,th.blueglossy h3,th.blueshadow h3,th.blue h4,th.blueglossy h4,th.blueshadow h4,th.blue h5,th.blueglossy h5,th.blueshadow h5,th.blue p,th.blueglossy p,th.blueshadow p {
+background:#4F81BD !important;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+color:#fff !important;
+}
+
+
+th.purple,th.purpleglossy,th.purpleshadow,th.purple h2,th.purpleglossy h2,th.purpleshadow h2,th.purple h3,th.purpleglossy h3,th.purpleshadow h3,th.purple h4,th.purpleglossy h4,th.purpleshadow h4,th.purple h5,th.purpleglossy h5,th.purpleshadow h5,th.purple p,th.purpleglossy p,th.purpleshadow p {
+background:#8064A2 !important;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+color:#fff !important;
+}
+
+th.grey,th.greyglossy,th.greyshadow,th.grey h2,th.greyglossy h2,th.greyshadow h2,th.grey h3,th.greyglossy h3,th.greyshadow h3,th.grey h4,th.greyglossy h4,th.greyshadow h4,th.grey h5,th.greyglossy h5,th.greyshadow h5,th.grey p,th.greyglossy p,th.greyshadow p {
+background:#667375 !important;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+color:#fff !important;
+}
+
+th.green,th.greenglossy,th.greenshadow,th.green h2,th.greenglossy h2,th.greenshadow h2,th.green h3,th.greenglossy h3,th.greenshadow h3,th.green h4,th.greenglossy h4,th.greenshadow h4,th.green h5,th.greenglossy h5,th.greenshadow h5,th.green p,th.greenglossy p,th.greenshadow p {
+background:#9BBB59 !important;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+color:#fff !important;
+}
+
+th.white,th.whiteglossy,th.whiteshadow,th.white h2,th.whiteglossy h2,th.whiteshadow h2,th.white h3,th.whiteglossy h3,th.whiteshadow h3,th.white h4,th.whiteglossy h4,th.whiteshadow h4,th.white h5,th.whiteglossy h5,th.whiteshadow h5,th.white p,th.whiteglossy p,th.whiteshadow p {
+background:#F0F0F0 !important;
+color:#333 !important;
+}
+
+th.red,th.red h2,th.red h3,th.red h4,th.red h5,th.red p {
+background:#C0504D !important;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+color:#fff !important;
+}
+
+#content table th.yellow a,#content table th.yellowglossy a,#content table th.yellowshadow a,#content table th.yellow h2 a,#content table th.yellowglossy h2 a,#content table th.yellowshadow h2 a,#content table th.yellow h3 a,#content table th.yellowglossy h3 a,#content table th.yellowshadow h3 a,#content table th.yellow h4 a,#content table th.yellowglossy h4 a,#content table th.yellowshadow h4 a,#content table th.yellow h5 a,#content table th.yellowglossy h5 a,#content table th.yellowshadow h5 a,#content table th.yellow p a,#content table th.yellowglossy p a,#content table th.yellowshadow p a,#content table th.blue a,#content table th.blueglossy a,#content table th.blueshadow a,#content table th.blue h2 a,#content table th.blueglossy h2 a,#content table th.blueshadow h2 a,#content table th.blue h3 a,#content table th.blueglossy h3 a,#content table th.blueshadow h3 a,#content table th.blue h4 a,#content table th.blueglossy h4 a,#content table th.blueshadow h4 a,#content table th.blue h5 a,#content table th.blueglossy h5 a,#content table th.blueshadow h5 a,#content table th.blue p a,#content table th.blueglossy p a,#content table th.blueshadow p a,#content table th.purple a,#content table th.purpleglossy a,#content table th.purpleshadow a,#content table th.purple h2 a,#content table th.purpleglossy h2 a,#content table th.purpleshadow h2 a,#content table th.purple h3 a,#content table th.purpleglossy h3 a,#content table th.purpleshadow h3 a,#content table th.purple h4 a,#content table th.purpleglossy h4 a,#content table th.purpleshadow h4 a,#content table th.purple h5 a,#content table th.purpleglossy h5 a,#content table th.purpleshadow h5 a,#content table th.purple p a,#content table th.purpleglossy p a,#content table th.purpleshadow p a,#content table th.grey a,#content table th.greyglossy a,#content table th.greyshadow a,#content table th.grey h2 a,#content table th.greyglossy h2 a,#content table th.greyshadow h2 a,#content table th.grey h3 a,#content table th.greyglossy h3 a,#content table th.greyshadow h3 a,#content table th.grey h4 a,#content table th.greyglossy h4 a,#content table th.greyshadow h4 a,#content table th.grey h5 a,#content table th.greyglossy h5 a,#content table th.greyshadow h5 a,#content table th.grey p a,#content table th.greyglossy p a,#content table th.greyshadow p a,#content table th.orange a,#content table th.orangeglossy a,#content table th.orangeshadow a,#content table th.orange h2 a,#content table th.orangeglossy h2 a,#content table th.orangeshadow h2 a,#content table th.orange h3 a,#content table th.orangeglossy h3 a,#content table th.orangeshadow h3 a,#content table th.orange h4 a,#content table th.orangeglossy h4 a,#content table th.orangeshadow h4 a,#content table th.orange h5 a,#content table th.orangeglossy h5 a,#content table th.orangeshadow h5 a,#content table th.orange p a,#content table th.orangeglossy p a,#content table th.orangeshadow p a,#content table th.green a,#content table th.greenglossy a,#content table th.greenshadow a,#content table th.green h2 a,#content table th.greenglossy h2 a,#content table th.greenshadow h2 a,#content table th.green h3 a,#content table th.greenglossy h3 a,#content table th.greenshadow h3 a,#content table th.green h4 a,#content table th.greenglossy h4 a,#content table th.greenshadow h4 a,#content table th.green h5 a,#content table th.greenglossy h5 a,#content table th.greenshadow h5 a,#content table th.green p a,#content table th.greenglossy p a,#content table th.greenshadow p a,#content table th.red a,#content table th.red h2 a,#content table th.red h3 a,#content table th.red h4 a,#content table th.red h5 a,#content table th.red p a,#content .highlight-shaded a:link,#content .highlight-shaded a:visited {
+color:#F8E58E !important;
+}
+
+#content table th.yellow a:hover,#content table th.yellowglossy a:hover,#content table th.yellowshadow a:hover,#content table th.yellow h2 a:hover,#content table th.yellowglossy h2 a:hover,#content table th.yellowshadow h2 a:hover,#content table th.yellow h3 a:hover,#content table th.yellowglossy h3 a:hover,#content table th.yellowshadow h3 a:hover,#content table th.yellow h4 a:hover,#content table th.yellowglossy h4 a:hover,#content table th.yellowshadow h4 a:hover,#content table th.yellow h5 a:hover,#content table th.yellowglossy h5 a:hover,#content table th.yellowshadow h5 a:hover,#content table th.yellow p a:hover,#content table th.yellowglossy p a:hover,#content table th.yellowshadow p a:hover,#content table th.blue a:hover,#content table th.blueglossy a:hover,#content table th.blueshadow a:hover,#content table th.blue h2 a:hover,#content table th.blueglossy h2 a:hover,#content table th.blueshadow h2 a:hover,#content table th.blue h3 a:hover,#content table th.blueglossy h3 a:hover,#content table th.blueshadow h3 a:hover,#content table th.blue h4 a:hover,#content table th.blueglossy h4 a:hover,#content table th.blueshadow h4 a:hover,#content table th.blue h5 a:hover,#content table th.blueglossy h5 a:hover,#content table th.blueshadow h5 a:hover,#content table th.blue p a:hover,#content table th.blueglossy p a:hover,#content table th.blueshadow p a:hover,#content table th.purple a:hover,#content table th.purpleglossy a:hover,#content table th.purpleshadow a:hover,#content table th.purple h2 a:hover,#content table th.purpleglossy h2 a:hover,#content table th.purpleshadow h2 a:hover,#content table th.purple h3 a:hover,#content table th.purpleglossy h3 a:hover,#content table th.purpleshadow h3 a:hover,#content table th.purple h4 a:hover,#content table th.purpleglossy h4 a:hover,#content table th.purpleshadow h4 a:hover,#content table th.purple h5 a:hover,#content table th.purpleglossy h5 a:hover,#content table th.purpleshadow h5 a:hover,#content table th.purple p a:hover,#content table th.purpleglossy p a:hover,#content table th.purpleshadow p a:hover,#content table th.grey a:hover,#content table th.greyglossy a:hover,#content table th.greyshadow a:hover,#content table th.grey h2 a:hover,#content table th.greyglossy h2 a:hover,#content table th.greyshadow h2 a:hover,#content table th.grey h3 a:hover,#content table th.greyglossy h3 a:hover,#content table th.greyshadow h3 a:hover,#content table th.grey h4 a:hover,#content table th.greyglossy h4 a:hover,#content table th.greyshadow h4 a:hover,#content table th.grey h5 a:hover,#content table th.greyglossy h5 a:hover,#content table th.greyshadow h5 a:hover,#content table th.grey p a:hover,#content table th.greyglossy p a:hover,#content table th.greyshadow p a:hover,#content table th.orange a:hover,#content table th.orangeglossy a:hover,#content table th.orangeshadow a:hover,#content table th.orange h2 a:hover,#content table th.orangeglossy h2 a:hover,#content table th.orangeshadow h2 a:hover,#content table th.orange h3 a:hover,#content table th.orangeglossy h3 a:hover,#content table th.orangeshadow h3 a:hover,#content table th.orange h4 a:hover,#content table th.orangeglossy h4 a:hover,#content table th.orangeshadow h4 a:hover,#content table th.orange h5 a:hover,#content table th.orangeglossy h5 a:hover,#content table th.orangeshadow h5 a:hover,#content table th.orange p a:hover,#content table th.orangeglossy p a:hover,#content table th.orangeshadow p a:hover,#content table th.green a:hover,#content table th.greenglossy a:hover,#content table th.greenshadow a:hover,#content table th.green h2 a:hover,#content table th.greenglossy h2 a:hover,#content table th.greenshadow h2 a:hover,#content table th.green h3 a:hover,#content table th.greenglossy h3 a:hover,#content table th.greenshadow h3 a:hover,#content table th.green h4 a:hover,#content table th.greenglossy h4 a:hover,#content table th.greenshadow h4 a:hover,#content table th.green h5 a:hover,#content table th.greenglossy h5 a:hover,#content table th.greenshadow h5 a:hover,#content table th.green p a:hover,#content table th.greenglossy p a:hover,#content table th.greenshadow p a:hover,#content table th.red a:hover,#content table th.red h2 a:hover,#content table th.red h3 a:hover,#content table th.red h4 a:hover,#content table th.red h5 a:hover,#content table th.red p a:hover {
+color:#fff !important;
+}
+
+td.blue {
+background:#D3DFEE;
+}
+
+td.purple {
+background:#DFD8E8;
+}
+
+td.grey {
+background:#E0E0E0;
+}
+
+td.green {
+background:#E6EED5;
+}
+
+td.red {
+background:#EFD3D2;
+}
+
+td.white {
+background:#fff;
+}
+
+/*-next and previous menus used when collections are limited - */
+div.listingBar span {
+font-size:115%;
+padding:0.25em 0.5em;
+}
+
+div.listingBar .current {
+display:inline-block;
+padding:0.25em 0.7em;
+}
+
+div.listingBar a {
+padding:0.25em 0.7em;
+}
+
+div.listingBar a:hover,#content div.listingBar a:hover {
+color:#fff !important;
+background-color:#205c90;
+text-decoration:none !important;
+border-color:#205c90;
+}
+
+/*Status messages*/
+dl.portalMessage {
+border:1px solid #fbeed5;
+background-color:#fcf8e3;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+text-shadow:0 1px 0 rgba(255, 255, 255, 0.25);
+padding:8px 12px;
+}
+
+dl.portalMessage a, #content dl.portalMessage a {
+border-bottom:0;}
+
+/*makes links in portal messages stand out more*/
+#content dl.portalMessage dd a:link,#content dl.portalMessage dd a:hover,#content dl.portalMessage dd a:visited {
+color:#fff !important;
+background:#205c90;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+padding:2px 5px 3px;
+}
+
+dl.portalMessage dt {
+font-size:110%;
+background-color:transparent;
+margin:0;
+padding:0 0 0.5em;
+}
+
+dl.portalMessage dd {
+font-size:90%;
+color:#000;
+clear:both;
+background-color:transparent;
+padding:0;
+}
+
+dl.warning {
+background-color:#f2dede;
+border-color:#eed3d7;
+}
+
+dl.warning dt {
+color:#b94a48;
+}
+
+dl.error {
+background-color:#FFECA8;
+border-color:#FFE280;
+}
+
+dl.error dt {
+color:#D27E00;
+}
+
+dl.info {
+background-color:#d9edf7;
+border-color:#bce8f1;
+}
+
+dl.info dt {
+color:#3a87ad;
+}
+
+#content-views li.selected a,#content-views li a:hover,#content li.formTab a.selected,#content li.formTab a:hover {
+color:Black !important;
+}
+
+#contentActionMenus dl.actionMenu.activated dd a:hover,#contentActionMenus dl.actionMenu.activated dd .actionMenuSelected {
+color:#666 !important;
+}
+
+/* Images */
+/*Responsive images*/
+img {
+max-width:100%;
+height:auto;
+width:auto;
+}
+
+.image-right {
+margin:0.5em 0 0.5em 1em;
+}
+
+#content dd.image-caption {
+font-size:90%;
+font-weight:bold;
+margin-left:0;
+color:#667375 !important;
+padding:0;
+}
+
+img.image-left, img.image-right {
+border:none;
+}
+
+img.image-left-border, img.image-right-border,.commentPortrait .portraitPhoto{
+border: 1px solid #ddd;
+}
+
+/*--------Table of Contents------------*/
+dl.toc {
+width:40%;
+margin:10px;
+}
+
+dl.toc dt {
+margin-left:0;
+text-transform:none;
+}
+
+dl.toc dd, #content dl.toc dd.portletItem {
+margin:0;
+}
+
+/*the extra content tag is need to override the defualt ol tag*/
+#content dl.toc dd ol {
+margin-left:0.1em;
+padding-left:1.5em;
+}
+
+/*---------------Footer---------------------------*/
+#portal-footer {
+background:rgba(0, 0, 0, 0.4);
+overflow:hidden;
+font-size:90%;
+color:#fff;
+line-height:1.7em;
+margin:0;
+padding:1.4em;
+}
+
+#portal-footer ul.left {
+float:left;
+font-weight:bold;
+margin:7px 0 0;
+padding:0;
+}
+
+#portal-footer ul.left li,#portal-footer ul.right li {
+list-style:none;
+float:left;
+background:url("++resource++leicester.plonetheme.images/footer_bullet.png") transparent no-repeat 8px 10px;
+margin:0;
+padding:0 0 0 20px;
+}
+
+#portal-footer ul.left li.hide,#portal-footer ul.right li.hide {
+background:none !important;
+padding:0;
+}
+
+#portal-footer ul.right li a, #portal-footer ul.left li a {
+color:#fff !important;
+}
+
+#portal-footer ul.right li a{
+font-weight:normal !important;}
+
+#portal-footer ul.left li a:hover,#portal-footer ul.right li a:hover {
+color:#fff !important;
+text-decoration:underline;
+}
+
+#portal-footer ul.right {
+float:right;
+clear:both;
+margin:10px 0 6px;
+padding:0;
+}
+
+#portal-footer ul.right li {
+float:right;
+}
+
+#portal-footer .followUs p {
+float:right;
+font-weight:bold;
+color:#fff;
+text-align:right;
+margin:2px 4px 0 0;
+padding:0;
+}
+
+#portal-footer .followUs p a {
+margin-top:10px;
+margin-left:4px;
+}
+
+/*Plugin additions (heap)*//*
+messageboard (discussions) and blogs*/
+.section-message-board img,.tileFooter a, .keyword-info, .summary img,.commentImage, .poweredBy, .documentFirstHeading img, .boardCommentDetails img{
+display:none;
+}
+
+.commentBody {
+box-shadow:0 0 0.5em 0 #ccc !important;
+}
+
+.listingForum {
+background-image:none !important;
+padding:10px 0 0;
+}
+
+.row #commenting fieldset,.row .discussion fieldset {
+border:none !important;
+}
+
+.row #commenting legend,.row .discussion legend {
+font-size:100%!important;
+padding:1.2em 1em 0.8em 0!important;
+}
+
+#commenting, .comment,.reply-to-comment-button {
+font-size: 90%!important;
+}
+
+.boardCommentDetails {
+background-color:#DDD;
+background-image:0;
+font-size:90%;
+border-top:1px solid #CCC;
+padding:0.5em 1em;
+}
+
+.documentByLine a:hover{
+color:#75AD0A!important;
+}
+
+.boardCommentDetails {
+font-size: 90%;
+padding: 0.5em 1em;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border:none;
+border-top: 1px solid #CCCCCC;}
+
+.portaltype-ploneboardconversation #content fieldset legend {
+font-size:130%;
+font-weight:bold;
+margin-bottom:10px;
+padding:0;
+}
+
+.portaltype-ploneboardconversation #content .commentAttachments legend {
+font-size:100%;
+font-weight:bold;
+margin-bottom:0;
+padding:0;
+}
+
+.portaltype-ploneboardconversation #content ul.visualNoMarker {
+padding-left:0;
+}
+	
+.portaltype-ploneboardconversation #content fieldset.commentAttachments, .portaltype-ploneboardconversation #content  fieldset {
+border:none;
+}
+
+.forumTitleCell {
+width:60%;
+}
+
+.forumMostRecentCell{
+width:20%;
+}
+
+.listing .discreet {
+text-align:left !important;
+padding-top:5px;
+}
+
+/*----------------COLUMNS.CSS------------------*/	
+div.width-1\3a 2 {
+width:55.5%;
+}
+
+/* .width-1:4 */
+div.width-1\3a 4 {
+width:20%;
+}
+
+/* .width-3:4 */
+div.width-3\3a 4 {
+width:76%;
+}
+
+div.width-full {
+width:97.75%;
+}
+
+/* .position-1:4 */ 
+div.position-1\3a 4 {
+margin-left:-77.5%;
+}
+
+/* .position-1:2 */
+div.position-1\3a 2 {
+margin-left:-51%;
+}
+
+/* .position-3:4 */
+div.position-3\3a 4 {
+margin-left:-21%;
+}
+
+#portal-columns {
+background-color:#FFF;
+padding:10px 0;
+}
+
+/*----------------PLONECUSTOM.CSS------------------*/
+#visual-portal-wrapper {
+width:990px;
+margin:0 auto;
+}
+
+#portal-column-one .portletStaticText a:hover,#portal-column-two .portletStaticText a:hover {
+color:#75AD0A;
+text-decoration:underline;
+}
+
+/*------ UOL SPECIFIC CONTENT -------------------*/
+/*-------- call to action portlets----------------------*/
+.calltoactionprospectus a, .calltoactionapply a, .calltoactionopenday a,  .calltoactionmyleicester a, .calltoactioncourse a, .calltoactionfeesfinance a, .calltoactionblackboard a, .calltoactionexpert a, .calltoactionscholarships a, .calltoactionfindus a, .calltoactionleicsex a, .calltoactionapplyphd a, .calltoactionengage a, .calltoactionbooknow a{
+	/*General*/
+display:inline-block;
+text-decoration:none;
+font-family:Arial, sans-serif;
+line-height:1.35em;
+font-size:90%;
+font-weight:bold;
+color:#fff;
+text-align:left;
+text-shadow:0 1px 0 rgba(47,72,19,0.5);
+background-color:#71AD2E;
+background-image:url("++resource++leicester.plonetheme.images/ctasprite.png");
+background-repeat:no-repeat;
+background-position:right;
+width:180px;
+height:22px;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+-moz-box-shadow:#c3c3c3 2px 2px 2px ,inset 0 1px 0 rgba(255,255,255,0.5);
+-webkit-box-shadow:#c3c3c3 2px 2px 2px ,inset 0 1px 0 rgba(255,255,255,0.5);
+box-shadow:#c3c3c3 2px 2px 2px ,inset 0 1px 0 rgba(255,255,255,0.5);
+margin-bottom:6px;
+border-color:#bbb;
+border-style:solid;
+border-width:1px;
+padding:8px;
+}
+
+.calltoactionblackboard a{}
+
+.calltoactionprospectus a {
+background-image:url("++resource++leicester.plonetheme.images/ctarequest.png");
+}
+
+.calltoactionfindus a {
+background-image:url("++resource++leicester.plonetheme.images/ctafindus.png");
+}
+
+.calltoactionfeesfinance a,.calltoactionscholarships a {
+background-image:url("++resource++leicester.plonetheme.images/ctafees.png");
+}
+
+.calltoactionopenday a,.calltoactionbooknow a {
+background-image:url("++resource++leicester.plonetheme.images/ctacalendar.png");
+}
+
+.calltoactionengage a,.calltoactionleicsex a {
+background-image:url("++resource++leicester.plonetheme.images/ctaengage.png");
+}
+
+.calltoactionapply a,.calltoactionapplyphd a {
+background-image:url("++resource++leicester.plonetheme.images/ctaonline.png");
+}
+
+.calltoactionmyleicester a,.calltoactionprospectus a {
+background-image:url("++resource++leicester.plonetheme.images/ctatick.png");
+}
+
+.calltoactioncourse a, .calltoactionexpert a {
+background-image:url("++resource++leicester.plonetheme.images/ctasearch.png");
+background-color:#ED8114;
+text-shadow:0 1px 0 rgba(148,80,12,0.5);
+}
+
+.calltoactionmyleicester a {
+height:38px;
+}
+
+/*green cta buttons actions like fill in forms, book events*/
+#portal-column-one .calltoactionprospectus a:hover,#portal-column-one .calltoactionapply a:hover,#portal-column-one .calltoactionopenday a:hover,#portal-column-one .calltoactionmyleicester a:hover,#portal-column-one .calltoactionapplyphd a:hover,#portal-column-one .calltoactionbooknow a:hover,#portal-column-two .calltoactionprospectus a:hover,#portal-column-two .calltoactionapply a:hover,#portal-column-two .calltoactionopenday a:hover,#portal-column-two .calltoactionmyleicester a:hover,#portal-column-two .calltoactionapplyphd a:hover,#portal-column-two .calltoactionbooknow a:hover {
+color:#fff !important;
+background-color:#2E8400;
+}
+/*blue cta buttons actions like links to other parts of the site*/
+.calltoactionengage a,.calltoactionleicsex a,.calltoactionfindus a,.calltoactionblackboard a,.calltoactionfeesfinance a,.calltoactionscholarships a,.calltoactionexpert a {
+background-color:#09C;
+text-shadow:0 1px 0 rgba(17,77,96,0.5);
+}
+
+#portal-column-one .calltoactionfeesfinance a:hover,#portal-column-one .calltoactionscholarships a:hover,#portal-column-one .calltoactionfindus a:hover,#portal-column-one .calltoactionleicsex a:hover,#portal-column-one .calltoactionengage a:hover,#portal-column-one .calltoactionblackboard a:hover,#portal-column-two .calltoactionfeesfinance a:hover,#portal-column-two .calltoactionscholarships a:hover,#portal-column-two .calltoactionfindus a:hover,#portal-column-two .calltoactionleicsex a:hover,#portal-column-two .calltoactionengage a:hover,#portal-column-two .calltoactionblackboard a:hover {
+background-color:#00679A;
+color:#fff !important;
+}
+
+/*blue cta buttons actions like search or find people/courses*/
+#portal-column-one .calltoactioncourse a:hover,#portal-column-two .calltoactioncourse a:hover {
+background-color:#DD5E00;
+color:#fff !important;
+}
+
+
+/*------------ CALL TO ACTION (green button users can edit!!! only works in central column)------------------*/
+#content p.calltoaction {
+overflow:hidden;
+width:100%;
+}
+
+#content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover {
+font-weight:bold;
+font-size:1.05em;
+line-height:1.35em;
+text-align:right;
+float:right;
+clear:both;
+display:block;
+text-decoration:none;
+color:#fff !important;
+max-width:40%;
+max-height:37px;
+overflow:hidden !important;
+background:#09C url("++resource++leicester.plonetheme.images/ctaarrows.png") no-repeat right;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+-webkit-box-shadow:#c3c3c3 2px 2px 2px;
+-moz-box-shadow:#c3c3c3 2px 2px 2px;
+box-shadow:#c3c3c3 2px 2px 2px;
+text-shadow:0 1px 0 rgba(17,77,96,0.5);
+margin:5px 0 5px 10px;
+padding:5px 34px 6px 10px;
+}
+
+#content p.calltoaction a:hover {
+background-color:#00679A;
+color:#fff !important;
+text-decoration:none !important;
+}
+
+#content p.calltoaction a img {
+display:none;
+}
+
+#content table th p.calltoaction a:link,#content table th p.calltoaction a:visited,#content table td p.calltoaction a:link,#content table td p.calltoaction a:visited {
+max-width:80%;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+margin:5px 0;
+}
+
+#content table th p.calltoaction a:link,#content table th p.calltoaction a:visited {
+font-size:0.9em!important;
+line-height:1.4em!important;
+}
+
+/********************* student profile portlets *********************************/
+.portletStaticText div.fullprofile {
+background:url("++resource++leicester.plonetheme.images/studentprofile_bg.png") no-repeat #000 top right !important;
+min-height:87px !important;
+}
+
+.portletStaticText p.profile,#content p.profile {
+background:#000 url("++resource++leicester.plonetheme.images/studentprofile_bgswu.png") no-repeat top right !important;
+min-height:34px !important;
+margin-top:-10px;
+padding:5px 50px 6px 8px;
+}
+
+#content p.profile {
+margin-top:0;
+width:130px;
+}
+
+.portletStaticText div.profile {
+background:#448ACF;
+}
+
+.portletStaticText div.profile a {
+color:#fff;
+display:block;
+line-height:120%;
+padding:50px 50px 8px 8px;
+}
+
+.portletStaticText div.profile p {
+background:url("++resource++leicester.plonetheme.images/studentprofilesopenquote.png") no-repeat #448ACF top left;
+color:#fff;
+display:block;
+font-size:110% !important;
+font-weight:bold;
+line-height:140% !important;
+clear:both !important;
+margin-bottom:0;
+padding:50px 20px 0 10px !important;
+}
+
+#portal-column-two .portletStaticText div.profile img {
+border:5px #448ACF solid;
+width:188px;
+padding:0!important;
+}
+
+#portal-column-one .portletStaticText div.profile a:hover,#portal-column-two .portletStaticText div.profile a:hover,#content p.profile a:link,#content p.profile a:visited,#portal-column-one .portletStaticText p.profile a:link,#portal-column-two .portletStaticText p.profile a:link,#portal-column-one .portletStaticText p.profile a:visited,#portal-column-two .portletStaticText p.profile a:visited {
+color:#FFFFFF !important;
+}
+
+
+	
+/* Paragraph Icons */
+p.warning,p.questions,p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio,p.keyfacts,p.documentation,p.important {
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px;
+border-top:thin solid #ededed;
+display:block;
+clear:both;
+margin:1em 0 0;
+padding:36px 1em 12px 42px;
+}
+	
+p.warning img, p.questions img, p.quicklinks img, p.info img, p.ploneinfo img, p.example img, p.video img,  p.resources img, p.blackboard img, p.help img, p.goodpractice img, p.podcast img, p.audio img, p.keyfacts img, p.documentation img, p.important img{
+display:none;
+}
+ 
+p.warning{
+background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); /*old webkit*/
+background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7); /*new webkit*/
+background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); /*gecko*/
+background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); /*IE10 preview*/
+background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); /*opera 11.10+*/
+background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+
+p.questions{
+background: url("++resource++leicester.plonetheme.images/faqpara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/faqpara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/faqpara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/faqpara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/faqpara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/faqpara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.quicklinks{
+background: url("++resource++leicester.plonetheme.images/linkspara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/linkspara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/linkspara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/linkspara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/linkspara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/linkspara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.info, p.ploneinfo{
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px #d7d7d7; 
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7));
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/infopara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.example{
+background: url("++resource++leicester.plonetheme.images/examplepara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/examplepara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/examplepara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/examplepara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/examplepara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/examplepara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.video{
+background: url("++resource++leicester.plonetheme.images/videopara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/videopara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/videopara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/videopara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/videopara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/videopara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.goodpractice{
+background: url("++resource++leicester.plonetheme.images/goodpara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/goodpara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/goodpara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/goodpara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/goodpara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/goodpara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.help{
+background: url("++resource++leicester.plonetheme.images/helppara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/helppara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/helppara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/helppara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/helppara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/helppara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.resources{
+background: url("++resource++leicester.plonetheme.images/resourcespara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/resourcespara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/resourcespara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/resourcespara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/resourcespara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/resourcespara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.podcast,p.audio{	
+background: url("++resource++leicester.plonetheme.images/audiopara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/audiopara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/audiopara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/audiopara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/audiopara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/audiopara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.keyfacts{
+background: url("++resource++leicester.plonetheme.images/keyfactspara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/keyfactspara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/keyfactspara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/keyfactspara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/keyfactspara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/keyfactspara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+
+p.documentation{
+background: url("++resource++leicester.plonetheme.images/documentationpara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/documentationpara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/documentationpara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/documentationpara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/documentationpara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/documentationpara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+p.important{
+background: url("++resource++leicester.plonetheme.images/importantpara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/importantpara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/importantpara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/importantpara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/importantpara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/importantpara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+
+p.blackboard{
+background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px, -webkit-gradient(linear, 0 0, 0 100%, from(#fff) to(#d7d7d7)); 
+background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px, -webkit-linear-gradient(#fff, #d7d7d7);
+background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px, -moz-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px, -ms-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px, -o-linear-gradient(#fff, #d7d7d7); 
+background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px, linear-gradient(#fff, #d7d7d7);}
+	
+/*--------------ARROW BULLET -------------------------------*/
+#content ul.arrow,dl.portletStaticText ul.arrow {
+list-style-image:url("++resource++leicester.plonetheme.images/bulletarrow.png");
+list-style-type:none;
+}
+/* ------------------ALPHABET MENU-----------------------------------*/
+#content ul.alphabet {
+font-size:120%!important;
+display:inline;
+color:#FFF;
+list-image:none;
+margin:0;
+padding:0;
+}
+
+ul.alphabet li {
+list-style:none;
+display:inline !important;
+font-weight:bold;
+line-height:250%;
+color:#999;
+margin:0 5px 0 0!important;
+}
+
+ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
+text-decoration:none;
+color:#fff !important;
+background-image:none;
+background:#667375;
+display:inline-block !important;
+margin-bottom:8px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+-webkit-box-shadow:#ccc 2px 2px 2px;
+-moz-box-shadow:#ccc 2px 2px 2px;
+box-shadow:#ccc 2px 2px 2px;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+padding:3px 8px;
+}
+
+#content ul.alphabet li a:hover {
+color:#fff !important;
+text-decoration:none !important;
+background:#000;
+}
+
+/*--------------- back to top style used for long listings or long pages---------------------*/
+#content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover {
+font-weight:bold;
+text-align:right;
+text-decoration:none;
+clear:both;
+float:right;
+color:#fff !important;
+background:#667375 url("++resource++leicester.plonetheme.images/top.png") no-repeat right;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+-webkit-box-shadow:#ccc 2px 2px 2px;
+-moz-box-shadow:#ccc 2px 2px 2px;
+box-shadow:#ccc 2px 2px 2px;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
+margin:0;
+padding:5px 32px 5px 8px;
+}
+
+#content p.toparrow a:hover {
+background-color:#000;
+color:#fff !important;
+text-decoration:none !important;}
+	
+/* --------------- QUOTES ----------------------*/
+/*small quotes are now full column width quotes and large quotes float right - change in configuration*/
+.quote,.quotereference,.quoteleft,.quotereferenceleft,.smallquote,.smallquotereference,.portletStaticText .quote,.portletStaticText .smallquote {
+color:#666;
+font-size:115%;
+line-height:155%;
+}
+
+.quote,.quoteleft,.smallquote,.portletStaticText .quote,.portletStaticText .smallquote {
+background-image:url("++resource++leicester.plonetheme.images/quotetopsm.png"), url("++resource++leicester.plonetheme.images/quotebottomsm.png");
+background-repeat:no-repeat;
+background-position:left top, right bottom;
+padding:30px 0;
+}
+
+.smallquotereference,.quotereference,.quotereferenceleft {
+font-size:100%;
+padding:6px 0 5px;
+}
+
+.quote,.quoteleft,.smallquote,.quotereferenceleft,.smallquotereference,.quotereference {
+margin:0 0 5px;
+}
+
+#content .quote,#content .quotereference,#content .quoteleft,#content .quotereferenceleft {
+float:right;
+width:28%;
+clear:right;
+margin:5px 0 5px 15px;
+}
+	
+/*-------------HIGHTLIGHTED PARAGRAPHS ------------------*/
+.highlight-shaded,.highlight-outline {
+margin:10px 0;
+padding:5px 10px;
+}
+
+.highlight-shaded {
+background:#444;
+color:#fff !important;
+}
+
+#content .highlight-shaded a:link, #content .highlight-shaded a:visited{
+color: #F8E58E!important;
+}
+
+#content .highlight-shaded a:hover {
+color:#fff !important;
+text-decoration:underline !important;
+}
+
+.highlight-outline {
+border:1px solid #444;
+}
+
+/*--------------Grey Introduction Paragraph-------------*/
+p.greyintro {
+background-color:#ECECEC;
+border:1px #CCC solid;
+width:96%;
+margin:5px 0 8px;
+padding:2%;
+}

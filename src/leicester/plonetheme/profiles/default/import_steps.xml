@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="leicester.plonetheme.various"
+               version="20120628-01"
+               handler="leicester.plonetheme.setuphandlers.setupVarious"
+               title="leicester.plonetheme: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+</import-steps>

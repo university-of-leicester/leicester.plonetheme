@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="leicester.plonetheme">
+
+  <!-- File System Directory Views registration -->
+  <cmf:registerDirectory name="leicester_theme_images"/>
+  <cmf:registerDirectory name="leicester_theme_templates"/>
+  <cmf:registerDirectory name="leicester_theme_styles"/>
+  <cmf:registerDirectory name="leicester_purpleskin_styles"/>
+
+</configure>

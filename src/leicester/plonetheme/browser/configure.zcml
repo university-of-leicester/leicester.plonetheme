@@ -1,0 +1,60 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="leicester.plonetheme">
+
+    <interface
+        interface=".interfaces.IThemeSpecific"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="leicester.plonetheme"
+        />
+
+    <!-- viewlets -->
+    <!-- The logo -->
+    <browser:viewlet
+        name="leicester.plonetheme.logo"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class="plone.app.layout.viewlets.common.LogoViewlet"
+        template="templates/leicester_logo.pt"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+    <browser:viewlet
+        name="leicester.plonetheme.searchbox"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+    <browser:viewlet
+        name="leicester.plonetheme.banner"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.Banner"
+        template="templates/banner.pt"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+    <!-- The breadcrumbs -->
+    <browser:viewlet
+        name="leicester.plonetheme.path_bar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.PathBarViewlet"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+    <!-- Zope 3 browser resources -->
+    <browser:resourceDirectory
+        name="leicester.plonetheme.images"
+        directory="images"
+        />
+
+    <browser:resourceDirectory
+        name="leicester.plonetheme.stylesheets"
+        directory="stylesheets"
+        />
+
+</configure>
