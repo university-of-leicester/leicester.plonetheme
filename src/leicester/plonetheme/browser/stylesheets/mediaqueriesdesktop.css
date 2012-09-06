@@ -1,0 +1,9 @@
+h1.documentFirstHeading:before{content:"Desktop:";}
+
+body {
+	width: 100%!important;
+    } 
+#visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
+	width: 990px !important;
+	}
+

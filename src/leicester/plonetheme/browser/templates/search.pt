@@ -1,0 +1,41 @@
+<div id="portal-searchbox"
+     i18n:domain="plone">
+    <form name="searchform"
+          action="search"
+          tal:attributes="action string:${view/portal_url}/search">
+
+        <input type="hidden" name="gsasearch" value="on"/>
+
+        <label for="searchGadget" class="hiddenStructure"
+                    i18n:translate="text_search">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText"
+               type="text"
+               size="18"
+               value="Search our site"
+               
+               accesskey="4"
+               
+               tal:attributes="value request/SearchableText|string:Search our site;
+                               id view/search_input_id"
+               class="inputLabel" onfocus="if(this.value=='Search our site') this.value=''"/>
+
+        <input class="searchButton"
+               type="submit"
+               value=""
+               i18n:attributes="value label_search;" title="Search"/>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search"
+         class="hiddenStructure">
+        <a href="#"
+           tal:attributes="href string:${view/portal_url}/search_form"
+           i18n:translate="label_advanced_search"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>

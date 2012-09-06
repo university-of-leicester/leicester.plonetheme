@@ -5,18 +5,23 @@
         <img tal:define="midimgfile python:getattr(here, 'uol_subtree_image', '')" 
              tal:attributes="src python:getattr(here, 'uol_subtree_image', None);
                              alt python:getattr(here, 'uol_subtree_image_alt', None)" />
-        -->
-        <img src="" tal:attributes="src string:${portal/absolute_url}/++resource++leicester.plonetheme.images/banner.jpg" />
+        
+        <img src="" tal:attributes="src string:${portal/absolute_url}/++resource++leicester.plonetheme.images/banner.jpg" /> -->
+		
+		<img src="" alt="" 
+	       tal:define="image python:getattr(here, 'uol_subtree_image', 'banner2.jpg')" 
+	       tal:attributes="src string:${portal/absolute_url}/${image};
+				           alt python:getattr(here, 'uol_subtree_image_alt', None)" />
     </div>
 
-    <div class="uolheader">
-        <!--
-        <h1 tal:condition="python:hasattr(here, 'uol_subtree_label')">
+     <div class="uolheader">
+       
+        <p tal:condition="python:hasattr(here, 'uol_subtree_label')">
             <a tal:content="python:getattr(here, 'uol_subtree_label', None)" href="#" tal:attributes="href python:getattr(here, 'uol_subtree_url', None)"></a>
-        </h1>
-        -->
+        </p>
+      
 
-        <h1><a href="#">Centre for American Studies</a></h1>
+        <!-- <p><a href="#">Centre for American Studies</a></p>   -->
     </div>
 </div>
 

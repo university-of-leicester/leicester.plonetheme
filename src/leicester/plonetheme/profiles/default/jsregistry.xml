@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+    <javascript cacheable="True" compression="safe" cookable="True"
+                enabled="True" expression=""
+                id="++resource++leicester.plonetheme.javascripts/leicester.js"
+                inline="False"/>
+<javascript cacheable="True" compression="safe" cookable="True"
+                enabled="True" expression="" conditionalcomment="IE 7"
+                id="++resource++leicester.plonetheme.javascripts/lte-ie7.js"
+                inline="False"/>
+</object>

@@ -1,0 +1,14 @@
+/* Portal page variants  */
+/*---------------Red potal pages-------------*/
+body, .mceContentBody{
+	background:#37040D!important;
+	}
+#portal-columns {
+	background:transparent url(redfooter.jpg) bottom center no-repeat;
+	}
+#portal-breadcrumbs {
+    background:#550614;
+	}
+#content table.listing th, #content table.listing tbody tr.odd td, table.keyfactstable th{
+	background:#5E0615!important;
+	}

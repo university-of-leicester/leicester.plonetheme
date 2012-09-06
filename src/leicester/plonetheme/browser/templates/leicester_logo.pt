@@ -7,7 +7,4 @@
     i18n:domain="plone"
     i18n:attributes="title"
     tal:define="portal context/@@plone_portal_state/portal">
-    
-    <img src="" tal:attributes="src string:${portal/absolute_url}/++resource++leicester.plonetheme.images/unilogo.gif" />
-
-</a>
+  <img src="" tal:attributes="src string:${portal/absolute_url}/++resource++leicester.plonetheme.images/unilogo.png" /></a>

@@ -36,6 +36,42 @@
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
         />
+		
+<!-- Move site personal bar --> 
+    <browser:viewlet
+        name="plone.personal_bar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+		
+		<!-- Add This -->
+     <browser:viewlet
+        name="leicester.plonetheme.addthis"
+		manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+		template="templates/addthis.pt"
+		permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+		/>
+		
+	<!-- Library Footer -->
+	<browser:viewlet
+        name="leicester.plonetheme.libraryfooter"
+		manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+		template="templates/libraryfooter.pt"
+		permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+		/>
+		
+	<!-- Footer -->
+	<browser:viewlet
+        name="leicester.plonetheme.uolfooter"
+		manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+		template="templates/footer.pt"
+		permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+		/>
 
     <!-- The breadcrumbs -->
     <browser:viewlet
@@ -45,7 +81,15 @@
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
         />
-
+	<!-- Viewport for mobile -->
+	<browser:viewlet
+        name="leicester.plonetheme.viewport"
+		manager="plone.app.layout.viewlets.interfaces.IHtmlHead"
+		template="templates/viewport.pt"
+		permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+		/>
+		
     <!-- Zope 3 browser resources -->
     <browser:resourceDirectory
         name="leicester.plonetheme.images"
@@ -56,5 +100,11 @@
         name="leicester.plonetheme.stylesheets"
         directory="stylesheets"
         />
+		
+		    <browser:resourceDirectory
+        name="leicester.plonetheme.javascripts"
+        directory="javascripts"
+        />
+
 
 </configure>

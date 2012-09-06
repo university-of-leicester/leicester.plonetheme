@@ -1,0 +1,134 @@
+/* all collage pages */
+/*default plone theme is white*/
+.template-collage_view #portal-columns {
+	background-color:transparent;
+	}
+#content, #content h1, #portal-columns{
+	margin-top: 0; 
+	margin-bottom:0; 
+	padding: 0;
+	}
+#portal-globalnav{
+	margin-bottom:6px;
+	}
+.template-collage_view #content dd {
+	margin: 0;
+	}
+.template-collage_view #content h1.documentFirstHeading {
+	color:#fff;
+	font-size:2em;
+	padding-bottom:4px;
+	}
+.standard-topic h2, .standard-topic a, p.description-topic, p.tileFooter{
+	display:none;
+	}
+.standard-topic #parent-fieldname-text h2, .standard-topic h3.tileHeadline a, .standard-topic p.tileBody a, .tileItem a, #parent-fieldname-text a {
+	display:inline!important;
+	}
+#content div.documentByLine{
+	color:#fff;
+	}
+#portal-columns div.width-full{
+	width:100%;
+	}
+#portal-columns div.position-0{
+	margin-left:-100%;
+	}
+.template-collage_view h1.documentFirstHeading {
+	margin-left:1.25%;
+	}
+#collage dl.portlet dt a:link,
+#collage dl.portlet dt a:visited,
+#collage dl.portlet dt a:hover {
+    color: black;
+    display: block;
+    border: none;
+	}	
+#collage dl.portlet{
+	font-size:100%;
+	}
+#collage form {
+	padding-bottom:8px;
+	}
+#content #collage .rightnews:after, #content #collage ul li:before, #content .row_1 p.hero:after{
+	font-family: 'icomoon'; 
+	font-size:115%; 
+	float:right; 
+	width:19px;
+	color:rgba(0,0,0,0.6);
+	content: "\65";
+	}
+#content #collage ul li:before{
+	float:left;
+	}
+#content .row_1 p.hero:after {
+	color:rgba(255,255,255,0.85); 
+	font-size:155%; 
+	position:relative; 
+	top:0;
+	right:0;
+	display:inline-block;
+	}
+#content #collage .leftnews {
+	width:45%; 
+	float:left; 
+	font-size:150%; 
+	color:#444; 
+	font-weight:bold;
+	}
+#content #collage .rightnews {
+	width:55%; 
+	float:left; 
+	text-align:right; 
+	font-size:115%; 
+	padding-right:0%; 
+	padding-bottom:2%;
+	}
+#content img.tileImage {
+    float: right;
+    margin: 0em 0em 0.5em 0.7em;
+	}
+hr {
+	clear:both;
+	}
+#content .row_1 p {
+	color:#fff; 
+	padding:0; 
+	margin:0; 
+	font-size:110%;
+	}
+#content .row_1 p.hero{
+	color:#fff;
+	font-size:130%;
+	}
+#content .row_1 p.hero a:hover {
+	color:#fff!important; 
+	text-decoration:none;
+	}
+#content #collage ul {
+	font-size:115%;
+	margin: 0;
+    padding-left:1.2em;
+    list-style: none;
+    text-indent: -1.3em;
+    *text-indent: 0;
+    *list-style-type: disc;
+	}
+	
+#content #collage .portletStaticText ul {
+	padding-left:0.4em;
+	}
+#content #collage ul li{
+	margin: 0.3em 0 0 0.7em;
+	display:block;
+	}
+.visualClear{
+	height:1px; 
+	margin:0; 
+	padding:0;
+	}
+/*-----Add this 'Share this page:' text----*/
+.addthis_toolbox p{
+	color:#fff; 
+	padding-left:2%;
+	}

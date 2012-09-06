@@ -11,22 +11,593 @@
  <object name="leicester_theme_styles"
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_theme_styles"/>
- <object name="leicester_purpleskin_styles"
+	
+ <object name="bannerimages"
     meta_type="Filesystem Directory View"
-    directory="leicester.plonetheme:skins/leicester_purpleskin_styles"/>
+    directory="leicester.plonetheme:skins/bannerimages"/>
+	
+<object name="leicester_aquafixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_aquafixed_styles"/>
+	
+	<object name="leicester_aqualightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_aqualightfixed_styles"/>
+	
+	<object name="leicester_biscuitfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_biscuitfixed_styles"/>
+	
+	<object name="leicester_claretfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_claretfixed_styles"/>
+	
+	<object name="leicester_corpbluefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_corpbluefixed_styles"/>
+	
+	<object name="leicester_corpbluelightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_corpbluelightfixed_styles"/>
+	
+	<object name="leicester_forestfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_forestfixed_styles"/>
+	
+	<object name="leicester_forestlightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_forestlightfixed_styles"/>
 
- <skin-path name="leicester.plonetheme" based-on="Sunburst Theme">
-  <layer name="leicester_theme_images"
+	<object name="leicester_jadefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_jadefixed_styles"/>
+	
+	<object name="leicester_jadelightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_jadelightfixed_styles"/>
+	
+	<object name="leicester_lagoonfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_lagoonfixed_styles"/>
+	
+	<object name="leicester_lagoonlightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_lagoonlightfixed_styles"/>
+		
+	<object name="leicester_mossfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_mossfixed_styles"/>
+	
+	<object name="leicester_mosslightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_mosslightfixed_styles"/>
+			
+	<object name="leicester_oldgoldfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_oldgoldfixed_styles"/>
+	
+	<object name="leicester_oldgoldlightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_oldgoldlightfixed_styles"/>
+	
+ <object name="leicester_purplefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_purplefixed_styles"/>
+	
+	 <object name="leicester_purplelightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_purplelightfixed_styles"/>
+	
+	<object name="leicester_richblackfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_richblackfixed_styles"/>
+	
+	 <object name="leicester_russetfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_russetfixed_styles"/>
+	
+	 <object name="leicester_stonefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_stonefixed_styles"/>
+	
+	 <object name="leicester_stonelightfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_stonelightfixed_styles"/>
+	
+	<object name="leicester_stonemediumfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_stonemediumfixed_styles"/>
+	
+	 <object name="leicester_beyondfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_beyondfixed_styles"/>
+	
+	<object name="leicester_careersfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_careersfixed_styles"/>
+	
+	<object name="leicester_chairsfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_chairsfixed_styles"/>
+	
+	<object name="leicester_facmedfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_facmedfixed_styles"/>
+
+    <object name="leicester_geniefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_geniefixed_styles"/>
+	
+	<object name="leicester_physicsfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_physicsfixed_styles"/>
+	
+	<object name="leicester_vgecfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_vgecfixed_styles"/>
+	
+	<object name="leicester_rceemfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_rceemfixed_styles"/>
+	
+	 <object name="leicester_alumnisubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_alumnisubfixed_styles"/>
+	
+    <object name="leicester_businesssubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_businesssubfixed_styles"/>
+	
+    <object name="leicester_librarysubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_librarysubfixed_styles"/>
+	
+	 <object name="leicester_librarysubfixed_templates"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_librarysubfixed_templates"/>
+	
+		 <object name="leicester_librarysubfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_librarysubfixed_images"/>
+	
+    <object name="leicester_recruitmentsubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_recruitmentsubfixed_styles"/>
+	
+	<object name="leicester_researchsubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_researchsubfixed_styles"/>
+	
+	<object name="leicester_staffsubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_staffsubfixed_styles"/>
+	
+	<object name="leicester_studentssubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_studentssubfixed_styles"/>
+	
+	<object name="leicester_studysubfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_studysubfixed_styles"/>
+	
+	<object name="leicester_studysubprofilesfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_studysubprofilesfixed_styles"/>
+	
+	<object name="leicester_studysubprofilesvideofixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_studysubprofilesvideofixed_styles"/>
+	
+	<object name="leicester_portalpagesblackfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagesblackfixed_styles"/>
+	
+		<object name="leicester_portalpagesbluefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagesbluefixed_styles"/>
+	
+		<object name="leicester_portalpagesgreenfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagesgreenfixed_styles"/>
+	
+		<object name="leicester_portalpagespurplefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagespurplefixed_styles"/>
+	
+		<object name="leicester_portalpagesredfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagesredfixed_styles"/>
+	
+	<object name="leicester_portalpagesfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagesfixed_styles"/>
+	
+	 <object name="leicester_portalpagesfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_portalpagesfixed_images"/>
+	
+	<object name="leicester_collagefixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_collagefixed_styles"/>
+	
+	
+	<object name="leicester_alumnifixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_alumnifixed_styles"/>
+	
+	<object name="leicester_alumnifixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_alumnifixed_images"/>
+	
+	<object name="leicester_businessfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_businessfixed_styles"/>
+	
+	<object name="leicester_businessfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_businessfixed_images"/>
+	
+		<object name="leicester_recruitmentfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_recruitmentfixed_styles"/>
+	
+		<object name="leicester_recruitmentfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_recruitmentfixed_images"/>
+	
+		<object name="leicester_researchfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_researchfixed_styles"/>
+	
+	<object name="leicester_researchfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_researchfixed_images"/>
+	
+			<object name="leicester_stafffixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_stafffixed_styles"/>
+	
+	<object name="leicester_stafffixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_stafffixed_images"/>
+	
+			<object name="leicester_studentsfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_studentsfixed_styles"/>
+	
+	<object name="leicester_studentsfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_studentsfixed_images"/>
+	
+			<object name="leicester_itsfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_itsfixed_styles"/>
+	
+		<object name="leicester_itsfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_itsfixed_images"/>
+
+  <skin-path name="leicester.plonetheme" based-on="Sunburst Theme">
+   <layer name="bannerimages"
      insert-after="custom"/>
+  <layer name="leicester_theme_images"
+     insert-after="bannerimages"/>
   <layer name="leicester_theme_templates"
      insert-after="leicester_theme_images"/>
   <layer name="leicester_theme_styles"
      insert-after="leicester_theme_templates"/>
  </skin-path>
-
- <skin-path name="purpleskin" based-on="leicester.plonetheme">
-  <layer name="leicester_purpleskin_styles"
+ 
+ <skin-path name="aquafixed" based-on="leicester.plonetheme">
+  <layer name="leicester_aquafixed_styles"
      insert-after="custom"/>
  </skin-path>
+ 
+  <skin-path name="aqualightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_aqualightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="biscuitfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_biscuitfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="claretfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_claretfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="corpbluefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_corpbluefixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="corpbluelightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_corpbluelightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="forestfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_forestfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="forestlightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_forestlightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="jadefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_jadefixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="jadelightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_jadelightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+   <skin-path name="lagoonfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_lagoonfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="lagoonlightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_lagoonlightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="mossfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_mossfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="mosslightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_mosslightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="oldgoldfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_oldgoldfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="oldgoldlightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_oldgoldlightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="purplefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_purplefixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="purplelightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_purplelightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="richblackfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_richblackfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="russetfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_russetfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+   <skin-path name="stonefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_stonefixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="stonelightfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_stonelightfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="stonemediumfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_stonemediumfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="beyondfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_beyondfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="careersfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_careersfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="chairsfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_chairsfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="facmedfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_facmedfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+  
+ <skin-path name="geniefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_geniefixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+   
+ <skin-path name="physicsfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_physicsfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+  
+ <skin-path name="vgecfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_vgecfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="alumnisubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_alumnisubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="businesssubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_businesssubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ 
+  <skin-path name="librarysubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_librarysubfixed_images"
+     insert-after="custom"/>
+  <layer name="leicester_librarysubfixed_templates"
+     insert-after="leicester_librarysubfixed_images"/>
+  <layer name="leicester_librarysubfixed_styles"
+     insert-after="leicester_librarysubfixed_templates"/>
+ </skin-path>
+ 
+   <skin-path name="recruitmentsubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_recruitmentsubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="researchsubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_researchsubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="staffsubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_staffsubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="studentssubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_studentssubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+  <skin-path name="studysubfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_studysubfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+   <skin-path name="studysubprofilesfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_studysubprofilesfixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="studysubprofilesvideofixed" based-on="leicester.plonetheme">
+  <layer name="leicester_studysubprofilesvideofixed_styles"
+     insert-after="custom"/>
+ </skin-path>
+ 
+ <skin-path name="portalpagesblackfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_portalpagesblackfixed_styles"
+     insert-after="custom"/>
+	 <layer name="leicester_portalpagesfixed_images"
+     insert-after="leicester_portalpagesblackfixed_styles"/>
+	 <layer name="leicester_portalpagesfixed_styles"
+     insert-after="leicester_portalpagesfixed_images"/>
+ </skin-path>
+ 
+  <skin-path name="portalpagesbluefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_portalpagesbluefixed_styles"
+     insert-after="custom"/>
+	 <layer name="leicester_portalpagesfixed_images"
+     insert-after="leicester_portalpagesbluefixed_styles"/>
+	 <layer name="leicester_portalpagesfixed_styles"
+     insert-after="leicester_portalpagesfixed_images"/>
+ </skin-path>
+ 
+  <skin-path name="portalpagesgreenfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_portalpagesgreenfixed_styles"
+     insert-after="custom"/>
+	  <layer name="leicester_portalpagesfixed_images"
+     insert-after="leicester_portalpagesgreenfixed_styles"/>
+	 <layer name="leicester_portalpagesfixed_styles"
+     insert-after="leicester_portalpagesfixed_images"/>
+ </skin-path>
+ 
+  <skin-path name="portalpagespurplefixed" based-on="leicester.plonetheme">
+  <layer name="leicester_portalpagespurplefixed_styles"
+     insert-after="custom"/>
+	  <layer name="leicester_portalpagesfixed_images"
+     insert-after="leicester_portalpagespurplefixed_styles"/>
+	 <layer name="leicester_portalpagesfixed_styles"
+     insert-after="leicester_portalpagesfixed_images"/>
+ </skin-path>
+ 
+  <skin-path name="portalpagesredfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_portalpagesredfixed_styles"
+     insert-after="custom"/>
+	  <layer name="leicester_portalpagesfixed_images"
+     insert-after="leicester_portalpagesredfixed_styles"/>
+	 <layer name="leicester_portalpagesfixed_styles"
+     insert-after="leicester_portalpagesfixed_images"/>
+ </skin-path>
+ 
+ <skin-path name="alumnifixed" based-on="leicester.plonetheme">
+  <layer name="leicester_alumnifixed_styles"
+     insert-after="custom"/>
+	 <layer name="leicester_alumnifixed_images"
+     insert-after="leicester_alumnifixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_alumnifixed_images"/>
+ </skin-path>
+ 
+ <skin-path name="businessfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_businessfixed_styles"
+     insert-after="custom"/>
+	   <layer name="leicester_businessfixed_images"
+     insert-after="leicester_businessfixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_businessfixed_images"/>
+ </skin-path>
+ 
+  <skin-path name="recruitmentfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_recruitmentfixed_styles"
+     insert-after="custom"/>
+	  <layer name="leicester_recruitmentfixed_images"
+     insert-after="leicester_recruitmentfixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_recruitmentfixed_images"/>
+ </skin-path>
+ 
+ <skin-path name="researchfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_researchfixed_styles"
+     insert-after="custom"/>
+	   <layer name="leicester_researchfixed_images"
+     insert-after="leicester_researchfixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_researchfixed_images"/>
+ </skin-path>
+ 
+  <skin-path name="stafffixed" based-on="leicester.plonetheme">
+  <layer name="leicester_stafffixed_styles"
+     insert-after="custom"/>
+	<layer name="leicester_stafffixed_images"
+     insert-after="leicester_stafffixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_stafffixed_images"/>
+ </skin-path>
 
+  <skin-path name="studentsfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_studentsfixed_styles"
+     insert-after="custom"/>
+		<layer name="leicester_studentsfixed_images"
+     insert-after="leicester_studentsfixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_studentsfixed_images"/>
+ </skin-path>
+ 
+   <skin-path name="itsfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_itsfixed_styles"
+     insert-after="custom"/>
+<layer name="leicester_itsfixed_images"
+     insert-after="leicester_itsfixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_itsfixed_images"/>
+ </skin-path>
 </object>

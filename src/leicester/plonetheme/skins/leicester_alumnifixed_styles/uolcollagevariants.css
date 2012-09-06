@@ -1,0 +1,63 @@
+/* Alumni*/
+.template-collage_view {
+	background:url(alumnibackground.jpg) no-repeat top right #217C8F;
+	}
+	
+/*----------------------------------- ROW 1------------------------------------------*/
+#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2, #collage .row_1 .three-columns-equal .block_3{
+    width: 33%; 
+	padding:0;
+	}
+#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2{
+	padding-right:0.5%
+	}
+#content .row_1 p, #content .row_1 p.hero {
+	color:#333;
+	}
+#content .row_1 p.hero a{
+	color:#8C428D;
+	}
+#content .row_1 p.hero a:hover {
+	color:#000!important;
+	}
+#content .row_1 p.hero:after {
+	color:rgba(0,0,0,0.6);}
+
+#content .row_1 .portletStaticText {
+	border-radius:6px; 
+	padding:12px 14px; 
+	margin-bottom:8px; 
+	min-height:160px;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+	color: #333333;
+	background-color: #d7d7d7;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#d7d7d7));
+	background-image: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
+	background-image:    -moz-linear-gradient(top, #ffffff, #d7d7d7);
+	background-image:     -ms-linear-gradient(top, #ffffff, #d7d7d7);
+	background-image:      -o-linear-gradient(top, #ffffff, #d7d7d7);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+	}
+	
+/*----------------------------------- ROW 2------------------------------------------*/
+#collage .row_2 .three-columns-equal .block_2 {
+    width: 54%; 
+	padding:0; 
+	padding-top:1.5%;
+	}
+#collage .row_2 .three-columns-equal .block_1, #collage .row_2 .three-columns-equal .block_3 {
+	width: 20%; 
+	padding:1.5%;
+	}
+#content .row_2{
+	background-color:#fff; 
+	border-top:2px solid #8C428D;
+	}
+	
+ /*--------------IE7 and lower only styles -------------------*/
+#collage .row_1 .three-columns-equal .block_2 {
+	*width: 32.8%;
+	}
+#collage .row_2 .three-columns-equal .block_2 {
+	*width: 53.8%;
+	}

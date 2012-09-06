@@ -1,0 +1,6 @@
+/*----------------Research Magazine--Sub Pages--------------------*/
+body{background:#1C284E url(researchbackground.jpg) top right no-repeat;}
+.highlight-shaded {background: #1C284E; }
+.highlight-outline {border-color:#1C284E;}
+p.profile{background:#1C284E url(arrowprofiles.gif) no-repeat 96% 30%!important; }
+#content p.profile a:link, #content p.profile a:visited{color:#fff!important;}

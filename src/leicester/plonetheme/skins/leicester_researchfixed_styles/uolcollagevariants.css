@@ -1,0 +1,95 @@
+/* Research */
+/*----------------------------------- ------------------------------------------*/
+.template-collage_view {
+	background:url(researchbackground.jpg) no-repeat top right #1C284E;
+	}
+/*----------------------------------- ROW 1------------------------------------------*/
+#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2 {
+    width: 35%; 
+	padding:0; 
+	padding-right:1%;
+	}
+#collage .row_1 .three-columns-equal .block_3 {
+	width: 28%; 
+	padding:0;
+	}
+#content .row_1 p.hero a{
+	color:#FF99EE;
+	}
+#content .row_1 .portletStaticText {
+	border-radius:6px; 
+	padding:12px 14px; 
+	margin-bottom:8px; 
+	min-height:80px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	background-color: #0074cc;
+	background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+	background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+	background-image: linear-gradient(top, #0088cc, #0055cc);
+	} 
+#content .row_1 .block_3 .portletStaticText {
+	border-radius:6px;
+	padding:12px 14px;
+	margin-bottom:8px;
+	min-height:75px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	background-color: #BF3FB4;
+	background-image: -moz-linear-gradient(top, #E06DDB, #BF3FB4);
+	background-image: -ms-linear-gradient(top, #E06DDB, #BF3FB4);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E06DDB), to(#BF3FB4));
+	background-image: -webkit-linear-gradient(top, #E06DDB, #BF3FB4);
+	background-image: -o-linear-gradient(top, #E06DDB, #BF3FB4);
+	background-image: linear-gradient(top, #E06DDB, #BF3FB4);
+	}  
+#content .row_1 .block_3 .portletStaticText p.hero {
+	background:none;
+	}
+#content .portlet-static-expert-finder .searchButton{
+	float:right;
+	}
+/*----------------------------------- ROW 2------------------------------------------*/
+#collage .row_2 .three-columns-equal .block_2 {
+    width:54%; 
+	padding:0; 
+	padding-top:1.5%; 
+	margin:0;
+	}
+#collage .row_2 .three-columns-equal .block_1, #collage .row_2 .three-columns-equal .block_3 {
+	width: 20%; 
+	padding:1.5%; 
+	margin:0;
+	}
+#content .row_2{
+	background-color:#fff;
+	border-top:2px solid #FF99EE;
+	}
+#content .row_2 .portlet-static-major-innovations{
+	border-radius:6px; 
+	padding:12px 14px; 
+	margin-bottom:8px; 
+	min-height:75px;
+	text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+	color: #333333;
+	background-color: #d7d7d7;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#d7d7d7));
+	background-image: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
+	background-image:    -moz-linear-gradient(top, #ffffff, #d7d7d7);
+	background-image:     -ms-linear-gradient(top, #ffffff, #d7d7d7);
+	background-image:      -o-linear-gradient(top, #ffffff, #d7d7d7);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+	}
+ 
+ /*--------------IE7 and lower only styles -------------------*/
+
+#collage .row_2 .three-columns-equal .block_2 {
+	*width: 53.8%;
+	}
+#collage .row_1 .three-columns-equal .block_3 {
+	*width: 27.8%;
+	}
+

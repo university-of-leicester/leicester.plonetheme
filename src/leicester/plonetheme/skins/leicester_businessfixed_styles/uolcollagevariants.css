@@ -1,0 +1,49 @@
+/* BUSINESS*/
+
+.template-collage_view {
+	background:url(businessbackground.jpg) no-repeat top right #330033;
+	}
+	
+/*----------------------------------- ROW 1------------------------------------------*/
+#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2 {
+    width: 40%; 
+	padding:0%; 
+	padding-right:1%;
+	}
+#collage .row_1 .three-columns-equal .block_3 {
+    width: 18%; 
+	padding:0;
+	}
+#content .row_1 p.hero a{
+	color:#ADDF7F;
+	}
+#content .row_1 .portletStaticText {
+	border-radius:6px; 
+	padding:12px 14px; 
+	margin-bottom:8px; 
+	min-height:75px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	background-color: #6A3E69;
+	background-image: -moz-linear-gradient(top, #AB72A6, #6A3E69);
+	background-image: -ms-linear-gradient(top, #AB72A6, #6A3E69);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AB72A6), to(#6A3E69));
+	background-image: -webkit-linear-gradient(top, #AB72A6, #6A3E69);
+	background-image: -o-linear-gradient(top, #AB72A6, #6A3E69);
+	background-image: linear-gradient(top, #AB72A6, #6A3E69);
+	background-repeat: repeat-x;
+	}
+/*----------------------------------- ROW 2------------------------------------------*/
+#collage .row_2 .two-columns-equal .block_2 {
+	width: 75.5%;
+	padding:1.5% 1.5% 1.5% 0; 
+	}
+#collage .row_2 .two-columns-equal .block_1 {
+   width: 20%; 
+   padding:1.5%;
+   }
+#content .row_2{
+	background-color:#fff;
+	border-top:2px solid #ADDF7F;
+	overflow:hidden;
+	}

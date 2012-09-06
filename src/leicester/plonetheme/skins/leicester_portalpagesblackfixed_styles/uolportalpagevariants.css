@@ -1,0 +1,15 @@
+/* Portal page variants  */
+/*---------------Black potal pages-------------*/
+body, .mceContentBody{
+	background:#1D2428!important;
+	}
+#portal-columns {
+	background:transparent url(blackfooter.jpg) bottom center no-repeat;
+	}
+#portal-breadcrumbs {
+    background:#2E393F;
+	}
+#content table.listing th, #content table.listing tbody tr.odd td, table.keyfactstable th{
+	background:#36444B!important;
+	}
+

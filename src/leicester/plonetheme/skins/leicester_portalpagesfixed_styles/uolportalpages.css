@@ -1,0 +1,202 @@
+/* All Portal pages (indexes, maps etc)   */
+body, #content table.listing tbody tr.odd td, body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portletHeader, .mceContentBody{
+	background-color:#1D2428!important;
+	}
+/*--------This makes the font size larger as reverse out text always looks smaller-*/
+body #content{
+	font-size:0.95em;
+	}
+#portal-breadcrumbs {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	color:#fff;
+	}
+#portal-breadcrumbs a:link, #portal-breadcrumbs a:visited{
+	color:#F8E58D;
+	}
+#portal-breadcrumbs a:hover{
+	color:#fff!important;
+	text-decoration:underline;
+	}
+.breadcrumbSeparator {
+    color: #fff;
+	}
+#portal-column-one div.portletStaticText, #portal-column-two div.portletStaticText{
+	font-size:95%;
+	}
+div.portletStaticText h1, div.portletStaticText h2, div.portletStaticText h3{
+	font-size:1.2em;
+	}
+	
+/*-----Makes text white---------*/
+h1, h2, h3, h4, h5, h6, p, li, ol, dd, dt, h1.documentFirstHeading, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, #portal-column-one div.managePortletsLink a:link, #portal-column-one div.managePortletsLink a:visited, #portal-column-two div.managePortletsLink a:link, #portal-column-two div.managePortletsLink a:visited, #content a:hover, #portal-column-one a:hover, #portal-column-two a:hover, #content table td a:hover, #content table th a:hover{
+	color: #fff!important;
+	}
+/*-for the shadowy people*/
+#portal-columns {
+	padding-bottom:230px; 
+	}
+#content {
+	margin-bottom:0;
+	}
+#content .documentDescription, #content #description{
+	display:none;
+	}
+#content a:link, #content a:visited,  #portal-column-one a:link, #portal-column-one a:visited, #portal-column-two a:link, #portal-column-two a:visited {
+	color: #F8E58E;
+	}
+#content a:hover, #portal-column-one a:hover, #portal-column-two a:hover{
+	color:#fff!important;
+	}
+h1.documentFirstHeading {
+	margin:0; 
+	padding:0;
+	}
+#content table td a:hover, #content table th a:hover {
+	text-decoration:underline!important;
+	}
+#content ul, div.portletStaticText ul,  #content ul.arrow, div.portletStaticText ul.arrow {
+	margin: 0;
+    padding-left:1.2em;
+    list-style: none;
+    text-indent: -1.3em;
+    *text-indent: 0;
+    *list-style-type: disc;
+	}
+#content ul li, div.portletStaticText ul li, #content ul.arrow li, div.portletStaticText ul.arrow li{
+	padding:0.2em 0em 0.2em 0.6em;
+	list-style-type: none;
+	list-style-image: none;
+	margin-left:0em;
+	}
+div.portletStaticText ul li{
+	padding:0;
+	}
+#content ul li:before, div.portletStaticText ul li:before{
+	font-family: 'icomoon'; 
+	font-size:120%; 
+	display:block; 
+	float:left; 
+	width:22px; 
+	margin-left:0; 
+	color:#fff;
+	color:rgba(255,255,255,0.6);
+	content: "\65";
+	}
+#content ul.arrow li:before, div.portletStaticText ul.arrow li:before{
+	color:#fff; 
+	color:rgba(255,255,255,0.6);
+	}
+div.portletStaticText ul li, #content ul li{
+	display:block;
+	}
+table th h2,table th h3,table th h4,table th h5,table th p,table th a, table th{
+	font-size:17px;
+	line-height:21px!important;
+	color:#fff;
+	}
+#content table.listing th{
+	font-size:17px!important;
+	}
+#content table.listing td {
+	color:#fff!important;
+	}
+table td h2,table td h3,table td h4,table td h5,table td p,table td a, table td{
+	font-size:15px;
+	line-height:20px!important;
+	color:#fff;
+	}
+table.horizontallinestable th {
+	color:#fff;
+	border-bottom:2px solid #ccc;
+	}
+table.horizontallinestable td {
+	border-bottom:1px solid #ccc;
+	}
+#content td.blue a,#content td.purple a,#content td.grey a, #content td.green a, #content td.red a, #content td.orange a, #content td.yellow a, #content td.white a {
+	color:#205c90!important;
+	}
+#content td.blue, #content td.blue h2, #content td.blue h3, #content td.blue h4, #content td.blue h5, #content td.blue p, #content td.blue ul, #content td.blue ol, #content td.purple, #content td.purple h2, #content td.purple h3, #content td.purple h4, #content td.purple h5, #content td.purple p, #content td.purple ul, #content td.purple ol, #content td.grey, #content td.grey h2, #content td.grey h3, #content td.grey h4, #content td.grey h5, #content td.grey p, #content td.grey ul, #content td.grey ol, #content td.green, #content td.green h2, #content td.green h3, #content td.green h4, #content td.green h5, #content td.green p, #content td.green ul, #content td.green ol, #content td.red,#content td.red h2, #content td.red h3, #content td.red h4, #content td.red h5, #content td.red p, #content td.red ul, #content td.red ol, #content td.orange,#content td.orange h2, #content td.orange h3, #content td.orange h4, #content td.orange h5, #content td.orange p, #content td.orange ul, #content td.orange ol, #content td.yellow, #content td.yellow h2, #content td.yellow h3, #content td.yellow h4, #content td.yellow h5, #content td.yellow p, #content td.yellow ul, #content td.yellow ol, #content td.white, #content td.white h2, #content td.white h3, #content td.white h4, #content td.white h5, #content td.white p, #content td.white ul, #content td.white ol{
+	color:#333!important;
+	}
+#content td.blue a:hover, #content td.purple a:hover, #content td.grey a:hover, #content td.green a:hover, #content td.red a:hover, #content td.orange a:hover, #content td.yellow a:hover, #content td.white a:hover{
+	color:#75ad0a!important;
+	text-decoration:underline !important;
+	}
+#content table td a, table.horizontallinestable td a, #content table th a, table td h2 a:link,table td h3 a:link,table td h4 a:link,table td h5 a:link,table td p a:link{
+	color: #F8E58E!important;
+	}
+#content table.keyfactstable td{
+	background: #fff!important;
+	color:#333;
+	}  
+body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portletHeader {
+    background-image:none;
+    text-shadow: none;
+	}
+ 
+/*-------------  needed for editing on pages with dark background  ----------------------------*/
+#portal-column-two dt.portletHeader a:link, #portal-column-two dt.portletHeader a:visited, #portal-column-one dt.portletHeader a:link, #portal-column-one dt.portletHeader a:visited, #content a.mceText mceTitle, form .optionsBox label{
+	color:#000!important;
+	}
+#content-views a, #content li.formTab a,
+#content-views li.selected a,
+#content-views li a:hover,
+#content li.formTab a.selected,
+#content li.formTab a:hover {
+    background: White;
+    color:#000!important;
+	}
+#content #archetypes-fieldname-text, .template-sharing .documentEditable table.listing td{
+	background:#fff!important;
+	}
+#cmfeditions_version_comment_block, #cmfeditions_version_comment_help, #description_help, .portletItemDetails, .documentModified, .documentAuthor, form label, .formHelp, .state-published {
+	color:#fff!important;
+	}
+
+/*----------alpahbet menu-----*/
+#content ul.alphabet li:before{
+	display:none;  
+	text-indent: 0;
+	}
+#content ul.alphabet, #content ul.alphabet li{
+	text-indent: 0; padding-left:0;
+	}
+#content ul.alphabet li a:link, #content ul.alphabet li a:visited, #content ul.alphabet li a:hover, #content p.toparrow a:link, #content p.toparrow a:visited, #content p.toparrow a:hover {
+   box-shadow: #333 2px 2px 2px;
+   }
+#content ul.alphabet li a:link,#content ul.alphabet li a:visited,#content ul.alphabet li a:hover, #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover{
+	color:#fff!important;
+	text-decoration:none !important;
+	background: #444; /* fallback */
+	background: -webkit-gradient(linear, left top, left bottom, from(#828282), to(#444)); /* Saf4+, Chrome */
+	background: -webkit-linear-gradient(top, #828282, #444); /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(top, #828282, #444); /* FF3.6+ */
+	background: -ms-linear-gradient(top, #828282, #444); /* IE10 */
+	background: -o-linear-gradient(top, #828282, #444); /* Opera 11.10+ */
+	background: linear-gradient(top, #828282, #444); /* W3C */
+	-webkit-box-shadow:#0C0F10 2px 2px 2px;
+	-moz-box-shadow:#0C0F10 2px 2px 2px;
+	box-shadow:#0C0F10 2px 2px 2px;
+	}
+#content ul.alphabet li a:hover, #content p.toparrow a:hover {
+	color:#444 !important;
+	text-decoration:none !important;
+	background: #F8E58E; /* fallback */
+	}
+#content p.toparrow a:hover:before{
+	color:#444;}
+	
+#content p.calltoaction{
+	font-size:90%;
+	}
+/*--------fixes some of the editing panels-----*/	
+#content li.formTab:before{
+	display:none;
+	}
+#content table.listing td.draggable{
+	background:transparent!important;
+	}
+/*-----Add this 'Share this page:' text----*/
+.addthis_toolbox p{
+	color:#fff;
+	}

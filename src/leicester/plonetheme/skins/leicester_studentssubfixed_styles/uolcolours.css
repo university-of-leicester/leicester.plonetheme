@@ -1,0 +1,21 @@
+/*----------------Students Magazine--Sub Pages--------------------*/
+body{background:#006666 url(studentbackground.jpg) top right no-repeat;}
+.highlight-shaded {background: #006666;}
+.highlight-outline {border-color: #006666;}
+
+
+#portal-column-two .portletStaticText .epayment a, #portal-column-two .portletStaticText .epayment a:hover{
+	max-width:188px; 
+	width:188px;
+	padding:0px!important; 
+	display:block; 
+	margin:0px; 
+	margin-left:-10px;
+	height:66px;}
+	
+#portal-column-two .portletStaticText .epayment a{
+background: url(epayment.jpg) 0px 0px no-repeat;}
+	
+#portal-column-two .portletStaticText .epayment a:hover{
+background: url(epaymentover.jpg) 0px 0px no-repeat;}
+	

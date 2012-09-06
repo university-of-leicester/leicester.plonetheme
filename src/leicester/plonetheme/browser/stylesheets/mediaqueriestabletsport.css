@@ -1,0 +1,33 @@
+h1.documentFirstHeading:before{content:"Tablets portrait:";}
+
+body {
+	width: 100%!important;
+    } 
+#visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
+	width: 100% !important;
+	min-width:520px;
+	}
+.tabposition {
+	height:auto;
+	}
+	
+/*----------------COLUMNS.CSS------------------*/	
+/* .width-1:4 */
+div.width-1\3a 4 {
+	width:25%;
+	}
+div.width-1\:2 {
+	width: 70%;
+	}
+/* .position-1:4 */ 
+div.position-1\3a 4 {
+	margin-left:-72%;
+	}
+
+/* moves the third column if it exist below the nav and main content   -*/ 
+#portal-column-two {
+	clear: both;
+	margin-left: -97% !important;
+	margin:1em 0px;
+	width: 95% !important;
+	} 

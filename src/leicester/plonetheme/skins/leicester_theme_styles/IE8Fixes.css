@@ -1,0 +1,106 @@
+/* CSS Document */
+
+.uolheader {
+	background:url("++resource++leicester.plonetheme.images/banner_title_bg.png") no-repeat top right;
+	}
+#portal-footer, #portal-globalnav {
+	background:url("++resource++leicester.plonetheme.images/footerbgie.png");
+	}
+dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails{
+	/*background:#D8D8D8 url("++resource++leicester.plonetheme.images/portletheader.png") top left;*/
+	   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7')";
+	}
+.commentBody {
+    border:1px solid #ccc;
+	}
+#portal-logo {float:left;
+	margin:10px;
+	}
+
+/* Paragraph Icons */
+p.warning{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/warningparaie8.png") no-repeat 0 0;
+	}
+p.questions,p.faqs{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/faqparaie8.png") no-repeat 0 0;
+	}
+p.quicklinks{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/linksparaie8.png") no-repeat 0 0;
+	}
+p.info,p.ploneinfo{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/infoparaie8.png") no-repeat 0 0;
+	}
+p.example{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/exampleparaie8.png") no-repeat 0 0;
+	}
+p.video{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/videoparaie8.png") no-repeat 0 0;
+	}
+p.resources{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/resourcesparaie8.png") no-repeat 0 0;
+	}
+p.blackboard{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/blackboardparaie8.png") no-repeat 0 0;
+	}
+p.help{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/helpparaie8.png") no-repeat 0 0;
+	}
+p.goodpractice{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/goodparaie8.png") no-repeat 0 0;
+	}
+p.podcast,p.audio{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/audioparaie8.png") no-repeat 0 0;
+	}
+p.keyfacts{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/keyfactsparaie8.png") no-repeat 0 0;
+	}
+p.documentation{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/documentationparaie8.png") no-repeat 0 0;
+	}
+p.important{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/importantparaie8.png") no-repeat 0 0;
+	}
+
+/*----Call to action buttons---------*/
+.calltoactionprospectus a, .calltoactionapply a, .calltoactionopenday a,  .calltoactionmyleicester a, .calltoactioncourse a, .calltoactionfeesfinance a, .calltoactionblackboard a, .calltoactionexpert a, .calltoactionscholarships a, .calltoactionfindus a, .calltoactionleicsex a, .calltoactionapplyphd a, .calltoactionengage a, .calltoactionbooknow a{
+	/*background: #558422 url("++resource++leicester.plonetheme.images/ctagreenie.png") repeat-x 0 0; */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#71AD2E', endColorstr='#598A24')";
+	padding:3% 3% 4% 2.5%;
+	border:1px solid #558422;
+	}
+.calltoactionprospectus a:before, .calltoactionapply a:before, .calltoactionmyleicester a:before, .calltoactionapplyphd a:before, .calltoactionopenday a:before, .calltoactionfeesfinance a:before{
+	color:#C3D8AC;
+	}
+.calltoactioncourse a, .calltoactionexpert a{
+	/*background: #AB5C0E url("++resource++leicester.plonetheme.images/ctaorangeie.png") repeat-x 0 0;*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ED8114', endColorstr='#BD660F')";
+	border-color:#AB5C0E;
+	}	
+.calltoactioncourse a:before, .calltoactionexpert a:before{
+	color:#E9C6A3;
+	}	
+.calltoactionblackboard a, .calltoactionfindus a, .calltoactionleicsex a, .calltoactionengage a, .calltoactionbooknow a, #content p.calltoaction a:link,#content p.calltoaction a:visited{
+	/*background: #007297 url("++resource++leicester.plonetheme.images/ctablueie.png") repeat-x 0 0; */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#0099CC', endColorstr='#006F93')";
+	border:1px solid #007297;
+	}
+.calltoactionblackboard a:before, .calltoactionfindus a:before, .calltoactionleicsex a:before, .calltoactionengage a:before, .calltoactionbooknow a:before, #content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{
+	color:#9CCEDF;
+	}
+.calltoactionprospectus a:hover, .calltoactionapply a:hover, .calltoactionopenday a:hover,  .calltoactionmyleicester a:hover, .calltoactioncourse a:hover, .calltoactionfeesfinance a:hover, .calltoactionblackboard a:hover, .calltoactionexpert a:hover, .calltoactionscholarships a:hover, .calltoactionfindus a:hover, .calltoactionleicsex a:hover, .calltoactionapplyphd a:hover, .calltoactionengage a:hover, .calltoactionbooknow a:hover, #content p.calltoaction a:hover{
+	border:1px solid #333;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#828282', endColorstr='#444')";
+	}
+#content p.calltoaction a:hover{
+	background: #444;
+	}
+#content p.calltoaction a:hover:before{
+	color:#fff;
+	}
+#content p.calltoaction a:link:before, #content p.calltoaction a:visited:before, #content p.calltoaction a:hover:before{
+	margin-left:8px;
+	}
+/*--------staff and student homepage----------------*/
+.shadeddivider {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ededed', endColorstr='#ffffff')";
+	}

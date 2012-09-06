@@ -1,0 +1,154 @@
+/* students */
+/*----------------------------------- ------------------------------------------*/
+.template-collage_view {
+	background:url(studentbackground.jpg) no-repeat top right #006666;
+	}
+/*-----------------------------------------------------------------------------*/
+
+#content h2 a:hover,#content h3 a:hover {
+	text-decoration:underline!important;
+	}
+#collage .two-columns-largeright .block_1 {
+	width: 45.75%; 
+	margin-right:2%; 
+	margin-left:1.25%;
+	}
+#collage .two-columns-largeright .block_2 {
+	width: 47%; 
+	padding:2%; 
+	background-color:#fff; 
+	}
+#content p, #content dl {
+	margin-bottom: 0;
+	}
+#content p.tileBody {
+	color:#333;
+	}
+/* --Links in two equal columns---*/
+#content #collage .portletStaticText {
+	padding:0%;
+	}
+#content #collage .portletStaticText ul.halfright, #content #collage .portletStaticText ul.halfleft{
+	width:46%; 
+	float:left; 
+	display:block;
+	}
+#content #collage .portletStaticText ul.halfleft{
+	padding-right:4%;
+	}
+#content #collage .portletStaticText ul.halfleft h3, #content #collage .portletStaticText ul.halfright h3{
+	margin-top:0px;
+	color:#fff;
+	margin-left:14px;
+	}
+/*---Buttons in first column --------*/
+#content #collage p.buttonright {
+	width:49%; 
+	padding-left:2%; 
+	float:left;
+	}
+#content #collage p.buttonleft {
+	width:49%; 
+	float:left;
+	}
+#content #collage p.button{
+	width:100%; 
+	float:left;
+	}
+#content p.buttonright a, 
+#content p.buttonleft a, 
+#content p.button a {
+	font-weight:bold;	
+	display:block;
+	padding:6px 10px 7px;
+	text-decoration:none;
+	color:#fff!important;
+	background:#003f3f;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	margin-bottom:6px;
+	}
+#content .portlet-static-blackboard p.buttonleft a{
+	min-height:62px;
+	}
+/*---This controls a button with an image inside -------*/
+#content p.button a {
+	height:118px;
+	}
+#content p.button a img {
+	height:100px;
+	}
+.visualClear{
+	height:1px;
+	}
+/*---Button links in the right column--------*/
+#content .two-columns-largeright .block_2 p.buttonleft a:link, 
+#content .two-columns-largeright .block_2 p.buttonleft a:visited, 
+#content .two-columns-largeright .block_2 p.buttonright a:link, 
+#content .two-columns-largeright .block_2 p.buttonright a:visited {
+	margin:8px 0;
+	}
+#content p.buttonright a:hover, 
+#content p.buttonleft a:hover, 
+#content p.button a:hover{
+	background-color:#000; 
+	color:#fff!important; 
+	text-decoration:none!important;
+	}
+#content #collage ul li:before{
+	color:rgba(255,255,255,0.85); 
+	}
+/* makes text in first column white */
+.block_1 p, .block_1 p a, .block_1 ul li, .block_1 ul li a, .block_1 h2 a:link, .block_1 h2 a:visited, .block_1 ul li a:hover, .block_1 p a:hover, 
+#content dl.portlet a:hover, #content #collage .block_1 .portletStaticText p.buttonright a:hover, #content #collage .block_1 .portletStaticText p.buttonleft a:hover, #content #collage .block_1 .portletStaticText p.button a:hover{
+	color:#fff!important; 
+	}
+#content #collage .portletStaticText ul.halfleft li a:hover, #content #collage .portletStaticText ul.halfright li a:hover, #content #collage .block_1 .portletStaticText h2 a:hover, #content #collage .portletStaticText ul.halfright h3 a:hover, #content #collage .block_1 .portletStaticText p a:hover{
+	color:#fff!important; 
+	text-decoration:underline;
+	}
+#collage .two-columns-largeright .block_1 h2:after{
+	color:#fff;
+	color:rgba(255,255,255,0.85); 
+	font-size:155%;
+	font-family: 'icomoon'; 
+	display:inline-block; 
+	float:right; 
+	width:19px;
+	content: "\65";
+	}
+#content #collage .two-columns-largeright .block_1 .portletStaticText{
+	margin:10px 0;
+	}
+#content .two-columns-largeright .block_2 .collage_item_1 p.tileBody, 
+#content .two-columns-largeright .block_2 .collage_item_1 img.tileImage,
+#content .two-columns-largeright .block_2 .collage_item_2 h2{
+	display:none;
+	}
+#content .two-columns-largeright .block_2 .tileItem {
+	padding-top:4px; 
+	height:1%; 
+	overflow:hidden;
+	}
+
+/* grey gradient divider between announcements and news */
+.shadeddivider {
+	color: #ccc;
+    background-color: #ccc;
+	border: 0;
+    height: 10px;
+    margin: 0 -14px 2px -14px;
+	clear:both;
+	background-image: -moz-linear-gradient(top, #ededed, #fff);
+	background-image: -ms-linear-gradient(top, #ededed, #fff);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed), to(#fff));
+	background-image: -webkit-linear-gradient(top, #ededed, #fff);
+	background-image: -o-linear-gradient(top, #ededed, #fff);
+	background-image: linear-gradient(top, #ededed, #fff);
+	}
+/*--------------IE7 and lower only styles -------------------*/	
+#content #collage p.buttonright {
+	*width:48.8%; 
+	}

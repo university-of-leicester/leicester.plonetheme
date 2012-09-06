@@ -1,0 +1,10 @@
+/*--------------------Purple-Light-------------------*/
+body {
+    background-color:#9C8AA4;}
+/*------------Purple shade to make links work-----------*/
+.highlight-shaded {background:#421C52;}
+/*----------highlight and outline paragraph to match site-------------*/
+.highlight-outline {border-color: #421C52;}
+/*-------so you can see the web editor log in ------*/
+#portal-personaltools {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);}

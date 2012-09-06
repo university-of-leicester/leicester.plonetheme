@@ -1,0 +1,15 @@
+/* Portal page variants  */
+/*---------------green potal pages-------------*/
+body, .mceContentBody{
+	background:#0D2014!important;
+	}
+#portal-columns {
+	background:transparent url(greenfooter.jpg) bottom center no-repeat;
+	}
+#portal-breadcrumbs {
+    background:#183A25;
+	}
+#content table.listing th, #content table.listing tbody tr.odd td, table.keyfactstable th{
+	background:#1B4329!important;
+	}
+

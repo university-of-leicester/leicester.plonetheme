@@ -1,0 +1,12 @@
+/* CSS Document */ 
+/*--------------------------chairs--------------------*/
+
+body {background:#2B2926 url(brownbg.jpg) no-repeat top center;}
+/*----------highlight and outline paragraph to match site-------------*/
+.highlight-shaded {background: #46433E; }
+.highlight-outline {border-color:#46433E;}
+
+.uolheader{display:none;}
+
+
+	

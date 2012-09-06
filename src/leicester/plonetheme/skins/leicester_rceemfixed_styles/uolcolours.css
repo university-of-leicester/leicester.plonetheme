@@ -1,0 +1,7 @@
+/* CSS Document */
+/*----------------------------rceem-----------------------*/
+body {
+background:#658CA1 url(rceem.jpg) no-repeat top left;}
+  /*----------highlight and outline paragraph to match site-------------*/
+.highlight-shaded {background: #658CA1;}
+.highlight-outline {border-color:#658CA1;}

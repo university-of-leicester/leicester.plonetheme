@@ -1,0 +1,117 @@
+/*-IT Service hp-*/
+.template-collage_view {
+	background: #384983;
+	}
+.template-collage_view #portal-columns {
+	background-color:#fff; 
+	padding-top:1.5%;
+	}
+.template-collage_view #content h1.documentFirstHeading {
+	color:#333;
+	}
+
+#portal-globalnav{
+	margin-bottom:0;
+	}
+h3.tileHeadline {
+	padding-right: 65px;
+	padding-bottom: 10px;
+	}
+#content .row_1 p {
+    color: #333;
+	}
+.portlet-static-it-support h2:after,.portlet-static-core-services h2:after, .portlet-static-about-it-services h2:after, .standard-topic h2:after{
+	font-family: 'icomoon';  
+	font-size:190%;
+	color:#384983; 
+	float:right;
+	padding-right:10px;
+	}
+.standard-topic h2:after{
+	content: "\21"; 
+	font-size:200%;
+	}
+.portlet-static-core-services h2:after{
+	content: "\37"; 
+	font-size:250%;
+	}
+.portlet-static-about-it-services h2:after{
+	content: "\5c";
+	}
+.portlet-static-it-support h2:after{
+	content: "\34";
+	}
+.template-collage_view h1.documentFirstHeading {
+	margin-left:1.5%;
+	}
+#content .documentDescription{
+	padding-left:1.5%;
+	}
+#collage .two-columns-equal .block_1 {
+	width:45.99%; 
+	padding-right:2%;
+	padding-left:1.5%;
+	}
+.portletStaticText {
+	padding-bottom:4%; 
+	margin-bottom:5%;
+	}
+.portlet-static-it-support {
+	border-bottom:1px solid #ccc;
+	}
+#content #collage .portlet-static-it-support ul {
+    padding-left: 0!important; 
+	text-indent: 0;
+	}
+.portlet-static-it-support ul li a{
+	color:#fff!important;
+	font-size:1.1em; 
+	display:block; 
+	padding:8px 12px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	margin-bottom:4px;
+	text-decoration:none;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.5);
+	box-shadow:0 1px 2px rgba(0,0,0,0.5);
+	background: #556BB7; /* fallback */
+	background: -webkit-gradient(linear, left top, left bottom, from(#556BB7), to(#384983)); /* Saf4+, Chrome */
+	background: -webkit-linear-gradient(top, #556BB7, #384983); /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(top, #556BB7, #384983); /* FF3.6+ */
+	background: -ms-linear-gradient(top, #556BB7, #384983); /* IE10 */
+	background: -o-linear-gradient(top, #556BB7, #384983); /* Opera 11.10+ */
+	background: linear-gradient(top, #556BB7, #384983); /* W3C */
+	}
+#content #collage .portlet-static-it-support ul li a:hover{
+	background: #000; 
+	color:#fff!important; 
+	text-decoration:none!important;
+	}
+#content #collage .portlet-static-it-support ul li{
+	margin: 0;
+	}
+.portlet-static-it-support ul li:before{
+	display:none;
+	}
+.portlet-static-about-it-services {
+	border-top:1px solid #ccc; 
+	padding-top:3%; 
+	margin-top:3%;
+	}
+.tileBody {
+	display:none;
+	}
+.standard-topic #parent-fieldname-text h2.whatsnew {
+	border-top:1px solid #ccc; 
+	padding-top:3%; 
+	display:block!important; 
+	margin-top:3%;
+	}
+
+/*-----Add this 'Share this page:' text----*/
+.addthis_toolbox p{
+	color:#333;
+	}
