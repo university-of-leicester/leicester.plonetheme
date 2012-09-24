@@ -1,0 +1,147 @@
+/* CSS Document */
+body {width:100%; padding:0; margin:0;
+}
+#portal-searchbox{overflow:hidden;
+display:block;}
+
+#portal-footer ul.right {
+ 	float:left; 
+	margin:7px 0 0;
+	padding:0;
+	width:900px;}
+#portal-footer ul.right li{
+	float:none; 
+	text-align:left;}
+#portal-footer ul.left li,#portal-footer ul.right li {
+	list-style-type: disc!important; padding-left:8px;}
+	
+#portal-header{clear:both;
+}
+.uolheader {
+	background:url("++resource++leicester.plonetheme.images/ie7/banner_title_bg.png") no-repeat top right;
+	}
+#portal-footer, #portal-globalnav {
+	background:url("++resource++leicester.plonetheme.images/ie7/footerbgie.png");
+	}
+#portal-footer ul.left li,#portal-footer ul.right li, #portal-footer ul.social li {
+	list-style-type: disc;
+	}
+dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails{
+	background: #d7d7d7 url("++resource++leicester.plonetheme.images/ie7/portletheader.png") repeat-x top left;
+	}
+.commentBody {
+    border:1px solid #ccc;
+	}
+#portal-logo {position:relative;
+	margin:0; top:10px; left:10px;
+	}
+
+p.warning{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/warningparaie7.png") no-repeat 0 0;
+	}
+p.questions,p.faqs{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/faqparaie7.png") no-repeat 0 0;
+	}
+p.quicklinks{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/linksparaie7.png") no-repeat 0 0;
+	}
+p.info,p.ploneinfo{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/infoparaie7.png") no-repeat 0 0;
+	}
+p.example{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/exampleparaie7.png") no-repeat 0 0;
+	}
+p.video{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/videoparaie7.png") no-repeat 0 0;
+	}
+p.resources{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/resourcesparaie7.png") no-repeat 0 0;
+	}
+p.blackboard{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/blackboardparaie7.png") no-repeat 0 0;
+	}
+p.help{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/helpparaie7.png") no-repeat 0 0;
+	}
+p.goodpractice{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/goodparaie7.png") no-repeat 0 0;
+	}
+p.podcast,p.audio{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/audioparaie7.png") no-repeat 0 0;
+	}
+p.keyfacts{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/keyfactsparaie7.png") no-repeat 0 0;
+	}
+p.documentation{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/documentationparaie7.png") no-repeat 0 0;
+	}
+p.important{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/importantparaie7.png") no-repeat 0 0;
+	}
+
+
+/* ----------------Paragraph Icons---------------------*/
+p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio, p.keyfacts,p.documentation,p.important {
+	padding:28px 10px 14px 36px;
+	}
+	
+/*----Call to action buttons---------*/
+.calltoactionprospectus a:before, .calltoactionapply a:before, .calltoactionopenday a:before,  .calltoactionmyleicester a:before, .calltoactioncourse a:before, .calltoactionfeesfinance a:before, .calltoactionblackboard a:before, .calltoactionexpert a:before, .calltoactionscholarships a:before, .calltoactionfindus a:before, .calltoactionleicsex a:before, .calltoactionapplyphd a:before, .calltoactionengage a:before, .calltoactionbooknow a:before, .calltoactionprospectus a span, .calltoactionapply a span, .calltoactionopenday a span,  .calltoactionmyleicester a span, .calltoactioncourse a span, .calltoactionfeesfinance a span, .calltoactionblackboard a span, .calltoactionexpert a span, .calltoactionscholarships a span, .calltoactionfindus a span, .calltoactionleicsex a span, .calltoactionapplyphd a span, .calltoactionengage a span, .calltoactionbooknow a span{display:none;}
+	
+	
+	
+.calltoactionprospectus a, .calltoactionapply a, .calltoactionopenday a,  .calltoactionmyleicester a, .calltoactioncourse a, .calltoactionfeesfinance a, .calltoactionblackboard a, .calltoactionexpert a, .calltoactionscholarships a, .calltoactionfindus a, .calltoactionleicsex a, .calltoactionapplyphd a, .calltoactionengage a, .calltoactionbooknow a{min-height:32px; padding:0;}
+
+.calltoactionmyleicester a {min-height:51px;}
+
+
+.calltoactionprospectus a{background: url("++resource++leicester.plonetheme.images/ie7/prospectus.png") no-repeat 0 0;}
+.calltoactionprospectus a:hover{background: url("++resource++leicester.plonetheme.images/ie7/prospectushover.png") no-repeat 0 0;}
+
+.calltoactionapply a{background: url("++resource++leicester.plonetheme.images/ie7/applyonline.png") no-repeat 0 0;}
+.calltoactionapply a:hover{background: url("++resource++leicester.plonetheme.images/ie7/applyonlinehover.png") no-repeat 0 0;}
+
+.calltoactionapplyphd a{background: url("++resource++leicester.plonetheme.images/ie7/applyphd.png") no-repeat 0 0;}
+.calltoactionapplyphd a:hover{background: url("++resource++leicester.plonetheme.images/ie7/applyphdhover.png") no-repeat 0 0;}
+
+.calltoactionopenday a{background: url("++resource++leicester.plonetheme.images/ie7/bookopenday.png") no-repeat 0 0;}
+.calltoactionopenday a:hover{background: url("++resource++leicester.plonetheme.images/ie7/bookopendayhover.png") no-repeat 0 0;}
+
+.calltoactionmyleicester a{background: url("++resource++leicester.plonetheme.images/ie7/myleicester.png") no-repeat 0 0;}
+.calltoactionmyleicester a:hover{background: url("++resource++leicester.plonetheme.images/ie7/myleicesterhover.png") no-repeat 0 0;}
+
+.calltoactionfeesfinance a{background: url("++resource++leicester.plonetheme.images/ie7/fees.png") no-repeat 0 0;}
+.calltoactionfeesfinance a:hover{background: url("++resource++leicester.plonetheme.images/ie7/feeshover.png") no-repeat 0 0;}
+
+.calltoactioncourse a{background: url("++resource++leicester.plonetheme.images/ie7/findacourse.png") no-repeat 0 0;}
+.calltoactioncourse a:hover{background: url("++resource++leicester.plonetheme.images/ie7/findacoursehover.png") no-repeat 0 0;}
+
+.calltoactionblackboard a{background: url("++resource++leicester.plonetheme.images/ie7/blackboard.png") no-repeat 0 0;}
+.calltoactionblackboard a:hover{background: url("++resource++leicester.plonetheme.images/ie7/blackboardhover.png") no-repeat 0 0;}
+
+.calltoactionfindus a{background: url("++resource++leicester.plonetheme.images/ie7/howtofindus.png") no-repeat 0 0;}
+.calltoactionfindus a:hover{background: url("++resource++leicester.plonetheme.images/ie7/howtofindushover.png") no-repeat 0 0;}
+
+.calltoactionengage a{background: url("++resource++leicester.plonetheme.images/ie7/engage.png") no-repeat 0 0;}
+.calltoactionengage a:hover{background: url("++resource++leicester.plonetheme.images/ie7/engagehover.png") no-repeat 0 0;}
+
+.calltoactionleicsex a{background: url("++resource++leicester.plonetheme.images/ie7/leicesterexchanges.png") no-repeat 0 0;}
+.calltoactionleicsex a:hover{background: url("++resource++leicester.plonetheme.images/ie7/leicesterexchangeshover.png") no-repeat 0 0;}
+
+
+.calltoactionbooknow a{background: url("++resource++leicester.plonetheme.images/ie7/booknow.png") no-repeat 0 0;}
+.calltoactionbooknow a:hover{background: url("++resource++leicester.plonetheme.images/ie7/booknowhover.png") no-repeat 0 0;}
+
+#content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{display:none;}
+
+#content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover{	
+background: #0099CC url("++resource++leicester.plonetheme.images/ie7/ctaarrowie7.png") no-repeat 2px 4px!important; padding:3px 10px;}
+
+#content p.calltoaction a:hover {background-color:#444;}
+	
+/*--------staff and student homepage----------------*/
+.shadeddivider {
+	background: #fff url("++resource++leicester.plonetheme.images/ie7/divider.png") repeat-x top left; /* IE6 & IE7 */
+	}
+	
+	

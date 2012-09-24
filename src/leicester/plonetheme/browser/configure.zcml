@@ -27,6 +27,23 @@
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
         />
+		
+	 <browser:viewlet
+        name="leicester.plonetheme.mobilemenusearch"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+		template="templates/leicester_mobilemenu.pt"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+		
+		<browser:viewlet
+        name="leicester.plonetheme.searchbox"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
 
     <browser:viewlet
         name="leicester.plonetheme.banner"

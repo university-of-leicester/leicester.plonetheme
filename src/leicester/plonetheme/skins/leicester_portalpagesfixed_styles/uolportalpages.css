@@ -35,6 +35,8 @@ h1, h2, h3, h4, h5, h6, p, li, ol, dd, dt, h1.documentFirstHeading, h2 a:link, h
 #portal-columns {
 	padding-bottom:230px; 
 	}
+	
+#portal-column-two{padding-top:14px;}
 #content {
 	margin-bottom:0;
 	}

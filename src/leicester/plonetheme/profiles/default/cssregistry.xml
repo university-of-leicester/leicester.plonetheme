@@ -5,7 +5,27 @@
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
-	 <stylesheet title=""
+ <stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression="" id="uolcolours.css" media="all"
+    rel="stylesheet" rendering="link"/>
+	<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression="" id="uolportalpages.css" media="all"
+    rel="stylesheet" rendering="link"/>
+<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression="" id="uolportalpagevariants.css" media="all"
+    rel="stylesheet" rendering="link"/>
+	<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression="" id="uolcollage.css" media="all"
+    rel="stylesheet" rendering="link"/>
+	<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression="" id="uolcollagevariants.css" media="all"
+    rel="stylesheet" rendering="link"/>
+<stylesheet title=""
     id="++resource++leicester.plonetheme.stylesheets/mediaqueriesphones.css"
     media="handheld, screen and (min-width: 320px) and (max-width: 480px)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
@@ -30,32 +50,12 @@
     media="handheld, screen and (min-width: 1800px)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
-    enabled="on" expression="" id="uolcolours.css" media="all"
-    rel="stylesheet" rendering="link"/>
-	<stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
-    enabled="on" expression="" id="uolportalpages.css" media="all"
-    rel="stylesheet" rendering="link"/>
-<stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
-    enabled="on" expression="" id="uolportalpagevariants.css" media="all"
-    rel="stylesheet" rendering="link"/>
-	<stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
-    enabled="on" expression="" id="uolcollage.css" media="all"
-    rel="stylesheet" rendering="link"/>
-	<stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
-    enabled="on" expression="" id="uolcollagevariants.css" media="all"
-    rel="stylesheet" rendering="link"/>
 <stylesheet title="" applyPrefix="False" authenticated="False"
     cacheable="True" compression="safe" conditionalcomment="IE 7" cookable="True"
-    enabled="on" expression="" id="IE7Fixes.css" media="all"
+    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE7Fixes.css" media="all"
     rel="stylesheet" rendering="link"/>
 	<stylesheet title="" applyPrefix="False" authenticated="False"
     cacheable="True" compression="safe" conditionalcomment="IE 8" cookable="True"
-    enabled="on" expression="" id="IE8Fixes.css" media="all"
+    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE8Fixes.css" media="all"
     rel="stylesheet" rendering="link"/>
 </object>

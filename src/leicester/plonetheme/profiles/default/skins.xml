@@ -12,9 +12,6 @@
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_theme_styles"/>
 	
- <object name="bannerimages"
-    meta_type="Filesystem Directory View"
-    directory="leicester.plonetheme:skins/bannerimages"/>
 	
 <object name="leicester_aquafixed_styles"
     meta_type="Filesystem Directory View"
@@ -278,10 +275,9 @@
     directory="leicester.plonetheme:skins/leicester_itsfixed_images"/>
 
   <skin-path name="leicester.plonetheme" based-on="Sunburst Theme">
-   <layer name="bannerimages"
-     insert-after="custom"/>
+
   <layer name="leicester_theme_images"
-     insert-after="bannerimages"/>
+     insert-after="custom"/>
   <layer name="leicester_theme_templates"
      insert-after="leicester_theme_images"/>
   <layer name="leicester_theme_styles"

@@ -1,28 +1,22 @@
 <div id="uolmiddleimage"
     tal:define="portal context/@@plone_portal_state/portal">
     <div class="tabposition">
-        <!--
-        <img tal:define="midimgfile python:getattr(here, 'uol_subtree_image', '')" 
-             tal:attributes="src python:getattr(here, 'uol_subtree_image', None);
-                             alt python:getattr(here, 'uol_subtree_image_alt', None)" />
-        
-        <img src="" tal:attributes="src string:${portal/absolute_url}/++resource++leicester.plonetheme.images/banner.jpg" /> -->
-		
-		<img src="" alt="" 
+    <img src="" alt="" 
 	       tal:define="image python:getattr(here, 'uol_subtree_image', 'banner2.jpg')" 
 	       tal:attributes="src string:${portal/absolute_url}/${image};
 				           alt python:getattr(here, 'uol_subtree_image_alt', None)" />
     </div>
 
-     <div class="uolheader">
-       
-        <p tal:condition="python:hasattr(here, 'uol_subtree_label')">
-            <a tal:content="python:getattr(here, 'uol_subtree_label', None)" href="#" tal:attributes="href python:getattr(here, 'uol_subtree_url', None)"></a>
-        </p>
-      
+ <div class="uolheader">
+        <p tal:define="subtree_label python:getattr(here, 'uol_subtree_label', None);
+                       subtree_url python:getattr(here, 'uol_subtree_url', None)"
+           tal:condition="python:subtree_label and subtree_url">
+        <a tal:content="subtree_label"
+           tal:attributes="href subtree_url"
+           href="#"></a></p><ul class="mobileskip"><li><a href="#portal-column-one">Menu</a></li></ul>
+      </div>
 
-        <!-- <p><a href="#">Centre for American Studies</a></p>   -->
-    </div>
 </div>
+
 
 

@@ -13,7 +13,7 @@ text-rendering: optimizeLegibility;-*/
 @font-face {
 	font-family: "icomoon";
 		src: url('++resource++leicester.plonetheme.stylesheets/icomoon.eot');
-	src: url('++resource++leicester.plonetheme.stylesheets//icomoon.eot?#iefix') format('embedded-opentype'),
+	src: url('++resource++leicester.plonetheme.stylesheets/icomoon.eot?#iefix') format('embedded-opentype'),
 		url('++resource++leicester.plonetheme.stylesheets/icomoon.svg#icomoon') format('svg'),
 		url('++resource++leicester.plonetheme.stylesheets/icomoon.woff') format('woff'),
 		url('++resource++leicester.plonetheme.stylesheets/icomoon.ttf') format('truetype');
@@ -276,7 +276,7 @@ dl.portletNavigationTree {
 dl.portlet ul.navTree li a {
 	color:#444 !important;
 	padding:7px 8px 6px 0;
-	}
+}
 dl.portlet ul.navTree li a:hover,#portal-column-one dl.portlet ul.navTree li a:hover,#portal-column-two dl.portlet ul.navTree li a:hover {
 	background-color:#444;
 	color:white !important;
@@ -751,7 +751,7 @@ dl.info dt {
 	}
 /* Images */
 /*Responsive images, video etc*/
-img, embed, object, video {
+img, embed, object, video{
 	max-width:100%;
 	height:auto;
 	width:auto;
@@ -994,9 +994,9 @@ div.position-3\3a 4 {
 	text-decoration:underline;
 	}
 	
-/*------ Forms -----------------
+/*------ Forms -----------------*/
 
-/*--buttons like search, sumbit, canel and delete------*/
+/*--buttons like search, sumbit, canel and delete-----*/
 input[type="submit"], input[type="reset"], .reply-to-comment-button, input[type="submit"].destructive {
 	padding:6px 12px;
 	font-family:Arial, Helvetica, sans-serif;
@@ -1035,7 +1035,7 @@ input[type="reset"]:hover, input[type="submit"].destructive:hover{
 	text-shadow: 0 1px 1px rgba(0,0,0,0.45);
 	border:1px #990000 solid;
 	}
-/*-------input text into fields ----------*/
+/*-------input text into fields ---------*/
 input[type="text"], input[type="password"], input[type="file"], input input[type="file"]{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.2em;
@@ -1051,7 +1051,7 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	padding:5px 8px;
 	}	
 #content textarea, .row #commenting textarea, .row .discussion textarea  {
-    width: 100%;
+
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.2em;
 	color:#444;
@@ -1063,7 +1063,7 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	background-color:#fff;
 	padding-left:8px;
 	}
-/*--not sure this works---*/
+/*--not sure this works---
 input#file-field_file{
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
@@ -1071,12 +1071,12 @@ input#file-field_file{
 	border-radius:4px;
 	padding:5px 8px;
 	}
-/*-sets size of search box if used in a portlet- needs adjusting in media queries*/
+/*-sets size of search box if used in a portlet- needs adjusting in media queries---
 dl.portlet input[type="text"], dl.portlet input input[type="password"], dl.portlet input input[type="file"]{
 	margin-bottom:5px;
 	width:152px;
 	}
-/*-sets size of main search box at top of every page*/
+/*-sets size of main search box at top of every page---
 #portal-searchbox input[type="text"] {
 	width:215px;
 	}
@@ -1525,6 +1525,8 @@ background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no
 .highlight-outline {
 	border:1px solid #444;
 	}
+	
+h2.highlight-shaded,h2.highlight-outline,h3.highlight-shaded,h3.highlight-outline,h4.highlight-shaded,h4.highlight-outline{font-size:1em!important; font-weight:normal;} 
 /*--------------Grey Introduction Paragraph-------------*/
 p.greyintro {
 	clear:both;
@@ -1695,6 +1697,8 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 
 /*--------media queries specific stuff-----*/
 /*----this hides the duplicate global nav menu that is in the footer when viewed on the desktop and tablets-*/
-.mobilemenu{
+#portal-footer-wrapper #portal-searchbox, .mobileskip, .mobilemenu{
 	display:none;
 	}
+	
+

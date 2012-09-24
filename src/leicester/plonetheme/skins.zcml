@@ -7,7 +7,6 @@
   <cmf:registerDirectory name="leicester_theme_images"/>
   <cmf:registerDirectory name="leicester_theme_templates"/>
   <cmf:registerDirectory name="leicester_theme_styles"/>
-  <cmf:registerDirectory name="bannerimages"/>
   <cmf:registerDirectory name="leicester_aquafixed_styles"/>
   <cmf:registerDirectory name="leicester_aqualightfixed_styles"/>
   <cmf:registerDirectory name="leicester_biscuitfixed_styles"/>

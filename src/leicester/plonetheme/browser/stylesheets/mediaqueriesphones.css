@@ -1,44 +1,70 @@
 h1.documentFirstHeading:before{content:"Mobiles:";}
-/*----this displays the duplicate global nav menu that is in the footer -*/
-.mobilemenu{
-	display:block;
-	}
+
 /*----this hides the global nav, login menu and search box from displaying at the top of the screen on mobiles---*/
 #portal-globalnav, #portal-personaltools, #portal-searchbox{
 	display:none;
 	}
+
+/*----this displays the duplicate global nav menu that is in the footer -*/
+.mobilemenu, .mobilemenu #portal-searchbox{
+	display:block;
+	}
+
+.mobilemenu #portal-searchbox {
+    clear:both;
+    float: none;}
+.mobilemenu{
+	margin:1em 0px;
+	width: 95% !important;}	
+	
+.mobilemenu li{}	
+
+.mobilemenu li a{display:block;}	
+
 /*-------resets the fixed width (990px) to full width-------*/
-#visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
+#visual-portal-wrapper, #portal-header, #portal-footer-wrapper{
 	width: 100% !important;
 	margin: 0px auto !important;
 	}
-/* move columns to below main content   -*/ 
+	
+/*#portal-footer-wrapper #portal-searchbox input[type="text"] {
+	width:200px; margin-left:10px; margin-top:10px;
+	}*/
+	
+
+/* move columns to below main content  */ 
 #portal-column-two, #portal-column-one {
 	clear: both;
 	margin-left: -97% !important;
 	margin:1em 0px;
 	width: 95% !important;
+	
 	} 
-/* spread out the content-*/
+/* spread out the content*/
 div#portal-column-content {
 	width: 94%;
 	margin-left: -97%;
 	}
+	
+#portal-logo{display:block;}
 /*-----------Header-----------------*/
 .uolheader{
-	background: #fff;
+	background: -moz-linear-gradient(center top , #d7d7d7 0%, #BFBFBF 100%) repeat scroll 0 0 transparent;
     position:relative;
-	border-top-right-radius:0px;
+	border-top-right-radius:0;
 	margin:0;
-	padding-top:1.5%;}
+	padding-top:1.5%;
+	overflow:hidden;}
 	
-.uolheader p{
+.uolheader p{display:block; width:86%;
+float:left;
 	margin:0; 
-	padding-left:1.4%;
+	padding-left:0;
+	padding-bottom:4px;
 	}	
 .uolheader p a{
-	line-height:1.35em; 
-	display:block; 
+	line-height:1.2em; 
+	display:block;
 	}
 .tabposition {
 	height:0;
@@ -51,102 +77,55 @@ div#portal-column-content {
 #portal-footer{
 	padding: 1em 0.6em;
 	}
-#portal-footer ul.left li:before, #portal-footer ul.right li:before, #portal-footer ul.social li.text{
-	display:none;
-	}	
+#portal-footer ul.left, #portal-footer ul.right {display:none;}
+
+
 #portal-footer ul.social {
-    clear: both;
-	float:none;
-    padding: 10px 0px;
-	}
-#portal-footer ul.left, #portal-footer ul.right, #portal-footer ul.mobilemenu {
-	height: auto;
-	clear: both;
-	padding: 0px;
-	margin: 0 !important;
-	width: 100% !important;
-	float:none;
-	}		
-#portal-footer ul.mobilemenu{
-	padding-top:5px;
-	}
-#portal-footer ul.left li, #portal-footer ul.right li, #portal-footer ul.mobilemenu li{
-	display: list-item !important;
-	margin-top: 0;
-	border-top: 1px solid #E7E7E7;
-	width: 100%;
-	padding:0;
-	background:none;
-	}
-#portal-footer ul.left li a,#portal-footer ul.right li a, #portal-footer ul.mobilemenu li a{
-	padding: 13px 13px 13px 16px;
-	display: block !important;
-	text-align: left !important;
-	font-weight:bold!important;
-	}
-/*------content within page that neeeds adjusting for mobiles mainly font sizing and padding------*/
-.calltoactionprospectus a, .calltoactionapply a, .calltoactionopenday a,  .calltoactionmyleicester a, .calltoactioncourse a, .calltoactionfeesfinance a, .calltoactionblackboard a, .calltoactionexpert a, .calltoactionscholarships a, .calltoactionfindus a, .calltoactionleicsex a, .calltoactionapplyphd a, .calltoactionengage a, .calltoactionbooknow a{
-	padding:3% 3% 4.2% 2.5%;
-	width:94.5%;
-	font-size:110%;
-	}
-.calltoactionprospectus a:before, .calltoactionapply a:before, .calltoactionopenday a:before,  .calltoactionmyleicester a:before, .calltoactioncourse a:before, .calltoactionfeesfinance a:before, .calltoactionblackboard a:before, .calltoactionexpert a:before, .calltoactionscholarships a:before, .calltoactionfindus a:before, .calltoactionleicsex a:before, .calltoactionapplyphd a:before, .calltoactionengage a:before, .calltoactionbooknow a:before{
-	margin-right:20px;
-	}
-#content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{
-	margin-right:10px;
-	margin-left:14px; 
-	}
-#content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover {
-	font-size:1.2em;
-	line-height:1.4em;
-	text-align:right;
-	float:right;
-	max-width:100%;
-	max-height:75px;
-	}	
-p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info:before, p.ploneinfo:before, p.example:before, p.video:before,  p.resources:before, p.blackboard:before, p.help:before, p.goodpractice:before, p.podcast:before, p.audio:before, p.keyfacts:before, p.documentation:before, p.important:before{
-	font-size:180%;
-	}	
-	/*----------Devices only-----------*/
-	@media screen and (max-device-width: 480px){
-		html {webkit-text-size-adjust: none;}
-/*#content p, #portal-column-one, #portal-column-two{font-size:70%;}
-#portal-footer{font-size:60%;}
-#portal-footer ul.social li.facebook a,#portal-footer ul.social li.linkedin a,#portal-footer ul.social li.twitter a,#portal-footer ul.social li.youtube a,#portal-footer ul.social li.flickr a{
-	font-size:190%;
-	padding:1%;
-	}
-#portal-footer ul.right{
-	font-size:100%;
-	}
-	p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info:before, p.ploneinfo:before, p.example:before, p.video:before,  p.resources:before, p.blackboard:before, p.help:before, p.goodpractice:before, p.podcast:before, p.audio:before, p.keyfacts:before, p.documentation:before, p.important:before{
-	font-size:180%;
-	}
-	h1.documentFirstHeading {
-	font-size:1.6em;
-	color:#000;
-	line-height:1.3em;
-	}
-h1,h2 {
-	font-size:1.40em;
-	letter-spacing:0;
-	line-height:1.3em;
-	}
+    float: none; margin:7px 0 12px;}
 
-h4,h5,h6 {
-	font-size:1.05em;
-	}*/
-	}
-/*--------------portrait values------------*/
-@media screen and (max-width:320px){
-	html {webkit-text-size-adjust: none;}/*
-	#content p, #portal-column-one, #portal-column-two, #content ul, #content ol,{font-size:115%;}
-#portal-footer{
-	font-size:100%;
-	}
-p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info:before, p.ploneinfo:before, p.example:before, p.video:before,  p.resources:before, p.blackboard:before, p.help:before, p.goodpractice:before, p.podcast:before, p.audio:before, p.keyfacts:before, p.documentation:before, p.important:before{
-	font-size:115%;
-	}	*/
+#portal-footer ul.social li.text {display:none!important;}
+#portal-footer ul.social li{width:20%;}
 
+#portal-footer ul.social li a {
+    float: none;}
+
+#portal-footer ul.social li.facebook a, #portal-footer ul.social li.linkedin a, #portal-footer ul.social li.twitter a, #portal-footer ul.social li.youtube a, #portal-footer ul.social li.flickr a {
+    font-size: 200%;
+    margin: 0 0 0 8px;
+    position:inherit;
+}
+
+.mobileskip {width:13%; 
+display:block;
+float:left;
+ padding:0 0 1% 1%;
+
+}
+.mobileskip li a:before{content: "\63";
+font-family: 'icomoon'; 
+	font-size:115%; 
+	color:#444;
+	margin:0;
+	text-align:center;
+	display:block;}
+
+.mobileskip li a{ display:block; color:#898476!important;}
+
+.mobilemenu li a {color:#fff!important;}
+/*---------All Collages pages-----*/
+.template-collage_view {
+	background-image:none;
 	}
+/*=-------------Alumni------------------------=*/
+
+#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2, #collage .row_1 .three-columns-equal .block_3, #collage .row_2 .three-columns-equal .block_1, #collage .row_2 .three-columns-equal .block_2, #collage .row_2 .three-columns-equal .block_3 {
+    padding: 0;
+    width: 100%!important;}
+
+	
+	
+/*--------------Staff and students-----------*/
+#collage .two-columns-largeright .block_1, #collage .two-columns-largeright .block_2{ padding: 0;
+    width: 100%!important;}
+	
+#content #collage p.buttonright, #content #collage p.buttonleft {width: 100%!important; float:none; padding: 0; margin: 0;}

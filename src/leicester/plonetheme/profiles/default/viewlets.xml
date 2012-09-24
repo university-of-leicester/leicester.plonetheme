@@ -7,6 +7,7 @@
   <viewlet name="plone.searchbox"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.global_sections"/>
+   <viewlet name="leicester.plonetheme.mobilemenusearch"/>
   <viewlet name="leicester.plonetheme.banner"/>
   <viewlet name="leicester.plonetheme.path_bar"/>
   <viewlet name="plone.colophon"/>
@@ -144,6 +145,7 @@
   <viewlet name="plone.searchbox"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.global_sections"/>
+  <viewlet name="leicester.plonetheme.mobilemenusearch"/>
   <viewlet name="leicester.plonetheme.banner"/>
   <viewlet name="leicester.plonetheme.path_bar"/>
   </order>
@@ -154,6 +156,7 @@
   <viewlet name="plone.header"/>
   </order>
   <order manager="plone.portalfooter" skinname="claretfixed">
+  <viewlet name="leicester.plonetheme.searchbox"/>
   <viewlet name="leicester.plonetheme.uolfooter"/>
   </order>
   <hidden manager="plone.portalheader" skinname="claretfixed">

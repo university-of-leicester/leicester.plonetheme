@@ -1,0 +1,223 @@
+/*----------------------------Library grey (darkest shade) --------------------*/
+body {/*background: url(body_bg.jpg) no-repeat #fff top right;*/ background: #606C6C;}
+/*----------highlight and outline paragraph to match site-------------*/
+.highlight-shaded {background: #E02725; }
+.highlight-outline {border-color:#E02725;}
+
+/* -------- additional styles added to change blue hyperlinks to red --------*/
+#content a {color: #C82220 !important;}
+#content a:hover {color:#8E1515 !important; text-decoration: underline !important;}
+
+#content .documentContent p a, #content .documentContent p a:active{color:#C82220;}
+#content .documentContent li a:visited, #content .documentContent li a:active, #content .documentContent dd a:visited, #content .documentContent dd a:active {
+color: #C82220;}
+
+#portal-column-one .portletStaticText a, #portal-column-two .portletStaticText a{color: #C82220 !important;}
+#portal-column-one .portletStaticText a:hover, #portal-column-two .portletStaticText a:hover {text-decoration:underline;color:#8E1515 !important;}
+
+.template-scrawlblogentry_view #content .documentByLine a {color:#C82220;}
+
+
+th.white, th.whiteglossy, th.whiteshadow, th.white h2, th.whiteglossy h2, th.whiteshadow h2, th.white h3, th.whiteglossy h3, th.whiteshadow h3, th.white h4, th.whiteglossy h4, th.whiteshadow h4, th.white h5, th.whiteglossy h5, th.whiteshadow h5, th.white p, th.whiteglossy p, th.whiteshadow p {background:#E8E8E8 url(tableheaderwhite.jpg) top left repeat-x!important; color:#333!important;}
+
+th.white a:hover, th.whiteglossy a:hover, th.whiteglossy a.external-link:hover, th.whiteshadow a:hover, th.whiteshadow a.external-link:hover{
+color:#8E1515!important;}
+p.podcast a:hover, p.video a:hover, p.help a:hover, p.keyfacts a:hover, p.resources a:hover, p.info a:hover,
+p.questions a:hover, p.documentation a:hover, p.images a:hover, p.warning a:hover, p.blackboard a:hover, p.ploneinfo a:hover, p.example a:hover, p.quicklinks a:hover, p.goodpractice a:hover, p.faqs a:hover, p.important a:hover {
+color:#8E1515!important;}
+
+table.horizontallinestable {
+	margin: 20px 0 0 0!important; 
+	border-collapse: separate !important; 
+	border: none !Important; 
+	clear: both!important;
+	}
+table.horizontallinestable td {
+	vertical-align: top!important; 
+	border-bottom: 20px solid #fff!important; 
+	border-right: 20px solid #fff!important;
+    background: url(corner.png) #fff bottom left no-repeat!important;
+	margin: 0!important; 
+	padding: 0 !Important; 
+	border-left: none !important;
+	}
+table.horizontallinestable td + td {
+	border-right: none!important;
+	}
+#content table.horizontallinestable h2, #content table.horizontallinestable h3{
+	margin: 0 !important; 
+	padding: 5px 35px 0 14px !important; 
+	display: block; width: 208px; 
+	border-top:1px solid #ccc;
+	background: url(squares.png) transparent top right no-repeat; 
+	line-height: 140%!important; 
+	overflow: visible; 
+	font-size: 1.45em!important; 
+	font-weight:bold!important;
+	}
+	
+#content table.horizontallinestable h4{font-weight:bold!important; font-size: 1.25em !important; padding: 8px 35px 0px 14px !important;}	
+
+
+#content table.horizontallinestable p {
+    margin: 2px 15px 5px 14px !important;
+    padding: 0!important;
+}
+
+#content table.horizontallinestable ul {
+	margin:0.75em 0;
+    padding-left:1.2em;
+    list-style: none;
+    text-indent: -1.4em;
+    *text-indent: 0;
+    *list-style-type: disc;
+	}
+#content table.horizontallinestable ul li {
+	list-style-image: none; 
+	list-style-type: none; 
+	list-style: none; 
+	/*background: url(arrow.png) no-repeat transparent 0 7px; */
+	margin: 0; 
+	padding: 0 0 5px 14px; 
+	min-height: 1px !important;}
+	
+#content table.horizontallinestable ul li:before{
+	font-family: 'icomoon'; 
+	font-size:115%; 
+	display:inline-block; 
+	float:left; 
+	width:19px;
+	content: "\65";
+	color: #C82220 !important;}
+
+#content table th a, #content table td a, #content table th.white a, #content table th.whiteglossy a, #content table th.whiteshadow a, #content table th.white h2 a, #content table th.whiteglossy h2 a, #content table th.whiteshadow h2 a, #content table th.white h3 a, #content table th.whiteglossy h3 a, #content table th.whiteshadow h3 a, #content table th.white h4 a, #content table th.whiteglossy h4 a, #content table th.whiteshadow h4 a, #content table th.white h5 a, #content table th.whiteglossy h5 a, #content table th.whiteshadow h5 a, #content table th.white p a, #content table th.whiteglossy p a, #content table th.whiteshadow p a{color:#E02725!important;}
+
+#content table th a:hover, #content table td a:hover, #content table th.white a:hover, #content table th.whiteglossy a:hover, #content table th.whiteshadow a:hover, #content table th.white h2 a:hover, #content table th.whiteglossy h2 a:hover, #content table th.whiteshadow h2 a:hover, #content table th.white h3 a:hover, #content table th.whiteglossy h3 a:hover, #content table th.whiteshadow h3 a:hover, #content table th.white h4 a:hover, #content table th.whiteglossy h4 a:hover, #content table th.whiteshadow h4 a:hover, #content table th.white h5 a:hover, #content table th.whiteglossy h5 a:hover, #content table th.whiteshadow h5 a:hover, #content table th.white p a:hover, #content table th.whiteglossy p a:hover, #content table th.whiteshadow p a:hover{color:#8E1515!important;}
+
+/******** alphabet style **********/
+#content ul.alphabet li a:link, #content ul.alphabet li a:visited, #content ul.alphabet li a:hover {color:#fff!important; }
+#content ul.alphabet li a:hover {color:#fff!important; text-decoration:none!important; background: #E02725;}
+
+#libraryfooter{background:#E0E2E2 url(footer_bg.png) no-repeat top right; border-top: 2px solid #dadada; height: 90px; font-size:80%;}
+#libraryfooter .box1{float: left; margin: 0 20px 0 15px; width: 55em;}
+#libraryfooter .box1 h2 {margin: 9px 0 0 0; padding: 0;}
+#libraryfooter .box1 ul {margin: 5px 0 0 0 !important; padding: 0 !important;}
+#libraryfooter .box1 ul li {margin: 0!important; padding: 0 10px 0 0 !important; list-style-type: none; list-style: none; list-style-image: none !Important; display: inline;}
+#libraryfooter .box1 p {margin: 2px 0 0; padding: 0;}
+#libraryfooter .box2 {float: left; margin: 0; width: 15em; padding: 0 0 0 18px;}
+#libraryfooter .box2 p {margin: 10px 0 5px 0; padding: 0; font-weight:bold;}
+#libraryfooter .box2 ul li img {margin: 0 2px 0 0;}
+
+#libraryfooter a{color: #C82220 !important;}
+#libraryfooter a:hover{color:#8E1515 !important; text-decoration: underline !important;}
+
+		
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	#libraryfooter, #libraryfooter .box1, #libraryfooter .box2 {
+	width: 100% !important;
+	margin: 0px auto !important;
+	}
+#libraryfooter .box1{	margin: 0; padding: 0 0 0 18px;}
+
+	#libraryfooter{background: #E0E2E2 url(footer_bg.png) no-repeat transparent top right;
+		height:auto; 
+		overflow:hidden;
+		padding-bottom:10px;
+	}
+	#content table.horizontallinestable h2, #content table.horizontallinestable h3, #content table.horizontallinestable h4 {
+width:auto; display:inline-block; border-top:none; background:none;}	
+
+
+table.horizontallinestable td {
+	border-right: 1px solid #ccc!important;
+	border-top:1px solid #ccc;
+	padding-right:14px;
+	background: #E0E2E2;/* Old browsers */
+	background-image:none!important;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */}}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#libraryfooter, #libraryfooter .box1, #libraryfooter .box2 {
+	width: 100% !important;
+	margin: 0px auto !important;
+	}
+
+#libraryfooter .box1{	margin: 0; padding: 0 0 0 18px;}
+	
+	#libraryfooter{ background: #E0E2E2;/* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+	 height:auto; overflow:hidden;
+	 padding-bottom:10px;}
+	 
+	 #content table.horizontallinestable h2, #content table.horizontallinestable h3, #content table.horizontallinestable h4 {
+width:auto;  display:inline-block; border-top:none;background:none;}
+
+table.horizontallinestable td {
+	border-right: 1px solid #ccc!important;
+	border-top:1px solid #ccc;
+	padding-right:14px;
+	background: #E0E2E2;/* Old browsers */
+	background-image:none!important;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */}
+	 }		
+
+@media screen and (min-width: 320px) and (max-width: 480px) {	
+#libraryfooter, #libraryfooter .box1, #libraryfooter .box2 {
+	width: 100% !important;
+	margin: 0px auto !important;
+	}
+	
+#libraryfooter .box1{	margin: 0; padding: 0 0 0 18px;}
+	
+#libraryfooter{background-image:none; background: #d7d7d7 ;/* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+	 height:auto; overflow:hidden; padding-bottom:10px;}
+	 
+	 #content table.horizontallinestable h2, #content table.horizontallinestable h3, #content table.horizontallinestable h4 {
+width:auto; display:inline-block; border-top:none; background:none;}
+
+table.horizontallinestable td {
+border-right: 1px solid #ccc!important;
+	border-top:1px solid #ccc;
+	padding-right:14px;
+	background: #E0E2E2 ;/* Old browsers */
+	background-image:none!important;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */}
+	 
+	}
+	
+	@media screen and (min-width: 1800px) {
+#libraryfooter{
+	background:#E0E2E2 url(footer_bglarge.png) no-repeat transparent 0 0;
+	}
+table.horizontallinestable td {
+	background: url(cornerlarge.png) #fff bottom left no-repeat!important;
+	}
+#content table.horizontallinestable h2, #content table.horizontallinestable h3, #content table.horizontallinestable h4 {
+width:324px; display:block; }	
+		
+		}

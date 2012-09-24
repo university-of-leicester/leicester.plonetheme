@@ -1,0 +1,35 @@
+<ul class="mobilemenu"><li><a href="#">Main Links</a></li>
+<div id="portal-searchbox">
+
+    <form name="searchform" id="nolivesearchGadget_form" action="http://webdev1.cc.le.ac.uk:51080/uol/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="nolivesearchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="nolivesearchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+ 
+  
+        </div>
+    </form>
+
+</div>
+<li><a title="Home" href="http://www.le.ac.uk">University Home</a></li>
+<li><a title="University A-Z" href="http://www.le.ac.uk/indexes">University A-Z</a></li>
+<li><a title="Maps" href="http://www.le.ac.uk/maps">Maps & Directions</a></li>
+<li><a title="Staff" href="http://www.le.ac.uk/staff">Staff</a></li>
+<li><a title="Current Students" href="http://www.le.ac.uk/students">Current Students</a></li>
+<li><a title="Library" href="http://www.le.ac.uk/library">Library</a></li>
+<li><a title="Blackboard" href="https://blackboard.le.ac.uk">Blackboard</a></li>
+<li><a title="Remote Access" href="http://www.le.ac.uk/remote">Remote Access</a></li>
+<li ><a title="Contact the University" href="http://www.le.ac.uk/contact">Contact the University</a></li>
+<li><a title="Legal Information" href="http://www.le.ac.uk/legal">Legal</a></li>
+<li><a title="Privacy & Cookies" href="http://www.le.ac.uk/legal/privacy-policy">Privacy & Cookies</a></li>
+<li><a title="Accessibility" href="http://www.le.ac.uk/help/access">Accessibility</a></li>
+<li><a title="Help" href="http://www.le.ac.uk/help">Help</a></li>
+	</ul>
+
+
+

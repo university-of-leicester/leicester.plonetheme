@@ -3,7 +3,7 @@ h1.documentFirstHeading:before{content:"Tablets portrait:";}
 body {
 	width: 100%!important;
     } 
-#visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
+#visual-portal-wrapper, #portal-header, #portal-footer-wrapper{
 	width: 100% !important;
 	min-width:520px;
 	}
