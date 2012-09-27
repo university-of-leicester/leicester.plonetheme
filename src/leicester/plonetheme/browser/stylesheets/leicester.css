@@ -1697,7 +1697,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 
 /*--------media queries specific stuff-----*/
 /*----this hides the duplicate global nav menu that is in the footer when viewed on the desktop and tablets-*/
-#portal-footer-wrapper #portal-searchbox, .mobileskip, .mobilemenu{
+#portal-footer-wrapper #portal-searchbox, .mobileskip, .mobilemenu, #mobilebacktotop, .mobileaddthis, .mobilefooterextra{
 	display:none;
 	}
 	

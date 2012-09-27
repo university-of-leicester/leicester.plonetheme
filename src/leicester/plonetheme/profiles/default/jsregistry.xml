@@ -4,14 +4,5 @@
                 enabled="True" expression=""
                 id="++resource++leicester.plonetheme.javascripts/leicester.js"
                 inline="False"/>
-	
-	<javascript
-    id="++resource++leicester.plonetheme.javascripts/scrollTop.js"
-    cacheable="False" compression="safe" cookable="False"
-    enabled="True" expression=""  inline="False"/>
-	
-	<javascript
-    id="++resource++leicester.plonetheme.javascripts/mobiledropdown.js"
-    cacheable="False" compression="safe" cookable="False"
-    enabled="True" expression=""  inline="False"/>
+		
 </object>

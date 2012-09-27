@@ -202,3 +202,6 @@ body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portlet
 .addthis_toolbox p{
 	color:#fff;
 	}
+	
+.mobileaddthis{
+	background:transparent!important;}

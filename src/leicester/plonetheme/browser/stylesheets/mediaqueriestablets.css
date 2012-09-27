@@ -9,3 +9,7 @@ body {
 .tabposition {
 	height:auto;
 	}
+	
+#libraryfooter{height:auto; 
+		overflow:hidden;
+		padding-bottom:10px;	}

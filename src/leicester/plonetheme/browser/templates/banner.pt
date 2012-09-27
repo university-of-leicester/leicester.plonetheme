@@ -6,15 +6,23 @@
 	       tal:attributes="src string:${portal/absolute_url}/${image};
 				           alt python:getattr(here, 'uol_subtree_image_alt', None)" />
     </div>
+	  
+	<div class="uolheader">
 
- <div class="uolheader">
-        <p tal:define="subtree_label python:getattr(here, 'uol_subtree_label', None);
-                       subtree_url python:getattr(here, 'uol_subtree_url', None)"
-           tal:condition="python:subtree_label and subtree_url">
-        <a tal:content="subtree_label"
-           tal:attributes="href subtree_url"
-           href="#"></a></p><ul class="mobileskip"><li><a href="#portal-column-one">Menu</a></li></ul>
-      </div>
+   <p tal:define="subtree_label python:getattr(here, 'uol_subtree_label', None);
+                  subtree_url python:getattr(here, 'uol_subtree_url', None)"
+      tal:condition="subtree_label">
+
+     <a tal:condition="subtree_url"
+        tal:content="subtree_label"
+        tal:attributes="href subtree_url"
+        href="#"></a>
+
+     <tal:span condition="not:subtree_url"
+               replace="subtree_label" ></tal:span></p><ul class="mobileskip"><li><a href="#portal-column-one">Menu</a></li></ul>
+
+</div>
+
 
 </div>
 

@@ -27,7 +27,7 @@
     rel="stylesheet" rendering="link"/>
 <stylesheet title=""
     id="++resource++leicester.plonetheme.stylesheets/mediaqueriesphones.css"
-    media="handheld, screen and (min-width: 320px) and (max-width: 480px)" rel="stylesheet" rendering="import"
+    media="screen and (max-device-width: 480px), screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
 	 <stylesheet title=""
@@ -50,12 +50,12 @@
     media="handheld, screen and (min-width: 1800px)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
-<stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="IE 7" cookable="True"
-    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE7Fixes.css" media="all"
+	<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="lt IE 9" cookable="True"
+    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE8Fixes.css" media="all"
     rel="stylesheet" rendering="link"/>
 	<stylesheet title="" applyPrefix="False" authenticated="False"
-    cacheable="True" compression="safe" conditionalcomment="IE 8" cookable="True"
-    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE8Fixes.css" media="all"
+    cacheable="True" compression="safe" conditionalcomment="lt IE 8" cookable="True"
+    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE7Fixes.css" media="all"
     rel="stylesheet" rendering="link"/>
 </object>

@@ -71,6 +71,14 @@
 		permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
 		/>
+			<!-- Add This Mobile -->
+     <browser:viewlet
+        name="leicester.plonetheme.mobileaddthis"
+		manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+		template="templates/mobileaddthis.pt"
+		permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+		/>
 		
 	<!-- Library Footer -->
 	<browser:viewlet
