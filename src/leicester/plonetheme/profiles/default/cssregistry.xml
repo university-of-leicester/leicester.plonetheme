@@ -56,7 +56,7 @@
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
 	 <stylesheet title=""
-    id="++resource++leicester.plonetheme.stylesheets/mediaqueriesxtralargedesktop.css"
+    id="++resource++leicester.plonetheme.stylesheets/mediaqueriesextralargedesktop.css"
     media="handheld, screen and (min-width: 1800px)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>

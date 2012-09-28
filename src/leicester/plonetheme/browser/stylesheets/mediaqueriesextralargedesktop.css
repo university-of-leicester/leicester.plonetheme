@@ -1,0 +1,16 @@
+h1.documentFirstHeading:before{content:"Xtra Large Desktop:";}
+
+body {
+	width: 100%;
+	}
+.tabposition {
+	background: #d7d7d7 url('++resource++leicester.plonetheme.images/bannerlargescreenbg.png') no-repeat top right; /* Old browsers */
+	}
+/* for readability making the width of the site only got to 90em */
+#visual-portal-wrapper, #portal-header, #portal-footer-wrapper, #libraryfooter {
+	width: 1400px !important;
+	margin: 0px auto !important;
+	display: block;
+	float: none;
+    }
+	
