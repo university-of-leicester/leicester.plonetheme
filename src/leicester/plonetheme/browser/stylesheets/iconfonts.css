@@ -1,0 +1,12 @@
+
+
+/*----Icon font used for calls to actions, quotes and back to top bullets----------*/
+@font-face {
+	font-family: "icomoon";
+		src: url('++resource++leicester.plonetheme.stylesheets/icomoon.eot');
+	src: url('++resource++leicester.plonetheme.stylesheets/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('++resource++leicester.plonetheme.stylesheets/icomoon.svg#icomoon') format('svg'),
+		url('++resource++leicester.plonetheme.stylesheets/icomoon.woff') format('woff'),
+		url('++resource++leicester.plonetheme.stylesheets/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;}

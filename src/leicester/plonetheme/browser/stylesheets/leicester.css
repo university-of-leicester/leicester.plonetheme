@@ -9,16 +9,6 @@ body {
 text-rendering: optimizeLegibility;-*/
 }
 
-/*----Icon font used for calls to actions, quotes and back to top bullets----------*/
-@font-face {
-	font-family: "icomoon";
-		src: url('++resource++leicester.plonetheme.stylesheets/icomoon.eot');
-	src: url('++resource++leicester.plonetheme.stylesheets/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('++resource++leicester.plonetheme.stylesheets/icomoon.svg#icomoon') format('svg'),
-		url('++resource++leicester.plonetheme.stylesheets/icomoon.woff') format('woff'),
-		url('++resource++leicester.plonetheme.stylesheets/icomoon.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;}
 
 h1,h2,h3,h4,h5,h6 {
 	line-height:1.45em;
@@ -1515,10 +1505,10 @@ background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no
 	background:#444;
 	color:#fff !important;
 	}
-#content .highlight-shaded a:link, #content .highlight-shaded a:visited{
+#content .highlight-shaded a:link, #content .highlight-shaded a:visited, #portal-column-one .highlight-shaded a:link, #portal-column-one .highlight-shaded a:visited, #portal-column-two .highlight-shaded a:link,  #portal-column-two .highlight-shaded a:visited{
 	color: #F8E58E!important;
 	}
-#content .highlight-shaded a:hover {
+#content .highlight-shaded a:hover,  #portal-column-one .highlight-shaded a:hover, #portal-column-two .highlight-shaded a:hover {
 	color:#fff !important;
 	text-decoration:underline !important;
 	}
@@ -1673,6 +1663,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	display:inline-block; 
 	color:#444;  
 	margin-right:4px;
+	margin-left:4px;
 	}
 #content .quote p, #content .smallquote p{
 	margin-bottom:0;

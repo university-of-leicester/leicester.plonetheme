@@ -1,0 +1,68 @@
+/*---------Fixes for IE 9 and below - so these will cascade down to 8 & 7 unless overridden-*/
+#portal-logo {
+	float:left;
+	margin:10px;
+	}
+#portal-footer, #portal-globalnav {
+	overflow:hidden; 
+	height:1%; 
+	position: relative; 
+	display:block;
+	}
+#portal-searchbox{
+	overflow:hidden;
+	display:block;
+	}
+dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails{
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9*/ 
+	height: 1%;/*For IE7*/ 
+	}
+
+
+/* Paragraph Icons --------IE 9 & 8---*/
+p.warning{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/warningparaie.png") no-repeat 0 0;
+	}
+p.questions,p.faqs{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/faqparaie.png") no-repeat 0 0;
+	}
+p.quicklinks{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/linksparaie.png") no-repeat 0 0;
+	}
+p.info,p.ploneinfo{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/infoparaie.png") no-repeat 0 0;
+	}
+p.example{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/exampleparaie.png") no-repeat 0 0;
+	}
+p.video{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/videoparaie.png") no-repeat 0 0;
+	}
+p.resources{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/resourcesparaie.png") no-repeat 0 0;
+	}
+p.blackboard{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/blackboardparaie.png") no-repeat 0 0;
+	}
+p.help{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/helpparaie.png") no-repeat 0 0;
+	}
+p.goodpractice{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/goodparaie.png") no-repeat 0 0;
+	}
+p.podcast,p.audio{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/audioparaie.png") no-repeat 0 0;
+	}
+p.keyfacts{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/keyfactsparaie.png") no-repeat 0 0;
+	}
+p.documentation{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/documentationparaie.png") no-repeat 0 0;
+	}
+p.important{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/importantparaie.png") no-repeat 0 0;
+	}
+	
+/*--------staff and student homepage----------------*/
+.shadeddivider {filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ededed', endColorstr='#ffffff');/*For IE7-8-9*/ 
+	/* height: 1%; For IE7*/ }

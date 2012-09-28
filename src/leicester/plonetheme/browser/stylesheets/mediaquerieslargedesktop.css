@@ -8,7 +8,7 @@ body {
 	}
 /* for readability making the width of the site only got to 90em */
 #visual-portal-wrapper, #portal-header, #portal-footer-wrapper, #libraryfooter {
-	width: 1400px !important;
+	width: 1200px !important;
 	margin: 0px auto !important;
 	display: block;
 	float: none;

@@ -5,6 +5,11 @@
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
+	 <stylesheet title=""
+    id="++resource++leicester.plonetheme.stylesheets/iconfonts.css"
+    media="screen" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
     cacheable="True" compression="safe" conditionalcomment="" cookable="True"
     enabled="on" expression="" id="uolcolours.css" media="all"
@@ -47,9 +52,18 @@
     enabled="1" expression=""/>
 	 <stylesheet title=""
     id="++resource++leicester.plonetheme.stylesheets/mediaquerieslargedesktop.css"
+    media="handheld, screen and (min-width: 1600px)" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""/>
+	 <stylesheet title=""
+    id="++resource++leicester.plonetheme.stylesheets/mediaqueriesxtralargedesktop.css"
     media="handheld, screen and (min-width: 1800px)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
+	<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="lt IE 10" cookable="True"
+    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE9Fixes.css" media="all"
+    rel="stylesheet" rendering="link"/>
 	<stylesheet title="" applyPrefix="False" authenticated="False"
     cacheable="True" compression="safe" conditionalcomment="lt IE 9" cookable="True"
     enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/IE8Fixes.css" media="all"
