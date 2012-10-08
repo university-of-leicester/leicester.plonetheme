@@ -8,8 +8,6 @@ body {
 -webkit-font-smoothing: antialiased;
 text-rendering: optimizeLegibility;-*/
 }
-
-
 h1,h2,h3,h4,h5,h6 {
 	line-height:1.45em;
 	margin-bottom:10px;
@@ -77,6 +75,43 @@ hr {
 	height:1px;
 	margin:0.5em 0 0.8em;
 	}
+/*----------------COLUMNS.CSS------------------*/	
+#visual-portal-wrapper {
+	margin:0 auto;
+	width: 990px !important;
+	}
+/*--this controls the widths of columns in Plone, instead if applying pixel widths to columnOne or columnTwo ------*/
+div.width-1\3a 2 {
+	width:55.5%;
+	}
+/* .width-1:4 */
+div.width-1\3a 4 {
+	width:20%;
+	}
+/* .width-3:4 */
+div.width-3\3a 4 {
+	width:76%;
+	}
+div.width-full {
+	width:97.75%;
+	}
+/* .position-1:4 */ 
+div.position-1\3a 4 {
+	margin-left:-77.5%;
+	}
+/* .position-1:2 */
+div.position-1\3a 2 {
+	margin-left:-51%;
+	}
+/* .position-3:4 */
+div.position-3\3a 4 {
+	margin-left:-21%;
+	}
+#portal-columns {
+	background-color:#FFF;
+	padding:10px 0;
+	}
+	
 /* header and footer which will be uol customised */
 #portal-top .position-0,#portal-footer-wrapper .position-0 {
 	margin-left:-100%;
@@ -86,18 +121,15 @@ hr {
 	}	
 #portal-header,#portal-footer-wrapper {
 	background-color:transparent;
-	width:990px !important;
 	margin:0 auto;
 	clear:both;
 	}
 #portal-logo {
 	margin:10px;
 	}
-
 #portal-searchbox{
 	padding-right:10px;
 	}
-
 #portal-globalnav {
 	background:#000;/*fallback*/
 	background:rgba(0, 0, 0, 0.4);
@@ -187,6 +219,11 @@ dt.actionMenuHeader a#user-name, #portal-personaltools #anon-personalbar a{
 /*-------------portlets------------------------------*/
 dl.portlet {
 	border-bottom:1px solid #ccc;
+	clear:both;
+	}
+#portal-column-one .portletStaticText a:hover,#portal-column-two .portletStaticText a:hover {
+	color:#75AD0A;
+	text-decoration:underline;
 	}
 span.portletItemDetails {
 	margin-left:0;
@@ -202,6 +239,8 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9*/ 
+	height: 1%;/*For IE7*/ 
 	-webkit-border-top-left-radius: 8px;
 	-webkit-border-top-right-radius: 8px;
 	-moz-border-radius-topleft: 8px;
@@ -210,12 +249,14 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 	border-top-right-radius: 8px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 	border:1px solid #cccccc;
+	
 	}	
 dl.portlet dd.portletItem,dl.portlet dd.portletFooter,dl.portlet dd.portletFooter,dl.portletError dd {
 	border-left:1px solid #ccc; 
 	border-right:1px solid #ccc;
 	line-height:1.4em;
 	padding:0.6em 1em;
+	height:1%; overflow:hidden;
 	}
 div.managePortletsLink,a.managePortletsFallback {
 	font-size:100%;
@@ -250,8 +291,8 @@ div.managePortletsLink a:hover,a.managePortletsFallback:hover,#content .contentH
 	font-size:130%!important;
 	margin-bottom:5px;
 	}
-/*-------------navigation portlets----
-switches icons off in navigation */
+/*--------------------navigation portlets-------------------*/
+/*switches icons off in navigation */
 .icons-on dl.portletNavigationTree a {
 	background-image:none;
 	}
@@ -266,15 +307,16 @@ dl.portletNavigationTree {
 dl.portlet ul.navTree li a {
 	color:#444 !important;
 	padding:7px 8px 6px 0;
-}
+	}
 dl.portlet ul.navTree li a:hover,#portal-column-one dl.portlet ul.navTree li a:hover,#portal-column-two dl.portlet ul.navTree li a:hover {
 	background-color:#444;
-	color:white !important;
+	color:#fff!important;
 	text-decoration:none;
 	}
 /*makes private content red in navigation*/
 dl.portlet ul.navTree li a.state-private{
-	color:red!important;}
+	color:red!important;
+	}
 /*switches off the ability to show the portlet header on navigation portlets*/
 dl.portletNavigationTree dt.portletHeader {
 	display:none;
@@ -560,10 +602,8 @@ table.listing th {
 	}
 table.listing tbody tr.odd td {
 	background-color:#fff !important;
-	border-top:1px solid #DDD;
-	border-right:1px solid #DDD;
 	}
-table.listing tbody tr.even td {
+table.listing tbody tr.even td, table.listing tbody tr.odd td {
 	border-top:1px solid #DDD;
 	border-right:1px solid #DDD;
 	}
@@ -746,9 +786,6 @@ img, embed, object, video{
 	height:auto;
 	width:auto;
 	}
-img, embed, object, video {
-	max-width: 100%
-	}
 .image-right, img.image-right-border {
 	margin:0.5em 0 0.5em 1em;
 	}
@@ -825,7 +862,8 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	font-size:120%; 
 	display:inline-block;  
 	color:rgba(255,255,255,0.6);
-	float:left; margin-right:2px;
+	float:left; 
+	margin-right:2px;
 	}
 #portal-footer ul.right li:before{
 	margin-right:1px;
@@ -835,13 +873,13 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	padding:0;
 	}
 #portal-footer ul.right li a, #portal-footer ul.social li a, #portal-footer ul.left li a {
-	color:#fff !important;
+	color:#fff!important;
 	}
 #portal-footer ul.right li a, #portal-footer ul.social li a{
-	font-weight:normal !important;
+	font-weight:normal!important;
 	}
 #portal-footer ul.left li a:hover,#portal-footer ul.right li a:hover, #portal-footer ul.social li a:hover {
-	color:#fff !important;
+	color:#fff!important;
 	text-decoration:underline;
 	}
 #portal-footer ul.social li a:hover{
@@ -860,7 +898,15 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	position:relative;
 	top:0;
 	left:0;
-	}		
+	}	
+/*	
+#portal-footer ul.social li.facebook a{content: "\66"; }
+#portal-footer ul.social li.twitter a{	content: "\67";}
+#portal-footer ul.social li.youtube a{content: "\68";}
+#portal-footer ul.social li.flickr a{content: "\6a";}	
+#portal-footer ul.social li.linkedin a{content: "\6c";}
+*/
+
 #portal-footer ul.social li.text{
 	margin-right:4px; 
 	font-weight:bold;
@@ -940,49 +986,6 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	text-align:left !important;
 	padding-top:5px;
 	}
-/*----------------COLUMNS.CSS------------------*/	
-/*--this controls the widths of columns in Plone, instead if applying pixel widths to columnOne or columnTwo ------*/
-div.width-1\3a 2 {
-	width:55.5%;
-	}
-/* .width-1:4 */
-div.width-1\3a 4 {
-	width:20%;
-	}
-/* .width-3:4 */
-div.width-3\3a 4 {
-	width:76%;
-	}
-div.width-full {
-	width:97.75%;
-	}
-/* .position-1:4 */ 
-div.position-1\3a 4 {
-	margin-left:-77.5%;
-	}
-/* .position-1:2 */
-div.position-1\3a 2 {
-	margin-left:-51%;
-	}
-/* .position-3:4 */
-div.position-3\3a 4 {
-	margin-left:-21%;
-	}
-#portal-columns {
-	background-color:#FFF;
-	padding:10px 0;
-	}
-	
-/*----------------PLONECUSTOM.CSS------------------*/
-/*--possibly move this to media queries?---*/
-#visual-portal-wrapper {
-	width:990px;
-	margin:0 auto;
-	}
-#portal-column-one .portletStaticText a:hover,#portal-column-two .portletStaticText a:hover {
-	color:#75AD0A;
-	text-decoration:underline;
-	}
 	
 /*------ Forms -----------------*/
 
@@ -1041,7 +1044,6 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	padding:5px 8px;
 	}	
 #content textarea, .row #commenting textarea, .row .discussion textarea  {
-
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.2em;
 	color:#444;
@@ -1052,27 +1054,12 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	border-radius:4px;
 	background-color:#fff;
 	padding-left:8px;
+	width: 97%;
 	}
-/*--not sure this works---
-input#file-field_file{
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	-o-border-radius:4px;
-	border-radius:4px;
-	padding:5px 8px;
+.field input[type="text"][name$=".title"], input#title {
+    width: 96%;
 	}
-/*-sets size of search box if used in a portlet- needs adjusting in media queries---
-dl.portlet input[type="text"], dl.portlet input input[type="password"], dl.portlet input input[type="file"]{
-	margin-bottom:5px;
-	width:152px;
-	}
-/*-sets size of main search box at top of every page---
-#portal-searchbox input[type="text"] {
-	width:215px;
-	}
-input#title {
-	padding:5px 0px;
-	}
+
 /*-----drop down menus------------*/		
 #content select {
     vertical-align:bottom; font-size:1.2em;
@@ -1186,12 +1173,12 @@ input#title {
 #content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{
 	font-family: 'icomoon'; 
 	content: "\5e"; 
-	display:block; 
+	display:inline-block; 
 	float:left; 
 	width:22px; 
 	color:rgba(255,255,255,0.6); 
-	margin-right:8px;
-	margin-left:5px; 
+	margin-right:0;
+	margin-left:2px; 
 	}
 #content p.calltoaction a:hover:before{
 	color:#fff;
@@ -1203,7 +1190,7 @@ input#title {
 	font-weight:bold;
 	font-size:1.05em;
 	line-height:1.35em;
-	text-align:right;
+	text-align:left;
 	float:right;
 	clear:both;
 	display:block;
@@ -1227,7 +1214,7 @@ input#title {
 	-moz-box-shadow:#c3c3c3 2px 2px 2px;
 	box-shadow:#c3c3c3 2px 2px 2px;
 	margin:5px 0 5px 10px;
-	padding:1% 3% 1% 0%;
+padding:3px 6px 3px 10px; 
 	}
 #content p.calltoaction a:hover {
 	background: #444; /* fallback */
@@ -1241,7 +1228,7 @@ input#title {
 	text-decoration:none !important;
 	}
 #content table th p.calltoaction a:link,#content table th p.calltoaction a:visited,#content table td p.calltoaction a:link,#content table td p.calltoaction a:visited {
-	max-width:80%;
+	max-width:96%;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
 	box-shadow:none;
@@ -1318,7 +1305,7 @@ p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info
 	margin-right:8px;
 	color:#666; 
 	letter-spacing:0.04em; 
-	text-shadow:0 1px 0px rgba(255, 255, 255, 0.75);
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.75);
 	}
 .portletStaticText p.warning:before,.portletStaticText p.questions:before, .portletStaticText p.faqs:before, .portletStaticText p.quicklinks:before, .portletStaticText p.info:before, .portletStaticText p.ploneinfo:before, .portletStaticText p.example:before, .portletStaticText p.video:before,  .portletStaticText p.resources:before, .portletStaticText p.blackboard:before, .portletStaticText p.help:before, .portletStaticText p.goodpractice:before, .portletStaticText p.podcast:before, .portletStaticText p.audio:before, .portletStaticText p.keyfacts:before, .portletStaticText p.documentation:before, .portletStaticText p.important:before{
 	display:block;
@@ -1506,17 +1493,20 @@ background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no
 	color:#fff !important;
 	}
 #content .highlight-shaded a:link, #content .highlight-shaded a:visited, #portal-column-one .highlight-shaded a:link, #portal-column-one .highlight-shaded a:visited, #portal-column-two .highlight-shaded a:link,  #portal-column-two .highlight-shaded a:visited{
-	color: #F8E58E!important;
+	color:#F8E58E!important;
 	}
 #content .highlight-shaded a:hover,  #portal-column-one .highlight-shaded a:hover, #portal-column-two .highlight-shaded a:hover {
-	color:#fff !important;
+	color:#fff!important;
 	text-decoration:underline !important;
 	}
 .highlight-outline {
 	border:1px solid #444;
 	}
 	
-h2.highlight-shaded,h2.highlight-outline,h3.highlight-shaded,h3.highlight-outline,h4.highlight-shaded,h4.highlight-outline{font-size:1em!important; font-weight:normal;} 
+h2.highlight-shaded,h2.highlight-outline,h3.highlight-shaded,h3.highlight-outline,h4.highlight-shaded,h4.highlight-outline{
+	font-size:1em!important; 
+	font-weight:normal;
+	} 
 /*--------------Grey Introduction Paragraph-------------*/
 p.greyintro {
 	clear:both;
@@ -1533,8 +1523,8 @@ p.greyintro {
     padding-left:1.2em;
     list-style: none;
     text-indent: -1.4em;
-    *text-indent: 0;
-    *list-style-type: disc;
+   /* *text-indent: 0;
+    *list-style-type: disc;*/
 	}
 #content ul.arrow li:before, dl.portletStaticText ul.arrow li:before, .portletStaticText ul.arrow li:before{
 	font-family: 'icomoon'; 
@@ -1584,6 +1574,8 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover, #content 
 	-webkit-box-shadow:#ccc 2px 2px 2px;
 	-moz-box-shadow:#ccc 2px 2px 2px;
 	box-shadow:#ccc 2px 2px 2px;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#0099CC', endColorstr='#006F93');/*For IE7-8-9 */
+	height: 1%;/*For IE7*/
 	}
 ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	display:inline-block !important;
@@ -1600,6 +1592,8 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	background: -ms-linear-gradient(top, #828282, #444); /* IE10 */
 	background: -o-linear-gradient(top, #828282, #444); /* Opera 11.10+ */
 	background: linear-gradient(top, #828282, #444); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#828282', endColorstr='#444');/*For IE7-8-9 */
+	height: 1%;/*For IE7*/
 	}
 #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover {
 	font-weight:bold;
@@ -1614,8 +1608,10 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 #content p.toparrow a:before{
 	content: "\61"; 
 	font-family: 'icomoon'; 
-	font-size:100%; display:block; 
-	float:left; width:22px; 
+	font-size:100%; 
+	display:block; 
+	float:left; 
+	width:22px; 
 	margin-right:8px; 
 	color:rgba(255,255,255,0.7);
 	}
@@ -1684,12 +1680,48 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 /*---Tiny Menu-this controls the font size in the styles pull-down menu --------*/
 .ploneSkin .mceMenu span.mceText, .ploneSkin .mceMenu .mcePreview, .ploneSkin .mce_h3 span.mceText {
     font-size: 1.2em!important;
-}
+	}
 
 /*--------media queries specific stuff-----*/
 /*----this hides the duplicate global nav menu that is in the footer when viewed on the desktop and tablets-*/
 #portal-footer-wrapper #portal-searchbox, .mobileskip, .mobilemenu, #mobilebacktotop, .mobileaddthis, .mobilefooterextra{
 	display:none;
 	}
-	
+
+/*--Simple layout options-------------*/
+.firsthalf, .secondhalf, .firstthird, .secondthird, .thirdthird, .firstquarter, .secondquarter, .thirdquarter, .fourthquarter{
+	position: relative;
+	float: left;
+	left: 100%;
+	}
+.firsthalf, .secondhalf{
+	width:47.75%;
+	}
+.firstthird, .secondthird, .thirdthird {
+	width: 31.08%;
+	}
+.firstquarter, .secondquarter, .thirdquarter, .fourthquarter{
+	width:  22.75%;
+	}
+.firsthalf, .firstthird, .firstquarter {
+	margin-left: -98.875%;
+	}
+.secondhalf {
+	margin-left: -48.875%;
+	}
+.secondthird{
+	margin-left: -65.545%;
+	}
+.thirdthird{
+	margin-left: -32.205%;
+	}
+.secondquarter{
+	margin-left: -73.875%;
+	}
+.thirdquarter{
+	margin-left: -48.875%;
+	}
+.fourthquarter{
+	margin-left: -23.875%;
+	}
 

@@ -1,15 +1,13 @@
 h1.documentFirstHeading:before{content:"Tablets:";}
 
-body {
-	width: 100%!important;
-    } 
-#visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
+body, #visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
 	width: 100% !important;
 	}
 .tabposition {
 	height:auto;
 	}
-	
-#libraryfooter{height:auto; 
-		overflow:hidden;
-		padding-bottom:10px;	}
+#libraryfooter{
+	height:auto;
+	overflow:hidden;
+	padding-bottom:10px;
+	}

@@ -35,8 +35,9 @@ h1, h2, h3, h4, h5, h6, p, li, ol, dd, dt, h1.documentFirstHeading, h2 a:link, h
 #portal-columns {
 	padding-bottom:230px; 
 	}
-	
-#portal-column-two{padding-top:14px;}
+#portal-column-two{
+	padding-top:14px;
+	}
 #content {
 	margin-bottom:0;
 	}
@@ -65,10 +66,10 @@ h1.documentFirstHeading {
     *list-style-type: disc;
 	}
 #content ul li, div.portletStaticText ul li, #content ul.arrow li, div.portletStaticText ul.arrow li{
-	padding:0.2em 0em 0.2em 0.6em;
+	padding:0.2em 0 0.2em 0.6em;
 	list-style-type: none;
 	list-style-image: none;
-	margin-left:0em;
+	margin-left:0;
 	}
 div.portletStaticText ul li{
 	padding:0;
@@ -179,11 +180,15 @@ body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portlet
 	-webkit-box-shadow:#0C0F10 2px 2px 2px;
 	-moz-box-shadow:#0C0F10 2px 2px 2px;
 	box-shadow:#0C0F10 2px 2px 2px;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#828282', endColorstr='#444');/*For IE7-8-9*/
+	height: 1%;/*For IE7*/
 	}
 #content ul.alphabet li a:hover, #content p.toparrow a:hover {
 	color:#444 !important;
 	text-decoration:none !important;
 	background: #F8E58E; /* fallback */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F8E58E', endColorstr='#F8E58E');/*For IE7-8-9*/
+	height: 1%;/*For IE7*/
 	}
 #content p.toparrow a:hover:before{
 	color:#444;}

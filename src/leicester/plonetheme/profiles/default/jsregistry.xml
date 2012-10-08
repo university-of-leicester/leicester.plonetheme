@@ -4,5 +4,8 @@
                 enabled="True" expression=""
                 id="++resource++leicester.plonetheme.javascripts/leicester.js"
                 inline="False"/>
-		
+ <javascript cacheable="True" compression="safe" cookable="True"
+                enabled="True" expression=""
+                id="++resource++leicester.plonetheme.javascripts/jquery.nivo.slider.js"
+                inline="False"/>
 </object>

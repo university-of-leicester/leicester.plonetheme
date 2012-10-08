@@ -8,6 +8,11 @@
 	 <stylesheet title=""
     id="++resource++leicester.plonetheme.stylesheets/iconfonts.css"
     media="screen" rel="stylesheet" rendering="import"
+    cacheable="false" compression="none" cookable="True"
+    enabled="1" expression=""/>
+	<stylesheet title=""
+    id="++resource++leicester.plonetheme.stylesheets/nivoslider.css"
+    media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
@@ -30,9 +35,18 @@
     cacheable="True" compression="safe" conditionalcomment="" cookable="True"
     enabled="on" expression="" id="uolcollagevariants.css" media="all"
     rel="stylesheet" rendering="link"/>
-<stylesheet title=""
+	<stylesheet title="" applyPrefix="False" authenticated="False"
+    cacheable="True" compression="safe" conditionalcomment="" cookable="True"
+    enabled="on" expression="" id="++resource++leicester.plonetheme.stylesheets/leicesterprint.css" media="print"
+    rel="stylesheet" rendering="link"/>
+	<stylesheet title=""
     id="++resource++leicester.plonetheme.stylesheets/mediaqueriesphones.css"
-    media="screen and (max-device-width: 480px), screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" rendering="import"
+    media="screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression=""/>
+	<stylesheet title=""
+    id="++resource++leicester.plonetheme.stylesheets/mediaqueriesphones.css"
+    media="handheld, screen and (min-width: 320px) and (max-width: 480px)" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
 	 <stylesheet title=""

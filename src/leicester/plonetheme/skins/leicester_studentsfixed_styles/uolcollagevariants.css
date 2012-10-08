@@ -141,12 +141,14 @@
     height: 10px;
     margin: 0 -14px 2px -14px;
 	clear:both;
-	background-image: -moz-linear-gradient(top, #ededed, #fff);
-	background-image: -ms-linear-gradient(top, #ededed, #fff);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed), to(#fff));
-	background-image: -webkit-linear-gradient(top, #ededed, #fff);
-	background-image: -o-linear-gradient(top, #ededed, #fff);
-	background-image: linear-gradient(top, #ededed, #fff);
+	background: -moz-linear-gradient(top, #ededed, #fff);
+	background: -ms-linear-gradient(top, #ededed, #fff);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed), to(#fff));
+	background: -webkit-linear-gradient(top, #ededed, #fff);
+	background: -o-linear-gradient(top, #ededed, #fff);
+	background: linear-gradient(top, #ededed, #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ededed', endColorstr='#ffffff');/*For IE7-8-9 */
+	 height: 1%;/*For IE7*/
 	}
 /*--------------IE7 and lower only styles -------------------*/	
 #content #collage p.buttonright {

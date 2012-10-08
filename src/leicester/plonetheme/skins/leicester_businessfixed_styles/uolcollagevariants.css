@@ -11,13 +11,15 @@
 	padding-right:1%;
 	}
 #collage .row_1 .three-columns-equal .block_3 {
-    width: 18%; 
+    width: 16%; 
 	padding:0;
 	}
 #content .row_1 p.hero a{
 	color:#ADDF7F;
 	}
 #content .row_1 .portletStaticText {
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
 	border-radius:6px; 
 	padding:12px 14px; 
 	margin-bottom:8px; 
@@ -25,17 +27,18 @@
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 	color: #ffffff;
 	background-color: #6A3E69;
-	background-image: -moz-linear-gradient(top, #AB72A6, #6A3E69);
-	background-image: -ms-linear-gradient(top, #AB72A6, #6A3E69);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AB72A6), to(#6A3E69));
-	background-image: -webkit-linear-gradient(top, #AB72A6, #6A3E69);
-	background-image: -o-linear-gradient(top, #AB72A6, #6A3E69);
-	background-image: linear-gradient(top, #AB72A6, #6A3E69);
-	background-repeat: repeat-x;
+	background: -moz-linear-gradient(top, #AB72A6, #6A3E69);
+	background: -ms-linear-gradient(top, #AB72A6, #6A3E69);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#AB72A6), to(#6A3E69));
+	background: -webkit-linear-gradient(top, #AB72A6, #6A3E69);
+	background: -o-linear-gradient(top, #AB72A6, #6A3E69);
+	background: linear-gradient(top, #AB72A6, #6A3E69);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#AB72A6', endColorstr='#6A3E69');/*For IE7-8-9 */
+	height: 1%;/*For IE7*/
 	}
 /*----------------------------------- ROW 2------------------------------------------*/
 #collage .row_2 .two-columns-equal .block_2 {
-	width: 75.5%;
+	width: 74%;
 	padding:1.5% 1.5% 1.5% 0; 
 	}
 #collage .row_2 .two-columns-equal .block_1 {

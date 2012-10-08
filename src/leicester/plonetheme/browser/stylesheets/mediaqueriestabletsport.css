@@ -14,20 +14,27 @@ body {
 /*----------------COLUMNS.CSS------------------*/	
 /* .width-1:4 */
 div.width-1\3a 4 {
-	width:25%;
+	width:28%;
 	}
 div.width-1\:2 {
-	width: 70%;
+	width: 66%;
 	}
 /* .position-1:4 */ 
 div.position-1\3a 4 {
-	margin-left:-72%;
+	margin-left:-68%;
 	}
+
+div.width-3\:4 {
+    width: 66%;
+}
+
+div.position-0 {
+    margin-left: -98%;}
 
 /* moves the third column if it exist below the nav and main content   -*/ 
 #portal-column-two {
 	clear: both;
-	margin-left: -97% !important;
+	margin-left: -98% !important;
 	margin:1em 0px;
-	width: 95% !important;
+	width: 96% !important;
 	} 

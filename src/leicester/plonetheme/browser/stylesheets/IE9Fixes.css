@@ -17,7 +17,7 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9*/ 
 	height: 1%;/*For IE7*/ 
 	}
-
+#portal-breadcrumbs a{width:auto; display:inline;}
 
 /* Paragraph Icons --------IE 9 & 8---*/
 p.warning{
@@ -39,7 +39,7 @@ p.video{
 	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/videoparaie.png") no-repeat 0 0;
 	}
 p.resources{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie8/resourcesparaie.png") no-repeat 0 0;
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/resourcesparaie.png") no-repeat 0 0;
 	}
 p.blackboard{
 	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/blackboardparaie.png") no-repeat 0 0;
@@ -66,3 +66,4 @@ p.important{
 /*--------staff and student homepage----------------*/
 .shadeddivider {filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ededed', endColorstr='#ffffff');/*For IE7-8-9*/ 
 	/* height: 1%; For IE7*/ }
+	

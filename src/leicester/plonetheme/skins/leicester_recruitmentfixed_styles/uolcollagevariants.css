@@ -7,17 +7,14 @@
 #portal-personaltools {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
 	}
-
 .template-collage_view #content h1.documentFirstHeading {
 	color: #444;
 	}
-	
 h2 a{
 	color: #205c90!important;
 	padding-right:28px;
 	display:block;
 	}
-
 h2 a:after{
 	font-size:155%;
 	font-family: 'icomoon'; 
@@ -65,7 +62,7 @@ h2 a:after{
 	}
 #content #collage .portlet-static-contact-details {
 	text-align:center; 
-	padding:10px 0px 0px 0px;
+	padding:10px 0 0 0;
 	}
 #content #collage ul li{
 	background-image: url(arrowbulletformagsblack.png);
@@ -78,11 +75,13 @@ h2 a:after{
 	 text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
 	 color: #333333;
 	 background-color: #d7d7d7;
-	 background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#d7d7d7));
-	 background-image: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
-	 background-image:    -moz-linear-gradient(top, #ffffff, #d7d7d7);
-	 background-image:     -ms-linear-gradient(top, #ffffff, #d7d7d7);
-	 background-image:      -o-linear-gradient(top, #ffffff, #d7d7d7);
+	 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#d7d7d7));
+	 background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
+	 background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
+	 background: -ms-linear-gradient(top, #ffffff, #d7d7d7);
+	 background: -o-linear-gradient(top, #ffffff, #d7d7d7);
+	 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9 */
+	 height: 1%;/*For IE7*/
 	 text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
 	 }
  

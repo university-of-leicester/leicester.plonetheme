@@ -12,4 +12,8 @@ body, .mceContentBody{
 #content table.listing th, #content table.listing tbody tr.odd td, table.keyfactstable th{
 	background:#1B4329!important;
 	}
-
+@media screen and (max-device-width: 480px), screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2){
+#portal-columns{
+	background-image:none;
+	padding-bottom:10px;
+	}}

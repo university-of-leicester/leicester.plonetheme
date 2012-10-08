@@ -10,6 +10,7 @@
         />
 
     <!-- viewlets -->
+
     <!-- The logo -->
     <browser:viewlet
         name="leicester.plonetheme.logo"
@@ -53,7 +54,7 @@
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
         />
-		
+	
 <!-- Move site personal bar --> 
     <browser:viewlet
         name="plone.personal_bar"
@@ -61,7 +62,8 @@
         class="plone.app.layout.viewlets.common.PersonalBarViewlet"
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
-        />
+        />	
+		
 		
 		<!-- Add This -->
      <browser:viewlet
@@ -114,7 +116,14 @@
 		permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
 		/>
-		
+<!-- Compatibility Mode for IE -->
+	<browser:viewlet
+        name="leicester.plonetheme.compatibilitymode"
+		manager="plone.app.layout.viewlets.interfaces.IHtmlHead"
+		template="templates/iecompatibilitymode.pt"
+		permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+		/>	
     <!-- Zope 3 browser resources -->
     <browser:resourceDirectory
         name="leicester.plonetheme.images"

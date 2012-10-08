@@ -1,10 +1,37 @@
 /*h1.documentFirstHeading:before{content:"Mobiles:";}*/
 html {
     -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
-}
+	}
 body {
-	font-size:1.1em; }
-/*shrinks university logo to a mobile friendly size*/
+	font-size:1.1em;
+	}
+
+/*-------resets the fixed width (990px) to full width-------*/
+#visual-portal-wrapper, #portal-header, #portal-footer-wrapper, .addthis_toolbox p{
+	width: 100% !important;
+	margin: 0px auto !important;
+	}
+/* move columns to below main content  */ 
+#portal-column-two, #portal-column-one {
+	clear: both;
+	margin-left: -97% !important;
+	margin:1em 0;
+	width: 94% !important;
+	} 
+/* central content area*/
+div#portal-column-content {
+	width:94%;
+	margin-left:-97%;
+	}
+/*--Simple layout options-------------*/
+.firsthalf, .secondhalf, .firstthird, .secondthird, .thirdthird, .firstquarter, .secondquarter, .thirdquarter, .fourthquarter{
+	position:relative;
+	float: none;
+	left: 0;
+	width:94%;
+	margin-left:0%;
+	}
+	/*shrinks university logo to a mobile friendly size*/
 #portal-logo img{
 	height:40px;
 	}
@@ -24,7 +51,8 @@ body {
 #mainmobilelinks a{
 	padding:12px 0 10px 14px;  
 	border-top:1px solid rgba(255, 255, 255, 0.4); 
-	border-bottom:1px solid #fff}
+	border-bottom:1px solid #fff;
+	}
 	
 /*-----mobile search box---*/
 .mobilemenu #portal-searchbox {
@@ -64,7 +92,8 @@ body {
 	padding-left:14px;
 	}
 #mobilelinks li	.mobilesocial a {
-	display:inline; padding:0 12px;
+	display:inline; 
+	padding:0 12px;
 	}
 a.mobilefacebook:before, a.mobiletwitter:before, a.mobileyoutube:before, a.mobileflickr:before, a.mobilelinkedin:before{
 	font-family: 'icomoon'; 
@@ -86,58 +115,6 @@ a.mobilelinkedin:before {
 	content: "\6c";
 	}
 	
-#mobilebacktotop a{display:inline;}
-#mobilebacktotop:before{font-family: 'icomoon'; 
-	font-size:150%;content: "\64"; display:inline; padding:10px 5px 0 10px;}
-	
-.mobilefooterextra {margin-top:10px;}
-#mobilebacktotop .mobilefooterextra li a{display:block;
-	border-top:1px solid #fff; 
-	padding:10px 14px;
-	}
-	
-/*---styles the addthis social links as the layout is different for mobiles----*/
-.mobileaddthis{
-	background:#fff; 
-	overflow:hidden;
-	width:100%!important;
-	margin:0px auto!important; 
-	padding:0;
-	}
-.mobileaddthis p{
-	display:block; padding-left:12px;
-	}
-.addthis_toolbox{
-	width:94%;
-	margin-left:3%;
-	}
-.addthis_toolbox p{
-	padding-bottom:6px;
-	}
-.mobileaddthis .addthis_button_facebook_like{
-	margin-left:12px; 
-	margin-right:4px;}
-.mobileaddthis .addthis_button_tweet, .mobileaddthis .addthis_button_google_plusone{
-	margin-right:12px;
-	}
-
-/*-------resets the fixed width (990px) to full width-------*/
-#visual-portal-wrapper, #portal-header, #portal-footer-wrapper, .addthis_toolbox p{
-	width: 100% !important;
-	margin: 0px auto !important;
-	}
-/* move columns to below main content  */ 
-#portal-column-two, #portal-column-one {
-	clear: both;
-	margin-left: -97% !important;
-	margin:1em 0px;
-	width: 94% !important;
-	} 
-/* central content area*/
-div#portal-column-content {
-	width: 94%;
-	margin-left: -97%;
-	}
 /*-----------Header-----------------*/
 .uolheader{
 	background: -moz-linear-gradient(center top , #d7d7d7 0%, #BFBFBF 100%) repeat scroll 0 0 transparent;
@@ -187,20 +164,76 @@ div#portal-column-content {
 	color:#898476!important;
 	}
 	
+
 /*-content area--------------*/
-h1.documentFirstHeading{font-size:148%;}
+h1.documentFirstHeading{
+	font-size:148%;
+	}
 /*-------slightly increase font size of the portlet headers-*/
-dt.portletHeader{font-size:118%;}
+dt.portletHeader{
+	font-size:118%;
+	}
 /*-------Navigation of department office etc-makes the nav more pressable with touch screens-------*/
 dl.portlet ul.navTreeLevel0 > .navTreeItem a{
 	font-size: 116%;
 	}
-dl.portlet ul.navTreeLevel1 > .navTreeItem{font-size: 100%;}
+dl.portlet ul.navTreeLevel1 > .navTreeItem{
+	font-size: 100%;}
 /*--images--gets rid of floats and maximises images to screen--------*/
 img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	float:none;
 	display:block;
 	}
+#content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover {
+	max-width:100%;
+	padding:6px 8px 6px 12px;}
+
+#mobilebacktotop a{
+	display:inline;
+	}
+#mobilebacktotop:before{
+	font-family: 'icomoon'; 
+	font-size:150%;
+	content: "\64"; 
+	display:inline; 
+	padding:10px 5px 0 10px;
+	}
+.mobilefooterextra {
+	margin-top:10px;
+	}
+#mobilebacktotop .mobilefooterextra li a{
+	display:block;
+	border-top:1px solid #fff; 
+	padding:10px 14px;
+	}
+	
+/*---styles the addthis social links as the layout is different for mobiles----*/
+.mobileaddthis{
+	background:#fff; 
+	overflow:hidden;
+	width:100%!important;
+	margin:0px auto!important; 
+	padding:0;
+	}
+.mobileaddthis p{
+	display:block; 
+	padding-left:12px;
+	}
+.addthis_toolbox{
+	width:94%;
+	margin-left:3%;
+	}
+.addthis_toolbox p{
+	padding-bottom:6px;
+	}
+.mobileaddthis .addthis_button_facebook_like{
+	margin-left:12px; 
+	margin-right:4px;
+	}
+.mobileaddthis .addthis_button_tweet, .mobileaddthis .addthis_button_google_plusone{
+	margin-right:12px;
+	}
+
 	
 /*------------Footer---------------*/
 #portal-footer{
@@ -210,43 +243,41 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	display:none;
 	}
 
-
-
 /*---------All Collages pages-----*/
 .template-collage_view {
 	background-image:none;
 	}
-	
-
-#collage { width: 100%;}
-
-#collage .documentFirstHeading{padding:4px 6px;}
-#collage .documentDescription{padding-left:10px;}
-	
+#collage {
+	width:100%;
+	}
+#collage .documentFirstHeading{
+	padding:4px 6px;
+	}
+#collage .documentDescription{
+	padding-left:10px;
+	}
 /*-------Alumni------------*/
-
 .collage-item {
-  margin:0!important;}
+	margin:0!important;
+	}
 
-#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2, #collage .row_1 .three-columns-equal .block_3{ padding: 0; 
+#collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2, #collage .row_1 .three-columns-equal .block_3{
+	padding: 0; 
 	margin:0;
     width: 100%;
-	padding: 0;
-}
+	}
 #collage .row_2 .three-columns-equal .block_1, #collage .row_2 .three-columns-equal .block_2, #collage .row_2 .three-columns-equal .block_3 {
     padding: 0; 
 	margin:0;
     width: 94%;
 	margin-left: 3%;
 	}
-
 #content .row_1 .three-columns-equal .block_1 .portletStaticText, #content .row_1 .three-columns-equal .block_2 .portletStaticText, #content .row_1 .three-columns-equal .block_3 .portletStaticText{
 	border-radius:0;
 	margin:0; 
 	min-height:50px; 
 	padding-bottom:14px;
 	}
-
 #collage .row_2 .three-columns-equal .block_1, #collage .row_2 .three-columns-equal .block_2, #collage .row_2 .three-columns-equal .block_3{
 	width: 92%!important; 
 	margin-left:4%;
@@ -254,7 +285,9 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 #collage .row_2 .three-columns-equal .block_1{
 	margin-top:10px;
 	}
-.portlet-static-sub-navigation-portlet p a {font-size:120%;}
+.portlet-static-sub-navigation-portlet p a {
+	font-size:120%;
+	}
 /*--------------Staff and students-----------*/
 #collage .two-columns-largeright .block_1, #collage .two-columns-largeright .block_2{
 	padding: 0;
@@ -279,7 +312,6 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	margin: 10px 0 0 0;
     width: 92%!important;
 	}
-	
 #content #collage .two-columns-largeright .block_1 .portletStaticText {
 	margin:0;
 	}
@@ -297,44 +329,56 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	
 /*=-------------business------------------------=*/
 #collage .row_2 .two-columns-equal .block_1, #collage .row_2 .two-columns-equal .block_2 {
-   padding: 0;
-    width: 94%;
+	padding: 0;
+	width: 94%;
 	margin-left: 3%;
-}
-
+	}
 #collage .row_2 .two-columns-equal .block_1{
 	margin-top:10px;
 	}
 
-/*=-------------IT Services------------------------=*/
-
+/*------------IT Services------------------------*/
 #collage .two-columns-equal .block_1, #collage .two-columns-equal .block_2  {
  	padding: 0;
     width: 100%;
 	margin-left: 3%;
-}
-
+	}
 #collage .block_2, #collage .block_4, #collage .block_3, #collage .block_4, #collage .block_5, #collage .block_6 {
     padding-left: 0;
-}
-
+	}
 /*---------------------Jobs------------------*/
-#content #collage .portlet-static-job-opportunities, #content #collage .portlet-static-why-work-here, #content #collage .portlet-static-manage-your-application, #content #collage .portlet-static-support-for-new-starters{width: 92%;  margin:0;
-border-radius: 0; border:none;}
-
-#content #collage .portlet-static-guidance-for-staff h2{padding-left:14px;}
-
+#content #collage .portlet-static-job-opportunities, #content #collage .portlet-static-why-work-here, #content #collage .portlet-static-manage-your-application, #content #collage .portlet-static-support-for-new-starters{
+	width: 92%;  
+	margin:0;
+	border-radius: 0; 
+	border:none;
+	}
+#content #collage .portlet-static-guidance-for-staff h2{
+	padding-left:14px;
+	}
 /*--------------Library sub page ---------------------*/
-#libraryfooter{height: auto; overflow:hidden; background:#E0E2E2;}
+#libraryfooter{
+	height: auto; 
+	overflow:hidden; 
+	background:#E0E2E2;
+	}
 #libraryfooter, #libraryfooter .box1, #libraryfooter .box2 {
 	width: 100% !important;
 	margin: 0px auto !important;
-	
 	}
-	
-#libraryfooter .box1{	margin: 0; padding: 0 16px 10px 16px; }
-#libraryfooter .box1 ul{width: 80% !important;}
-#libraryfooter .box1 ul li {display:block; padding:10px 0!important;}
-
+#libraryfooter .box1{
+	margin: 0; 
+	padding: 0 16px 10px 16px;
+	}
+#libraryfooter .box1 ul{
+	width: 80% !important;
+	}
+#libraryfooter .box1 ul li {
+	display:block; 
+	padding:10px 0!important;
+	}
 /*---------- Portal pages ----------------------*/
-#portal-columns{background-image:none; padding-bottom:10px;}
+#portal-columns{
+	background-image:none; 
+	padding-bottom:10px;
+	}

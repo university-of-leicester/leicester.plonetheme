@@ -27,20 +27,21 @@ h3.tileHeadline {
 	float:right;
 	padding-right:10px;
 	}
+#collage .newsicon{margin-top:20px!important;}
 .standard-topic h2:after{
-	content: "\21"; 
+	content: "\36";
 	font-size:200%;
 	}
 .portlet-static-core-services h2:after{
 	content: "\37"; 
-	font-size:250%;
+	font-size:270%;
 	}
 .portlet-static-about-it-services h2:after{
 	content: "\5c";
 	}
-.portlet-static-it-support h2:after{
+/*.portlet-static-it-support h2:after{
 	content: "\34";
-	}
+	}*/
 .template-collage_view h1.documentFirstHeading {
 	margin-left:1.5%;
 	}
@@ -65,9 +66,9 @@ h3.tileHeadline {
 	}
 .portlet-static-it-support ul li a{
 	color:#fff!important;
-	font-size:1.1em; 
+	font-size:1.05em; 
 	display:block; 
-	padding:8px 12px;
+	padding:3px 12px 4px;
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	-o-border-radius:4px;
@@ -84,6 +85,8 @@ h3.tileHeadline {
 	background: -ms-linear-gradient(top, #556BB7, #384983); /* IE10 */
 	background: -o-linear-gradient(top, #556BB7, #384983); /* Opera 11.10+ */
 	background: linear-gradient(top, #556BB7, #384983); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#556BB7', endColorstr='#384983');/*For IE7-8-9 */
+	height: 1%;/*For IE7*/
 	}
 #content #collage .portlet-static-it-support ul li a:hover{
 	background: #000; 
@@ -106,7 +109,7 @@ h3.tileHeadline {
 	}
 .standard-topic #parent-fieldname-text h2.whatsnew {
 	border-top:1px solid #ccc; 
-	padding-top:3%; 
+	padding-top:4.5%; 
 	display:block!important; 
 	margin-top:3%;
 	}
