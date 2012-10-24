@@ -1,94 +1,94 @@
 /* CSS Document */
 body {
-	width:100%; 
-	padding:0; 
-	margin:0;
+	*width:100%; 
+	*padding:0; 
+	*margin:0;
 	}
 #portal-footer ul.right {
- 	float:left; 
-	margin:7px 0 0;
-	padding:0;
-	width:900px;}
+ 	*float:left; 
+	*margin:7px 0 0;
+	*padding:0;
+	*width:900px;}
 #portal-footer ul.right li{
-	float:none; 
-	text-align:left;}
+	*float:none; 
+	*text-align:left;}
 #portal-footer ul.left li,#portal-footer ul.right li {
-	list-style-type: disc!important; 
-	padding-left:8px;
+	*list-style-type: disc!important; 
+	*padding-left:8px;
 	}
 #portal-header{
-	clear:both;
+	*clear:both;
 	}
 #portal-footer ul.left li,#portal-footer ul.right li, #portal-footer ul.social li {
-	list-style-type: disc;
+	*list-style-type: disc;
 	}
 
 /* ----------------Paragraph Icons---These are diferent graphics to the IE8&9 because IE7 can't do :before or :after-----------*/
 p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio, p.keyfacts,p.documentation,p.important {
-	padding:28px 10px 14px 36px;
+	*padding:28px 10px 14px 36px;
 	}
 	
 p.warning{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/warningparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/warningparaie7.png") no-repeat 0 0;
 	}
 p.questions,p.faqs{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/faqparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/faqparaie7.png") no-repeat 0 0;
 	}
 p.quicklinks{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/linksparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/linksparaie7.png") no-repeat 0 0;
 	}
 p.info,p.ploneinfo{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/infoparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/infoparaie7.png") no-repeat 0 0;
 	}
 p.example{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/exampleparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/exampleparaie7.png") no-repeat 0 0;
 	}
 p.video{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/videoparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/videoparaie7.png") no-repeat 0 0;
 	}
 p.resources{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/resourcesparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/resourcesparaie7.png") no-repeat 0 0;
 	}
 p.blackboard{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/blackboardparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/blackboardparaie7.png") no-repeat 0 0;
 	}
 p.help{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/helpparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/helpparaie7.png") no-repeat 0 0;
 	}
 p.goodpractice{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/goodparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/goodparaie7.png") no-repeat 0 0;
 	}
 p.podcast,p.audio{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/audioparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/audioparaie7.png") no-repeat 0 0;
 	}
 p.keyfacts{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/keyfactsparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/keyfactsparaie7.png") no-repeat 0 0;
 	}
 p.documentation{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/documentationparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/documentationparaie7.png") no-repeat 0 0;
 	}
 p.important{
-	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/importantparaie7.png") no-repeat 0 0;
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/importantparaie7.png") no-repeat 0 0;
 	}
 
 
 #content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover{
-	background-image: url("++resource++leicester.plonetheme.images/ie7/ctaarrowie7.png") ;
-	background-repeat:no-repeat;
-	background-position:2px 4px!important; 
-	padding:4px 10px 4px 24px;
+	*background-image: url("++resource++leicester.plonetheme.images/ie7/ctaarrowie7.png") ;
+	*background-repeat:no-repeat;
+	*background-position:2px 4px!important; 
+	*padding:4px 10px 4px 24px;
 	}
 #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover {
-	background-image: url("++resource++leicester.plonetheme.images/ie7/topie7.png");
-	background-repeat:no-repeat;
-	background-position:0px 0px!important; 
-	padding:4px 8px 6px 10px;
+	*background-image: url("++resource++leicester.plonetheme.images/ie7/topie7.png");
+	*background-repeat:no-repeat;
+	*background-position:0px 0px!important; 
+	*padding:4px 8px 6px 10px;
 	}
 
 .quote,.quoteleft,.smallquote,.portletStaticText .quote,.portletStaticText .smallquote, .portletStaticText div.profile p{
-	background-image: url("++resource++leicester.plonetheme.images/ie7/quotetop.png");
-	background-repeat:no-repeat;
-	background-position:2px 4px!important;
-	padding-left:34px;
-	padding-top:10px;}
+	*background-image: url("++resource++leicester.plonetheme.images/ie7/quotetop.png");
+	*background-repeat:no-repeat;
+	*background-position:2px 4px!important;
+	*padding-left:34px;
+	*padding-top:10px;}
 	

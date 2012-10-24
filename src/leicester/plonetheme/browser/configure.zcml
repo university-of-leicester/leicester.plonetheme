@@ -124,6 +124,19 @@
 		permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
 		/>	
+<!-- Moved viewlet registration -->
+    <configure package="Products.ContentWellPortlets">
+        <browser:viewlet
+            name="contentwellportlets.portletsabovecontent"
+            class="Products.ContentWellPortlets.browser.viewlets.PortletsAboveViewlet"
+            manager="plone.app.layout.viewlets.interfaces.IBelowContentTitle"
+            layer="Products.ContentWellPortlets.browser.interfaces.IContentWellPortlets"
+            permission="zope2.View"
+            template="browser/templates/portletsabovecontent.pt"
+        />
+    </configure>
+	
+		
     <!-- Zope 3 browser resources -->
     <browser:resourceDirectory
         name="leicester.plonetheme.images"

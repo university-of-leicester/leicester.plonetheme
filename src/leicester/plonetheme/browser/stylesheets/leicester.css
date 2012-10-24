@@ -1618,6 +1618,13 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 #content p.toparrow a:hover:before{
 	color:#fff;
 	}	
+	
+#content p.toparrow{
+	display:block!important;
+	width:100%;
+	clear:both;
+	margin-bottom:40px;
+	}
 /* --------------- QUOTES ----------------------*/
 .quote,.quoteleft,.smallquote,.quotereferenceleft,.smallquotereference,.quotereference {
 	margin:0 0 5px;
@@ -1689,11 +1696,17 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	}
 
 /*--Simple layout options-------------*/
-.firsthalf, .secondhalf, .firstthird, .secondthird, .thirdthird, .firstquarter, .secondquarter, .thirdquarter, .fourthquarter{
+.fullcell, .firsthalf, .secondhalf, .firstthird, .secondthird, .thirdthird, .firstquarter, .secondquarter, .thirdquarter, .fourthquarter{
 	position: relative;
 	float: left;
 	left: 100%;
+	padding:0;
+	margin:0;
 	}
+	
+.fullcell{
+	width: 97.75%;
+	 }
 .firsthalf, .secondhalf{
 	width:47.75%;
 	}
@@ -1703,7 +1716,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 .firstquarter, .secondquarter, .thirdquarter, .fourthquarter{
 	width:  22.75%;
 	}
-.firsthalf, .firstthird, .firstquarter {
+.fullcell, .firsthalf, .firstthird, .firstquarter {
 	margin-left: -98.875%;
 	}
 .secondhalf {
@@ -1724,4 +1737,13 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 .fourthquarter{
 	margin-left: -23.875%;
 	}
+/*-neeeded for portlets within the page if I can get contentwells to work-*/
+#content dl.portlet dd {
+    margin:0;
+}
 
+#content dl.portlet{
+	font-size:100%;
+	}
+/*-----removes the link for the portlet that I've tried to move-----------------*/
+#viewlet-below-content-title .managePortletsAboveLink{display:none;}

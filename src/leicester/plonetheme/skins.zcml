@@ -31,7 +31,6 @@
   <cmf:registerDirectory name="leicester_stonelightfixed_styles"/>
   <cmf:registerDirectory name="leicester_stonemediumfixed_styles"/>
   <cmf:registerDirectory name="leicester_beyondfixed_styles"/>
-  <cmf:registerDirectory name="leicester_careersfixed_styles"/>
   <cmf:registerDirectory name="leicester_chairsfixed_styles"/>
   <cmf:registerDirectory name="leicester_facmedfixed_styles"/>
   <cmf:registerDirectory name="leicester_geniefixed_styles"/>
@@ -72,4 +71,7 @@
   <cmf:registerDirectory name="leicester_stafffixed_images"/>
   <cmf:registerDirectory name="leicester_studentsfixed_styles"/>
   <cmf:registerDirectory name="leicester_studentsfixed_images"/>
+  <cmf:registerDirectory name="leicester_swumess_styles"/>
+  <cmf:registerDirectory name="leicester_homemess_styles"/>
+  <cmf:registerDirectory name="leicester_librarymess_styles"/>
 </configure>

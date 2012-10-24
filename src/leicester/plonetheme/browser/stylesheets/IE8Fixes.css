@@ -1,126 +1,126 @@
 /* CSS Document */
 /*------Header tab and footer graphic as -IE 8 and lower can't cope with opacity or rounded corners--*/
 .uolheader {
-	background:url("++resource++leicester.plonetheme.images/ie8/banner_title_bg.png") no-repeat top right;
+	background:url("++resource++leicester.plonetheme.images/ie8/banner_title_bg.png") no-repeat top right\9;
 	}
 #portal-footer, #portal-globalnav {
-	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png");
-	overflow:hidden; 
-	height:1%; 
-	position: relative; 
-	display:block;
+	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png")\9;
+	overflow:hidden\9; 
+	height:1%\9; 
+	position: relative\9; 
+	display:block\9;
 	}
 #portal-footer, #portal-globalnav {
-	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png") 0 0;
+	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png") 0 0\9;
 	}
 .commentBody {
-    border:1px solid #ccc;
+    border:1px solid #ccc\9;
 	}
 
 /*----Call to action buttons----IE 8 & 7--*/
 .calltoactionprospectus a:before, .calltoactionapply a:before, .calltoactionopenday a:before,  .calltoactionmyleicester a:before, .calltoactioncourse a:before, .calltoactionfeesfinance a:before, .calltoactionblackboard a:before, .calltoactionexpert a:before, .calltoactionscholarships a:before, .calltoactionfindus a:before, .calltoactionleicsex a:before, .calltoactionapplyphd a:before, .calltoactionengage a:before, .calltoactionbooknow a:before, .calltoactionprospectus a span, .calltoactionapply a span, .calltoactionopenday a span,  .calltoactionmyleicester a span, .calltoactioncourse a span, .calltoactionfeesfinance a span, .calltoactionblackboard a span, .calltoactionexpert a span, .calltoactionscholarships a span, .calltoactionfindus a span, .calltoactionleicsex a span, .calltoactionapplyphd a span, .calltoactionengage a span, .calltoactionbooknow a span{
-	display:none;
+	display:none\9;
 	}
 .calltoactionprospectus a, .calltoactionapply a, .calltoactionopenday a,  .calltoactionmyleicester a, .calltoactioncourse a, .calltoactionfeesfinance a, .calltoactionblackboard a, .calltoactionexpert a, .calltoactionscholarships a, .calltoactionfindus a, .calltoactionleicsex a, .calltoactionapplyphd a, .calltoactionengage a, .calltoactionbooknow a{
-	min-height:32px; 
-	padding:0;
+	min-height:32px\9; 
+	padding:0\9;
 	}
 .calltoactionmyleicester a {
-	min-height:51px;
+	min-height:51px\9;
 	}
 	
 .calltoactionprospectus a{
-	background: url("++resource++leicester.plonetheme.images/ie8/prospectus.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/prospectus.png") no-repeat 0 0\9;
 	}
 .calltoactionprospectus a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/prospectushover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/prospectushover.png") no-repeat 0 0\9;
 	}
 	
 .calltoactionapply a{
-	background: url("++resource++leicester.plonetheme.images/ie8/applyonline.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/applyonline.png") no-repeat 0 0\9;
 	}
 .calltoactionapply a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/applyonlinehover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/applyonlinehover.png") no-repeat 0 0\9;
 	}
 	
 .calltoactionapplyphd a{
-	background: url("++resource++leicester.plonetheme.images/ie8/applyphd.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/applyphd.png") no-repeat 0 0\9;
 	}
 .calltoactionapplyphd a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/applyphdhover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/applyphdhover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionopenday a{
-	background: url("++resource++leicester.plonetheme.images/ie8/bookopenday.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/bookopenday.png") no-repeat 0 0\9;
 	}
 .calltoactionopenday a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/bookopendayhover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/bookopendayhover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionmyleicester a{
-	background: url("++resource++leicester.plonetheme.images/ie8/myleicester.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/myleicester.png") no-repeat 0 0\9;
 	}
 .calltoactionmyleicester a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/myleicesterhover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/myleicesterhover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionfeesfinance a{
-	background: url("++resource++leicester.plonetheme.images/ie8/fees.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/fees.png") no-repeat 0 0\9;
 	}
 .calltoactionfeesfinance a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/feeshover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/feeshover.png") no-repeat 0 0\9;
 	}
 
 .calltoactioncourse a{
-	background: url("++resource++leicester.plonetheme.images/ie8/findacourse.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/findacourse.png") no-repeat 0 0\9;
 	}
 .calltoactioncourse a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/findacoursehover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/findacoursehover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionblackboard a{
-	background: url("++resource++leicester.plonetheme.images/ie8/blackboard.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/blackboard.png") no-repeat 0 0\9;
 	}
 .calltoactionblackboard a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/blackboardhover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/blackboardhover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionfindus a{
-	background: url("++resource++leicester.plonetheme.images/ie8/howtofindus.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/howtofindus.png") no-repeat 0 0\9;
 	}
 .calltoactionfindus a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/howtofindushover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/howtofindushover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionengage a{
-	background: url("++resource++leicester.plonetheme.images/ie8/engage.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/engage.png") no-repeat 0 0\9;
 	}
 .calltoactionengage a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/engagehover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/engagehover.png") no-repeat 0 0\9;
 	}
 
 .calltoactionleicsex a{
-	background: url("++resource++leicester.plonetheme.images/ie8/leicesterexchanges.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/leicesterexchanges.png") no-repeat 0 0\9;
 	}
 .calltoactionleicsex a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/leicesterexchangeshover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/leicesterexchangeshover.png") no-repeat 0 0\9;
 	}
 
 
 .calltoactionbooknow a{
-	background: url("++resource++leicester.plonetheme.images/ie8/booknow.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/booknow.png") no-repeat 0 0\9;
 	}
 .calltoactionbooknow a:hover{
-	background: url("++resource++leicester.plonetheme.images/ie8/booknowhover.png") no-repeat 0 0;
+	background: url("++resource++leicester.plonetheme.images/ie8/booknowhover.png") no-repeat 0 0\9;
 	}
 
 #content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{
-	margin-right:5px;
-	margin-left:8px; 
+	margin-right:5px\9;
+	margin-left:8px\9; 
 	}
 
 #content p.toparrow a:before{
-	margin-left:8px;
+	margin-left:8px\9;
 	}
 	
-.portletBlockedMessage{color:#333!important;}
+.portletBlockedMessage{color:#333!important\9;}

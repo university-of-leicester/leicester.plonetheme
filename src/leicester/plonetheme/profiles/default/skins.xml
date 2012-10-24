@@ -273,6 +273,7 @@
 		<object name="leicester_itsfixed_images"
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_itsfixed_images"/>
+	
 
   <skin-path name="leicester.plonetheme" based-on="Sunburst Theme">
 
@@ -596,4 +597,6 @@
 	  <layer name="leicester_collagefixed_styles"
      insert-after="leicester_itsfixed_images"/>
  </skin-path>
+ 
+ 
 </object>
