@@ -1110,7 +1110,7 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	 }
  /*-comment bubble-*/
  .calltoactionleicsex a:before, .calltoactionengage a:before{
-	ccontent: "\e00d";
+	content: "\e00a";
 	 }
  /*-plain arrow-*/
  .calltoactionscholarships a:before, .calltoactionfeesfinance a:before, .calltoactionblackboard a:before {

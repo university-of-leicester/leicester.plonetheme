@@ -90,7 +90,7 @@ border-color: #ccc;
 	display:inline-block; 
 	float:left; 
 	width:19px;
-	content: "\65";
+	content: "\e008";
 	color: #C82220 !important;}
 	
 #content table th a, #content table td a, #content table th.white a, #content table th.whiteglossy a, #content table th.whiteshadow a, #content table th.white h2 a, #content table th.whiteglossy h2 a, #content table th.whiteshadow h2 a, #content table th.white h3 a, #content table th.whiteglossy h3 a, #content table th.whiteshadow h3 a, #content table th.white h4 a, #content table th.whiteglossy h4 a, #content table th.whiteshadow h4 a, #content table th.white h5 a, #content table th.whiteglossy h5 a, #content table th.whiteshadow h5 a, #content table th.white p a, #content table th.whiteglossy p a, #content table th.whiteshadow p a{color:#E02725!important;}
