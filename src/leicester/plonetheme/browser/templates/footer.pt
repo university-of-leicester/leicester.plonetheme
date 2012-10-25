@@ -1,9 +1,25 @@
 <div id="portal-footer">
 <ul class="social"><li class="text hide">Follow the University on</li>
-<li class="facebook"><a title="Follow us on Facebook" href="http://www.facebook.com/pages/University-of-Leicester/133372010036917" target="_blank">&#x66;</a></li>
-<li class="twitter"><a title="Follow us on Twitter" href="http://twitter.com/uniofleicester" target="_blank">&#x67;</a></li>
-<li class="youtube"><a title="Follow us on YouTube" href="http://www.youtube.com/UniversityLeicester" target="_blank">&#x68;</a></li>
-<li class="flickr"><a title="Follow us on Flickr" href="http://www.flickr.com/groups/universityleicester/" target="_blank">&#x6a;</a></li><li class="linkedin"><a title="Follow us on Linkedin" href="http://www.linkedin.com/companies/university-of-leicester" target="_blank">&#x6c;</a></li></ul>
+<li><a href="http://www.facebook.com/pages/University-of-Leicester/133372010036917" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe007;"></span>
+  <span class="screen-reader-text">Follow us on Facebook</span>
+</a></li>
+<li><a href="http://twitter.com/uniofleicester" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe006;"></span>
+  <span class="screen-reader-text">Follow us on Twitter</span>
+</a></li>
+<li><a href="http://www.youtube.com/UniversityLeicester" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe005;"></span>
+  <span class="screen-reader-text">Follow us on YouTube</span>
+</a></li>
+<li><a href="http://www.flickr.com/groups/universityleicester/" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe004;"></span>
+  <span class="screen-reader-text">Follow us on Flickr</span>
+</a></li>
+<li><a href="http://www.linkedin.com/companies/university-of-leicester" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe002;"></span>
+  <span class="screen-reader-text">Follow us on Linkedin</span>
+</a></li></ul>
 <ul class="left">
 <li class="hide"><a title="Staff" href="http://www.le.ac.uk/staff">Staff</a></li>
 <li><a title="Current Students" href="http://www.le.ac.uk/students">Current Students</a></li>

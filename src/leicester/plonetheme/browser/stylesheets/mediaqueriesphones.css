@@ -34,6 +34,7 @@ div#portal-column-content {
 	/*shrinks university logo to a mobile friendly size*/
 #portal-logo img{
 	height:40px;
+
 	}
 /*----this hides the global nav, login menu and search box from displaying at the top of the screen on mobiles---*/
 #portal-globalnav, #portal-searchbox, #mobilelinks, #portal-personaltools, .deskaddthis{
@@ -49,10 +50,14 @@ div#portal-column-content {
 	}
 /*--this is the 'quick links and search-----*/
 #mainmobilelinks a{
-	padding:12px 0 10px 14px;  
-	border-top:1px solid rgba(255, 255, 255, 0.4); 
-	border-bottom:1px solid #fff;
+	padding:10px 0 10px 12px;   
+	position:absolute;
+	top:-60px;
+	width:14%;
+	right:0px
 	}
+	
+#mainmobilelinks a.icon-alone{font-size:200%;}
 	
 /*-----mobile search box---*/
 .mobilemenu #portal-searchbox {
@@ -93,27 +98,10 @@ div#portal-column-content {
 	}
 #mobilelinks li	.mobilesocial a {
 	display:inline; 
-	padding:0 12px;
+	padding:0 10px;
 	}
-a.mobilefacebook:before, a.mobiletwitter:before, a.mobileyoutube:before, a.mobileflickr:before, a.mobilelinkedin:before{
-	font-family: 'icomoon'; 
-	font-size:200%;
-	}
-a.mobilefacebook:before { 
-	content: "\66";
-	}
-a.mobiletwitter:before {
-	content: "\67";
-	}
-a.mobileyoutube:before {
-	content: "\68";
-	}
-a.mobileflickr:before {
-	content: "\6a";
-	}
-a.mobilelinkedin:before {
-	content: "\6c";
-	}
+#mobilelinks li	.mobilesocial a.icon-alone{
+	font-size:200%;}
 	
 /*-----------Header-----------------*/
 .uolheader{
@@ -126,10 +114,10 @@ a.mobilelinkedin:before {
 	}
 .uolheader p{
 	display:block; 
-	width:86%;
+	width:81%;
 	float:left;
 	margin:0; 
-	padding-left:2pz;
+	padding-left:1px;
 	padding-bottom:4px;
 	font-size:120%;
 	}	
@@ -145,19 +133,10 @@ a.mobilelinkedin:before {
 	}
 /*------Anchor link to navigation portlet (column one)---*/
 .mobileskip {
-	width:13%;
+	width:15%;
 	display:block;
 	float:left;
-	padding:0 0 1% 1%;
-	}
-.mobileskip li a:before{
-	content: "\63";
-	font-family: 'icomoon'; 
-	font-size:115%; 
-	color:#444;
-	margin:0;
-	text-align:center;
-	display:block;
+	padding:0 0 0 12px;
 	}
 .mobileskip li a{
 	display:block; 
@@ -193,10 +172,10 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	}
 #mobilebacktotop:before{
 	font-family: 'icomoon'; 
-	font-size:150%;
-	content: "\64"; 
+	font-size:130%;
+	content: "\e013"; 
 	display:inline; 
-	padding:10px 5px 0 10px;
+	padding:10px 8px 0 10px;
 	}
 .mobilefooterextra {
 	margin-top:10px;

@@ -56,7 +56,7 @@
 	float:right; 
 	width:19px;
 	color:rgba(0,0,0,0.6);
-	content: "\65";
+	content: "\e008";
 	}
 #content #collage ul li:before{
 	float:left;

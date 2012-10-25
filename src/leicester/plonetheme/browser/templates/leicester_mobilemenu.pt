@@ -1,5 +1,6 @@
 <div class="mobilemenu">
-    <div id="mainmobilelinks"><a href="#">Quick Links &#9660;</a></div>
+    <div id="mainmobilelinks"><a href="#" class="icon-alone"><span aria-hidden="true" data-icon="&#xe022;"></span>
+  <span class="screen-reader-text">Follow us on Facebook</span></a></div>
     <ul id="mobilelinks">
         <li><a title="University A-Z" href="http://www.le.ac.uk/indexes">University A-Z</a></li>
 		<li><div id="portal-searchbox">
@@ -15,10 +16,26 @@
 		<li><a title="Current Students" href="http://www.le.ac.uk/study">Study With Us</a></li>
         <li><a title="Library" href="http://www.le.ac.uk/library">Library</a></li>
         <li><a title="Blackboard" href="https://blackboard.le.ac.uk">Blackboard</a>
-		<li class="socialhide"><div class="mobilesocial"><p>Follow the University on</p><a class="mobilefacebook" title="Follow us on Facebook" href="http://www.facebook.com/pages/University-of-Leicester/133372010036917" target="_blank"></a>
-		<a class="mobiletwitter" title="Follow us on Twitter" href="http://twitter.com/uniofleicester" target="_blank"></a>
-<a class="mobileyoutube" title="Follow us on YouTube" href="http://www.youtube.com/UniversityLeicester" target="_blank"></a>
-<a class="mobileflickr" title="Follow us on Flickr" href="http://www.flickr.com/groups/universityleicester/" target="_blank"></a><a class="mobilelinkedin" title="Follow us on Linkedin" href="http://www.linkedin.com/companies/university-of-leicester" target="_blank"></a></div></li>
+		<li class="socialhide"><div class="mobilesocial"><p>Follow the University on</p><a href="http://www.facebook.com/pages/University-of-Leicester/133372010036917" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe007;"></span>
+  <span class="screen-reader-text">Follow us on Facebook</span>
+</a>
+<a href="http://twitter.com/uniofleicester" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe006;"></span>
+  <span class="screen-reader-text">Follow us on Twitter</span>
+</a>
+<a href="http://www.youtube.com/UniversityLeicester" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe005;"></span>
+  <span class="screen-reader-text">Follow us on YouTube</span>
+</a>
+<a href="http://www.flickr.com/groups/universityleicester/" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe004;"></span>
+  <span class="screen-reader-text">Follow us on Flickr</span>
+</a>
+<a href="http://www.linkedin.com/companies/university-of-leicester" target="_blank" class="icon-alone">
+  <span aria-hidden="true" data-icon="&#xe002;"></span>
+  <span class="screen-reader-text">Follow us on Linkedin</span>
+</a></div></li>
     </ul>
 </div>
 

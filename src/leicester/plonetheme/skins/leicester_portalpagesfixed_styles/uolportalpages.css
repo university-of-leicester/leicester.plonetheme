@@ -83,7 +83,7 @@ div.portletStaticText ul li{
 	margin-left:0; 
 	color:#fff;
 	color:rgba(255,255,255,0.6);
-	content: "\65";
+	content: "\e008";
 	}
 #content ul.arrow li:before, div.portletStaticText ul.arrow li:before{
 	color:#fff; 

@@ -858,7 +858,7 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	}
 #portal-footer ul.left li:before, #portal-footer ul.right li:before, #portal-footer ul.social li a{
 	font-family:'icomoon'; 
-	content: "\e002";
+	content: "\e01f";
 	font-size:120%; 
 	display:inline-block;  
 	color:rgba(255,255,255,0.6);
@@ -891,7 +891,7 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	margin:7px 0 6px;
 	padding:0;
 	}
-#portal-footer ul.social li.facebook a,#portal-footer ul.social li.linkedin a,#portal-footer ul.social li.twitter a,#portal-footer ul.social li.youtube a,#portal-footer ul.social li.flickr a{
+#portal-footer ul.social li a.icon-alone{
 	font-size:170%; 
 	color:#fff;
 	margin:0 0 0 8px;
@@ -899,13 +899,16 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	top:0;
 	left:0;
 	}	
-/*	
-#portal-footer ul.social li.facebook a{content: "\66"; }
-#portal-footer ul.social li.twitter a{	content: "\67";}
-#portal-footer ul.social li.youtube a{content: "\68";}
-#portal-footer ul.social li.flickr a{content: "\6a";}	
-#portal-footer ul.social li.linkedin a{content: "\6c";}
-*/
+	
+.icon-alone {
+  display: inline-block; /* Fix for clickability issue in WebKit */
+}
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
 
 #portal-footer ul.social li.text{
 	margin-right:4px; 
@@ -1091,27 +1094,27 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	font-weight:normal;
 	}
 .calltoactionprospectus a:before, .calltoactionapply a:before, .calltoactionmyleicester a:before, .calltoactionapplyphd a:before{
-	content: "\5b";
+	content: "\e00f";
 	}
 /*-map pin icon-*/
  .calltoactionfindus a:before{
-	 content: "\2f";
+	 content: "\e00c";
 	 }
  /*magnify glass*/
  .calltoactioncourse a:before, .calltoactionexpert a:before{
-	content: "\38";
+	content: "\e00e";
 	 }
  /*-book now-*/
  .calltoactionopenday a:before, .calltoactionbooknow a:before{
-	content: "\33";
+	content: "\e00b";
 	 }
  /*-comment bubble-*/
  .calltoactionleicsex a:before, .calltoactionengage a:before{
-	content: "\36";
+	ccontent: "\e00d";
 	 }
  /*-plain arrow-*/
  .calltoactionscholarships a:before, .calltoactionfeesfinance a:before, .calltoactionblackboard a:before {
-	 content: "\5e"; 
+	 content: "\e012";
 	 font-size:110%;
 	 }
 .calltoactionprospectus a:hover:before, .calltoactionapply a:hover:before, .calltoactionopenday a:hover:before,  .calltoactionmyleicester a:hover:before, .calltoactioncourse a:hover:before, .calltoactionfeesfinance a:hover:before, .calltoactionblackboard a:hover:before, .calltoactionexpert a:hover:before, .calltoactionscholarships a:hover:before, .calltoactionfindus a:hover:before, .calltoactionleicsex a:hover:before, .calltoactionapplyphd a:hover:before, .calltoactionengage a:hover:before, .calltoactionbooknow a:hover:before{
@@ -1172,7 +1175,7 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	}
 #content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{
 	font-family: 'icomoon'; 
-	content: "\5e"; 
+	content: "\e012";
 	display:inline-block; 
 	float:left; 
 	width:22px; 
@@ -1280,7 +1283,7 @@ padding:3px 6px 3px 10px;
 	width:22px; 
 	margin-left:5px; 
 	color:rgba(255,255,255,0.6);
-	content: "\5e";
+	content: "\e012";
 	}
 #portal-column-two .portletStaticText div.profile img{
 	padding:5px;
@@ -1533,7 +1536,7 @@ p.greyintro {
 	float:left; 
 	width:19px;
 	color:rgba(0,0,0,0.6);
-	content: "\65";
+	content: "\e008";
 	}
 #content ul.arrow li, .portletStaticText ul.arrow li, dl.portletStaticText ul.arrow li{
 	margin: 0 0 0.75em 0.7em; 
@@ -1606,7 +1609,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	overflow:hidden !important;
 	}
 #content p.toparrow a:before{
-	content: "\61"; 
+	content: "\e013"; 
 	font-family: 'icomoon'; 
 	font-size:100%; 
 	display:block; 
@@ -1650,7 +1653,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	padding:6px 0 5px;
 	}
 .quote:before,.quoteleft:before,.smallquote:before,.portletStaticText .quote:before,.portletStaticText .smallquote:before, .portletStaticText div.profile p:before{
-	content: "\7c"; 
+	content: "\e001";
 	font-family: 'icomoon'; 
 	font-size:250%; display:block;  
 	position: relative; 
@@ -1660,7 +1663,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	margin-bottom:8px;
 	}
 .quote:after,.quoteleft:after,.smallquote:after,.portletStaticText .quote:after,.portletStaticText .smallquote:after, .portletStaticText div.profile p:after{
-	content: "\7d"; 
+	content: "\e000";
 	font-family: 'icomoon'; 
 	font-size:115%; 
 	display:inline-block; 

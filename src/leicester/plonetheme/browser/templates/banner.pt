@@ -19,7 +19,7 @@
         href="#"></a>
 
      <tal:span condition="not:subtree_url"
-               replace="subtree_label" ></tal:span></p><ul class="mobileskip"><li><a href="#portal-column-one">Menu</a></li></ul>
+               replace="subtree_label" ></tal:span></p><ul class="mobileskip"><li><a href="#portal-column-one">&#9660; Menu</a></li></ul>
 
 </div>
 

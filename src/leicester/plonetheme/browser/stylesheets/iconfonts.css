@@ -10,3 +10,11 @@
 		url('++resource++leicester.plonetheme.stylesheets/icomoon.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;}
+	
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
