@@ -22,9 +22,12 @@ body {
 #portal-footer ul.left li,#portal-footer ul.right li, #portal-footer ul.social li {
 	*list-style-type: disc;
 	}
+	#portal-footer ul.social li a img{
+	display:block;
+	}	
 
 /* ----------------Paragraph Icons---These are diferent graphics to the IE8&9 because IE7 can't do :before or :after-----------*/
-p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio, p.keyfacts,p.documentation,p.important {
+p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio, p.keyfacts,p.documentation,p.important, p.international, p.leicsaward {
 	*padding:28px 10px 14px 36px;
 	}
 	
@@ -70,14 +73,20 @@ p.documentation{
 p.important{
 	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/importantparaie7.png") no-repeat 0 0;
 	}
-
-
+p.international{
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/internationalparaie7.png") no-repeat 0 0;
+	}
+p.leicsaward {
+	*background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie7/leicsawardparaie7.png") no-repeat 0 0;
+	}
 #content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover{
 	*background-image: url("++resource++leicester.plonetheme.images/ie7/ctaarrowie7.png") ;
 	*background-repeat:no-repeat;
 	*background-position:2px 4px!important; 
 	*padding:4px 10px 4px 24px;
 	}
+
+
 #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover {
 	*background-image: url("++resource++leicester.plonetheme.images/ie7/topie7.png");
 	*background-repeat:no-repeat;
@@ -92,3 +101,6 @@ p.important{
 	*padding-left:34px;
 	*padding-top:10px;}
 	
+ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover, #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover, #content ul.alphabet li a:hover, #content p.toparrow a:hover, dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails, dl.portlet dd.portletItem,dl.portlet dd.portletFooter,dl.portlet dd.portletFooter,dl.portletError dd {
+	*height: 1%;
+	*overflow:hidden;}

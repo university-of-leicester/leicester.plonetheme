@@ -1,5 +1,3 @@
-h1.documentFirstHeading:before{content:"Tablets:";}
-
 body, #visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
 	width: 100% !important;
 	}

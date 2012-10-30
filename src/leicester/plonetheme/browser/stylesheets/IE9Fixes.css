@@ -3,6 +3,9 @@
 	float:left;
 	margin:10px;
 	}
+.uolheader {
+	background:url("++resource++leicester.plonetheme.images/ie8/banner_title_bg.png") no-repeat top right;
+	}
 #portal-footer, #portal-globalnav {
 	overflow:hidden; 
 	height:1%; 
@@ -15,7 +18,7 @@
 	}
 dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails{
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9*/ 
-	height: 1%;/*For IE7*/ 
+	*height: 1%;/*For IE7*/ 
 	}
 #portal-breadcrumbs a{width:auto; display:inline;}
 
@@ -61,6 +64,12 @@ p.documentation{
 	}
 p.important{
 	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/importantparaie.png") no-repeat 0 0;
+	}
+p.international{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/internationalparaie.png") no-repeat 0 0;
+	}
+p.leicsaward{
+	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/leicsawardie.png") no-repeat 0 0;
 	}
 	
 /*--------staff and student homepage----------------*/

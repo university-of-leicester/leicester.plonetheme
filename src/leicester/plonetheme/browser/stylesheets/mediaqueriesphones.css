@@ -171,8 +171,18 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	}
 #content p.calltoaction a:link,#content p.calltoaction a:visited,#content p.calltoaction a:hover {
 	max-width:100%;
-	padding:6px 8px 6px 12px;}
-
+	padding:6px 8px 6px 12px;
+	}
+		
+table th, table th h2,table th h3,table th h4,table th h5,table th p,table th a, table.listing th{
+	font-size:16px;
+	line-height:20px;
+	}	
+table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
+	font-size:14px;
+	line-height:18px;
+	}
+/*-----------------------------------------------*/
 #mobilebacktotop a{
 	display:inline;
 	}

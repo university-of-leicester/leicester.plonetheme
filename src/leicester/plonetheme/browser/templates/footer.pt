@@ -1,22 +1,27 @@
 <div id="portal-footer">
 <ul class="social"><li class="text hide">Follow the University on</li>
 <li><a href="http://www.facebook.com/pages/University-of-Leicester/133372010036917" target="_blank" class="icon-alone">
+<img src="++resource++leicester.plonetheme.images/ie7/facebook.png" width="27" height="27" />
   <span aria-hidden="true" data-icon="&#xe007;"></span>
   <span class="screen-reader-text">Follow us on Facebook</span>
 </a></li>
 <li><a href="http://twitter.com/uniofleicester" target="_blank" class="icon-alone">
+<img src="++resource++leicester.plonetheme.images/ie7/twitter.png" width="27" height="27" />
   <span aria-hidden="true" data-icon="&#xe006;"></span>
   <span class="screen-reader-text">Follow us on Twitter</span>
 </a></li>
 <li><a href="http://www.youtube.com/UniversityLeicester" target="_blank" class="icon-alone">
+<img src="++resource++leicester.plonetheme.images/ie7/youtube.png" width="27" height="27" />
   <span aria-hidden="true" data-icon="&#xe005;"></span>
   <span class="screen-reader-text">Follow us on YouTube</span>
 </a></li>
 <li><a href="http://www.flickr.com/groups/universityleicester/" target="_blank" class="icon-alone">
+<img src="++resource++leicester.plonetheme.images/ie7/flickr.png" width="27" height="27" />
   <span aria-hidden="true" data-icon="&#xe004;"></span>
   <span class="screen-reader-text">Follow us on Flickr</span>
 </a></li>
 <li><a href="http://www.linkedin.com/companies/university-of-leicester" target="_blank" class="icon-alone">
+<img src="++resource++leicester.plonetheme.images/ie7/linkedin.png" width="27" height="27" />
   <span aria-hidden="true" data-icon="&#xe002;"></span>
   <span class="screen-reader-text">Follow us on Linkedin</span>
 </a></li></ul>

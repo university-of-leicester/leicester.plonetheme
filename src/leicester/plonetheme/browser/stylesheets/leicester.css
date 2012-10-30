@@ -50,9 +50,11 @@ h4,h5,h6 {
 	font-size:1.05em;
 	}
 p,p.opening {
-	margin-bottom:12px;
+	margin-bottom:14px;
 	font-size:1em;
-	line-height:1.5em;
+	line-height:1.6em;
+	font-weight:normal;
+	color:333;
 	}
 a:visited {
 	color:#639;
@@ -200,7 +202,7 @@ dt.actionMenuHeader a#user-name, #portal-personaltools #anon-personalbar a{
 	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
 	margin-bottom:-1px;
-	-moz-border-radius-topright:8px;
+	-moz-border-radius-top-right:8px;
 	-webkit-border-top-right-radius:8px;
 	border-top-right-radius:8px;
 	padding:0 15px 0 12px;
@@ -239,8 +241,6 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9*/ 
-	height: 1%;/*For IE7*/ 
 	-webkit-border-top-left-radius: 8px;
 	-webkit-border-top-right-radius: 8px;
 	-moz-border-radius-topleft: 8px;
@@ -249,14 +249,17 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 	border-top-right-radius: 8px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 	border:1px solid #cccccc;
-	
 	}	
+dl.portlet dt, div.portletAssignments div.portletHeader{
+	line-height:1.4em;
+	}
+
 dl.portlet dd.portletItem,dl.portlet dd.portletFooter,dl.portlet dd.portletFooter,dl.portletError dd {
 	border-left:1px solid #ccc; 
 	border-right:1px solid #ccc;
 	line-height:1.4em;
 	padding:0.6em 1em;
-	height:1%; overflow:hidden;
+ overflow:hidden;
 	}
 div.managePortletsLink,a.managePortletsFallback {
 	font-size:100%;
@@ -503,6 +506,9 @@ table td {
 	margin:0;
 	padding:0.5em 0.55em 0.35em;
 	}
+table caption{
+	text-align:left;
+}
 /* ------old hacks for setting column width because kupu never could---------*/
 td.half,th.half {
 	width:49.5%!important;
@@ -590,8 +596,9 @@ table.keyfactstable td{
 	background: #EAEAEA!important;
 	}
 /*this forces the table to be grey and not adjustable by the editors*/
-table.keyfactstable th h2, table.keyfactstable th h3, table.keyfactstable th h4{
+table.keyfactstable th h2, table.keyfactstable th h3, table.keyfactstable th h4, table.keyfactstable th h5, table.keyfactstable th p, table.keyfactstable th a{
 	background:transparent!important;
+	color:#fff !important;
 	}
 /*----counters a style in plone board---*/	
 table.listing th {
@@ -797,12 +804,15 @@ img.image-left-border{
 	margin: 0.5em 1em 0.5em 0;
 	}
 #content dd.image-caption {
-	font-size:90%;
+	font-size:1em;
 	font-weight:bold;
 	margin-left:0;
 	color:#667375 !important;
 	padding:0;
 	}
+	
+#content h2 dd.image-caption, #content h3 dd.image-caption, #content h4 dd.image-caption {
+	font-size:13px; line-height:19px;}
 img.image-left, img.image-right {
 	border:none;
 	}
@@ -898,7 +908,10 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	position:relative;
 	top:0;
 	left:0;
-	}	
+	}
+#portal-footer ul.social li a img{
+	display:none;
+	}	 
 	
 .icon-alone {
   display: inline-block; /* Fix for clickability issue in WebKit */
@@ -1289,7 +1302,7 @@ padding:3px 6px 3px 10px;
 	padding:5px;
 	}
 /* ----------------Paragraph Icons---------------------*/
-p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio, p.keyfacts,p.documentation,p.important {
+p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video,p.resources,p.blackboard,p.help,p.goodpractice,p.podcast,p.audio, p.keyfacts,p.documentation,p.important, p.international, p.leicsaward {
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
 	border-radius:6px;
@@ -1299,10 +1312,10 @@ p.warning,p.questions, p.faqs, p.quicklinks,p.info,p.ploneinfo,p.example,p.video
 	margin:1em 0 0;
 	padding:10px 10px 14px 42px;
 	}
-p.warning img, p.questions img, p.faqs img, p.quicklinks img, p.info img, p.ploneinfo img, p.example img, p.video img,  p.resources img, p.blackboard img, p.help img, p.goodpractice img, p.podcast img, p.audio img, p.keyfacts img, p.documentation img, p.important img{
+p.warning img, p.questions img, p.faqs img, p.quicklinks img, p.info img, p.ploneinfo img, p.example img, p.video img, p.blackboard img, p.help img, p.goodpractice img, p.podcast img, p.audio img, p.keyfacts img, p.important img{
 	display:none;
 	}
-p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info:before, p.ploneinfo:before, p.example:before, p.video:before,  p.resources:before, p.blackboard:before, p.help:before, p.goodpractice:before, p.podcast:before, p.audio:before, p.keyfacts:before, p.documentation:before, p.important:before{
+p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info:before, p.ploneinfo:before, p.example:before, p.video:before,  p.resources:before, p.blackboard:before, p.help:before, p.goodpractice:before, p.podcast:before, p.audio:before, p.keyfacts:before, p.documentation:before, p.important:before, p.international:before, p.leicsaward:before{
 	font-size:120%; 
 	font-weight:bold;
 	margin-right:8px;
@@ -1310,7 +1323,7 @@ p.warning:before, p.questions:before, p.faqs:before, p.quicklinks:before, p.info
 	letter-spacing:0.04em; 
 	text-shadow:0 1px 0 rgba(255, 255, 255, 0.75);
 	}
-.portletStaticText p.warning:before,.portletStaticText p.questions:before, .portletStaticText p.faqs:before, .portletStaticText p.quicklinks:before, .portletStaticText p.info:before, .portletStaticText p.ploneinfo:before, .portletStaticText p.example:before, .portletStaticText p.video:before,  .portletStaticText p.resources:before, .portletStaticText p.blackboard:before, .portletStaticText p.help:before, .portletStaticText p.goodpractice:before, .portletStaticText p.podcast:before, .portletStaticText p.audio:before, .portletStaticText p.keyfacts:before, .portletStaticText p.documentation:before, .portletStaticText p.important:before{
+.portletStaticText p.warning:before,.portletStaticText p.questions:before, .portletStaticText p.faqs:before, .portletStaticText p.quicklinks:before, .portletStaticText p.info:before, .portletStaticText p.ploneinfo:before, .portletStaticText p.example:before, .portletStaticText p.video:before,  .portletStaticText p.resources:before, .portletStaticText p.blackboard:before, .portletStaticText p.help:before, .portletStaticText p.goodpractice:before, .portletStaticText p.podcast:before, .portletStaticText p.audio:before, .portletStaticText p.keyfacts:before, .portletStaticText p.documentation:before, .portletStaticText p.important:before, .portletStaticText p.international:before, .portletStaticText p.leicsaward{
 	display:block;
 	}
 p.warning:before {
@@ -1357,6 +1370,12 @@ p.documentation:before{
 	}
 p.important:before{
 	content:"Important:";
+	}
+p.international:before{
+	content:"International Students:";
+	}
+p.leicsaward:before{
+	content:"Leicester Award:";
 	}
 p.warning{
 	background:#ededed url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px; /* fallback */
@@ -1485,6 +1504,24 @@ background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no
 background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px,      -o-linear-gradient(top, #ededed, #C3C3C3); /* Opera 11.10+ */
 background: url("++resource++leicester.plonetheme.images/blackboardpara.png") no-repeat 8px 8px,         linear-gradient(top, #ededed, #C3C3C3); /* W3C */}
 
+p.international{
+background: #ededed url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px; /* fallback */
+background: url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px, -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#C3C3C3)); /* Saf4+, Chrome */
+background: url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px, -webkit-linear-gradient(top, #ededed, #C3C3C3); /* Chrome 10+, Saf5.1+ */
+background: url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px,    -moz-linear-gradient(top, #ededed, #C3C3C3); /* FF3.6+ */
+background: url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px,     -ms-linear-gradient(top, #ededed, #C3C3C3); /* IE10 */
+background: url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px,      -o-linear-gradient(top, #ededed, #C3C3C3); /* Opera 11.10+ */
+background: url("++resource++leicester.plonetheme.images/internationalpara.png") no-repeat 8px 8px,         linear-gradient(top, #ededed, #C3C3C3); /* W3C */}
+
+p.leicsaward{
+background: #ededed url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px; /* fallback */
+background: url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px, -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#C3C3C3)); /* Saf4+, Chrome */
+background: url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px, -webkit-linear-gradient(top, #ededed, #C3C3C3); /* Chrome 10+, Saf5.1+ */
+background: url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px,    -moz-linear-gradient(top, #ededed, #C3C3C3); /* FF3.6+ */
+background: url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px,     -ms-linear-gradient(top, #ededed, #C3C3C3); /* IE10 */
+background: url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px,      -o-linear-gradient(top, #ededed, #C3C3C3); /* Opera 11.10+ */
+background: url("++resource++leicester.plonetheme.images/leicsawardpara.png") no-repeat 8px 8px,         linear-gradient(top, #ededed, #C3C3C3); /* W3C */}
+
 /*-------------Highlighted Paragraphs ------------------*/
 .highlight-shaded,.highlight-outline {
 	margin:10px 0;
@@ -1577,8 +1614,6 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover, #content 
 	-webkit-box-shadow:#ccc 2px 2px 2px;
 	-moz-box-shadow:#ccc 2px 2px 2px;
 	box-shadow:#ccc 2px 2px 2px;
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#0099CC', endColorstr='#006F93');/*For IE7-8-9 */
-	height: 1%;/*For IE7*/
 	}
 ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	display:inline-block !important;
@@ -1595,8 +1630,6 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	background: -ms-linear-gradient(top, #828282, #444); /* IE10 */
 	background: -o-linear-gradient(top, #828282, #444); /* Opera 11.10+ */
 	background: linear-gradient(top, #828282, #444); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#828282', endColorstr='#444');/*For IE7-8-9 */
-	height: 1%;/*For IE7*/
 	}
 #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover {
 	font-weight:bold;
@@ -1604,7 +1637,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	clear:both;
 	float:right;
 	margin:0;
-	padding:5px 10px 5px 2px;
+	padding:5px 10px 8px 2px;
 	max-height:20px;
 	overflow:hidden !important;
 	}
@@ -1645,8 +1678,8 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	}
 .quote,.quotereference,.quoteleft,.quotereferenceleft,.smallquote,.smallquotereference,.portletStaticText .quote,.portletStaticText .smallquote {
 	color:#666;
-	font-size:115%;
-	line-height:155%;
+	font-size:112%;
+	line-height:145%;
 	}
 .smallquotereference,.quotereference,.quotereferenceleft {
 	font-size:100%;
@@ -1655,7 +1688,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 .quote:before,.quoteleft:before,.smallquote:before,.portletStaticText .quote:before,.portletStaticText .smallquote:before, .portletStaticText div.profile p:before{
 	content: "\e001";
 	font-family: 'icomoon'; 
-	font-size:250%; display:block;  
+	font-size:200%; display:block;  
 	position: relative; 
 	left:0; 
 	top: 0; 
@@ -1665,7 +1698,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 .quote:after,.quoteleft:after,.smallquote:after,.portletStaticText .quote:after,.portletStaticText .smallquote:after, .portletStaticText div.profile p:after{
 	content: "\e000";
 	font-family: 'icomoon'; 
-	font-size:115%; 
+	font-size:90%; 
 	display:inline-block; 
 	color:#444;  
 	margin-right:4px;

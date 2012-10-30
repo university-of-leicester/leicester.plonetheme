@@ -1,17 +1,11 @@
 /* CSS Document */
 /*------Header tab and footer graphic as -IE 8 and lower can't cope with opacity or rounded corners--*/
-.uolheader {
-	background:url("++resource++leicester.plonetheme.images/ie8/banner_title_bg.png") no-repeat top right\9;
-	}
 #portal-footer, #portal-globalnav {
 	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png")\9;
 	overflow:hidden\9; 
 	height:1%\9; 
 	position: relative\9; 
 	display:block\9;
-	}
-#portal-footer, #portal-globalnav {
-	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png") 0 0\9;
 	}
 .commentBody {
     border:1px solid #ccc\9;
@@ -115,12 +109,15 @@
 	}
 
 #content p.calltoaction a:link:before, #content p.calltoaction a:visited:before{
-	margin-right:5px\9;
-	margin-left:8px\9; 
+	margin-right:4px\9;
+	margin-left:4px\9; 
 	}
 
 #content p.toparrow a:before{
 	margin-left:8px\9;
 	}
 	
-.portletBlockedMessage{color:#333!important\9;}
+.portletBlockedMessage{
+	color:#333!important\9;
+	}
+

@@ -31,6 +31,17 @@ div.portletStaticText h1, div.portletStaticText h2, div.portletStaticText h3{
 h1, h2, h3, h4, h5, h6, p, li, ol, dd, dt, h1.documentFirstHeading, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, #portal-column-one div.managePortletsLink a:link, #portal-column-one div.managePortletsLink a:visited, #portal-column-two div.managePortletsLink a:link, #portal-column-two div.managePortletsLink a:visited, #content a:hover, #portal-column-one a:hover, #portal-column-two a:hover, #content table td a:hover, #content table th a:hover{
 	color: #fff!important;
 	}
+	
+dl.portalMessage dd{color: #444!important;}
+dl.warning dt {
+	color:#b94a48!important;
+	}
+dl.error dt {
+	color:#D27E00!important;
+	}
+dl.info dt {
+	color:#3a87ad!important;
+	}
 /*-for the shadowy people*/
 #portal-columns {
 	padding-bottom:230px; 
@@ -170,7 +181,7 @@ body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portlet
 #content ul.alphabet li a:link,#content ul.alphabet li a:visited,#content ul.alphabet li a:hover, #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover{
 	color:#fff!important;
 	text-decoration:none !important;
-	background: #444; /* fallback */
+	background: #444; 
 	background: -webkit-gradient(linear, left top, left bottom, from(#828282), to(#444)); /* Saf4+, Chrome */
 	background: -webkit-linear-gradient(top, #828282, #444); /* Chrome 10+, Saf5.1+ */
 	background: -moz-linear-gradient(top, #828282, #444); /* FF3.6+ */
@@ -180,14 +191,15 @@ body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portlet
 	-webkit-box-shadow:#0C0F10 2px 2px 2px;
 	-moz-box-shadow:#0C0F10 2px 2px 2px;
 	box-shadow:#0C0F10 2px 2px 2px;
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#828282', endColorstr='#444');/*For IE7-8-9*/
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
 	height: 1%;/*For IE7*/
 	}
 #content ul.alphabet li a:hover, #content p.toparrow a:hover {
 	color:#444 !important;
 	text-decoration:none !important;
 	background: #F8E58E; /* fallback */
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F8E58E', endColorstr='#F8E58E');/*For IE7-8-9*/
 	height: 1%;/*For IE7*/
 	}
 #content p.toparrow a:hover:before{
@@ -210,3 +222,9 @@ body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portlet
 	
 .mobileaddthis{
 	background:transparent!important;}
+	
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+#portal-columns{
+	background-image:none;
+	padding-bottom:10px!important;
+	}}

@@ -12,7 +12,6 @@
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_theme_styles"/>
 	
-	
 <object name="leicester_aquafixed_styles"
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_aquafixed_styles"/>
