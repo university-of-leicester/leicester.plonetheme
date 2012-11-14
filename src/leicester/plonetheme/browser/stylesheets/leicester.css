@@ -1781,5 +1781,3 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 #content dl.portlet{
 	font-size:100%;
 	}
-/*-----removes the link for the portlet that I've tried to move-----------------*/
-#viewlet-below-content-title .managePortletsAboveLink{display:none;}

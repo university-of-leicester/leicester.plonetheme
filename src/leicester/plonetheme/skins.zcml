@@ -41,7 +41,6 @@
   <cmf:registerDirectory name="leicester_businesssubfixed_styles"/>
   <cmf:registerDirectory name="leicester_librarysubfixed_styles"/>
   <cmf:registerDirectory name="leicester_librarysubfixed_images"/>
-  <cmf:registerDirectory name="leicester_librarysubfixed_templates"/>
   <cmf:registerDirectory name="leicester_recruitmentsubfixed_styles"/>
   <cmf:registerDirectory name="leicester_researchsubfixed_styles"/>
   <cmf:registerDirectory name="leicester_staffsubfixed_styles"/>
@@ -61,6 +60,8 @@
   <cmf:registerDirectory name="leicester_alumnifixed_images"/>
   <cmf:registerDirectory name="leicester_businessfixed_styles"/>
   <cmf:registerDirectory name="leicester_businessfixed_images"/>
+  <cmf:registerDirectory name="leicester_libraryfixed_styles"/>
+  <cmf:registerDirectory name="leicester_libraryfixed_images"/>
   <cmf:registerDirectory name="leicester_itsfixed_styles"/>
   <cmf:registerDirectory name="leicester_itsfixed_images"/>
   <cmf:registerDirectory name="leicester_recruitmentfixed_styles"/>

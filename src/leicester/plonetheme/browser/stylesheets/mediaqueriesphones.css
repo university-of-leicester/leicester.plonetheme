@@ -351,6 +351,13 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 #content #collage .portlet-static-guidance-for-staff h2{
 	padding-left:14px;
 	}
+/*----------------Library homepage-----------*/	
+#collage .two-columns-largeleft .block_1 {
+    width:574px;
+}
+#collage .two-columns-largeleft .block_2 {
+    width:400px;
+}
 /*--------------Library sub page ---------------------*/
 #libraryfooter{
 	height: auto; 

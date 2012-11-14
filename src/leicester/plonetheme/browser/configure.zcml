@@ -116,14 +116,6 @@
 		permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
 		/>
-<!-- Compatibility Mode for IE -->
-	<browser:viewlet
-        name="leicester.plonetheme.compatibilitymode"
-		manager="plone.app.layout.viewlets.interfaces.IHtmlHead"
-		template="templates/iecompatibilitymode.pt"
-		permission="zope2.View"
-        layer=".interfaces.IThemeSpecific"
-		/>	
 	
 		
     <!-- Zope 3 browser resources -->

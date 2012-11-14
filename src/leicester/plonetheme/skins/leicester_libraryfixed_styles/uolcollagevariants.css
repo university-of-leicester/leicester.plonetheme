@@ -1,0 +1,148 @@
+/*----------------------------Library grey (darkest shade) --------------------*/
+body {
+	background: url(body_bg.jpg) no-repeat #fff top right;
+	}
+#collage .two-columns-largeleft .block_1 {
+    width:568px;
+}
+#collage .two-columns-largeleft .block_2 {
+    width:400px;
+}
+/*search box*/
+#collage .row_1 .block_1 .collage_item_1 {margin: 22px 0 0 0; }
+#collage .row_1 .block_1 .collage_item_1 h2 {display: none;}
+#collage .row_1 .block_1 .collage_item_1 p {padding:0; margin:0;}
+
+/*links under search box*/
+#collage .row_1 .block_1 .collage_item_2 {background: url(additional_bg.png) repeat-x transparent 0 0 !important;  margin: 1px 0 0 0; height: 24px !important;}
+#collage .row_1 .block_1 .collage_item_2 p {margin: 0 0 0 5px; color:#444;}
+#collage .row_1 .block_1 .collage_item_2 h2 {display: none;}
+
+/*quick links and my accounts*/
+#collage .row_1 .block_1 .collage_item_3 {background: url(gradient_bg.png) repeat-x transparent bottom right !important; min-height: 127px;}
+#collage .row_1 .block_1 .collage_item_3 .box1 {float: left; width:45%;}
+#collage .row_1 .block_1 .collage_item_3 .box2 {float: left; }
+#collage .row_1 .block_1 .collage_item_3 h2 {display: none;}
+#collage .row_1 .block_1 .collage_item_3 h3 {margin: 5px 0 5px 10px;}
+
+/*using the library*/
+#collage .row_2 .block_1 .collage_item_1 .singleline, #collage .row_2 .block_1 .collage_item_1 .doubleline { 
+   position: relative; 
+   width: 24%; /* for IE 6 */
+   float:left;
+   padding-right:1%;
+   margin-bottom:10px;
+}
+
+#collage .row_2 .block_1 .collage_item_1 .singleline p, #collage .row_2 .block_1 .collage_item_1 .doubleline p { 
+   position: absolute; 
+   top: 75%; 
+   left: 0; 
+   width: 88%; 
+   color:#fff;
+   font-weight:bold;
+   background:#000;
+  background:rgba(0, 0, 0, 0.9);
+   padding:1% 4%;
+   text-align:center;
+
+}
+#collage .row_2 .block_1 .collage_item_1 .doubleline p{top: 68%; line-height:108%;}
+
+/*information for*/
+#collage .row_2 .block_1 .collage_item_2 {}
+#collage .row_2 .block_1 .collage_item_2 .box1 {background: url(gradient_bg.png) repeat-x transparent bottom right !important;  float: left; min-height: 92px; border-top: 1px solid #E8EAEA; border-bottom: 1px solid #E8EAEA; width:48%; margin-right:4%; padding-bottom:8px;}
+#collage .row_2 .block_1 .collage_item_2 .box2 {background: url(gradient_bg.png) repeat-x transparent bottom right !important;  float: left;  min-height: 92px; border-top: 1px solid #E8EAEA; border-bottom: 1px solid #E8EAEA; width:48%; padding-bottom:8px;}
+
+/*-----news and events------------*/
+#collage .row_2 .block_2 {margin: 11px 0 0 0; border: 1px solid #E4E4E4;border-bottom:none; padding: 0!important;  float: right;}
+#collage .row_2 .block_2 .collage_item_1 {overflow-y: auto !important; overflow-x: hidden!important; height: 296px !Important; margin: 0; border-bottom: 3px solid #fff;}
+
+
+#collage .row_2 .block_2 .collage_item_1 .standard-topic h3 {font-size: 165% !important; color: #333 !important; margin: 10px 20px 0 20px; display:block!important;}
+#collage .row_2 .block_2 .collage_item_1 dl {margin: 0 16px 0 16px;}
+#collage .row_2 .block_2 .collage_item_1 dl dd {margin: 0; padding: 0 0 5px 0; border-bottom: 1px solid #E8EAEA;}
+#collage .row_2 .block_2 .collage_item_1 a {display: none;}
+#collage .row_2 .block_2 .collage_item_1 dl a {display: block; padding: 5px 0 5px 0;}
+
+.portlet-static-announcement{background:#C82220; padding:6px 16px 10px 16px; color:#fff!important;}
+.portlet-static-announcement h2{color:#fff!important;}
+
+.portlet-static-news-events-heading{padding:3px 16px 0 16px;border-bottom: 1px solid #E8EAEA;}
+.portlet-static-news-events-heading h2{margin:4px 0;}
+#collage .row_2 .block_2 .collage_item_2{margin-bottom:0;}
+#collage .row_2 .block_2 .collage_item_2 h2{display:none;}
+#collage .row_2 .block_2 .collage_item_2 div.more{background: #F4F2F2; border-top: 1px solid #E4E4E4; border-bottom: 1px solid #E4E4E4; padding: 4px 10px 0 14px;}
+#collage .row_2 .block_2 .collage_item_2 div.more p{margin-bottom:6px;}
+/*----------highlight and outline paragraph to match site-------------*/
+.highlight-shaded {background: #E02725; }
+.highlight-outline {border-color:#E02725;}
+
+/* -------- additional styles added to change blue hyperlinks to red --------*/
+#content a {color: #C82220 !important;}
+#content a:hover {color:#8E1515 !important; text-decoration: underline !important;}
+
+#content .documentContent p a, #content .documentContent p a:active{color:#C82220;}
+#content .documentContent li a:visited, #content .documentContent li a:active, #content .documentContent dd a:visited, #content .documentContent dd a:active {
+color: #C82220;}
+
+#portal-column-one .portletStaticText a, #portal-column-two .portletStaticText a{color: #C82220 !important;}
+#portal-column-one .portletStaticText a:hover, #portal-column-two .portletStaticText a:hover {text-decoration:underline;color:#8E1515 !important;}
+
+.template-scrawlblogentry_view #content .documentByLine a {color:#C82220;}
+
+
+
+
+
+
+
+#libraryfooter{background:#E0E2E2 url(footer_bglarge.png) no-repeat top right; border-top: 2px solid #dadada; height: 90px; font-size:80%;}
+#libraryfooter .box1{float: left; margin: 0 20px 0 15px; width: 55em;}
+#libraryfooter .box1 h2 {margin: 9px 0 0 0; padding: 0;}
+#libraryfooter .box1 ul {margin: 5px 0 0 0 !important; padding: 0 !important;}
+#libraryfooter .box1 ul li {margin: 0!important; padding: 0 10px 0 0 !important; list-style-type: none; list-style: none; list-style-image: none !Important; display: inline;}
+#libraryfooter .box1 p {margin: 2px 0 0; padding: 0;}
+#libraryfooter .box2 {float: left; margin: 0; width: 15em; padding: 0 0 0 18px;}
+#libraryfooter .box2 p {margin: 10px 0 5px 0; padding: 0; font-weight:bold;}
+#libraryfooter .box2 ul li img {margin: 0 2px 0 0;}
+
+#libraryfooter a{color: #C82220 !important;}
+#libraryfooter a:hover{color:#8E1515 !important; text-decoration: underline !important;}
+
+/* Large screens ----------- */
+
+@media only screen 
+and (min-width: 1600px) {
+#collage .two-columns-largeleft .block_1 {
+    width:675px;
+}
+#collage .two-columns-largeleft .block_2 {
+    width:500px;
+}
+#collage .row_2 .block_2 .collage_item_1 {height: 326px !Important;}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width: 1800px) {
+#collage .two-columns-largeleft .block_1 {
+    width:675px;
+}
+#collage .two-columns-largeleft .block_2 {
+    width:696px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-device-width: 1800px) {
+#collage .two-columns-largeleft .block_1 {
+    width:675px;
+}
+#collage .two-columns-largeleft .block_2 {
+    width:696px;
+}
+}
+
+#subtypes .actionMenu{display:none;}

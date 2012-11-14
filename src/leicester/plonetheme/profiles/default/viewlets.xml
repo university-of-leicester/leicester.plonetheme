@@ -1844,8 +1844,7 @@
   <viewlet name="plone.site_actions"/>
  </hidden>
  
- 
-  <order manager="plone.portalheader" skinname="swumessfixed">
+  <order manager="plone.portalheader" skinname="libraryfixed">
   <viewlet name="plone.skip_links"/>
   <viewlet name="plone.personal_bar"/>
   <viewlet name="plone.app.i18n.locales.languageselector"/>
@@ -1856,99 +1855,29 @@
   <viewlet name="leicester.plonetheme.banner"/>
   <viewlet name="leicester.plonetheme.path_bar"/>
   </order>
-  <order manager="plone.portaltop" skinname="swumessfixed">
+  <order manager="plone.portaltop" skinname="libraryfixed">
    <viewlet name="plone.personal_bar"/>
   <viewlet name="leicester.plonetheme.logo"/>
   <viewlet name="leicester.plonetheme.searchbox"/>
   <viewlet name="plone.header"/>
   </order>
-  <order manager="plone.portalfooter" skinname="swumessfixed">
+  <order manager="plone.portalfooter" skinname="libraryfixed">
   <viewlet name="leicester.plonetheme.mobileaddthis"/>
+  <viewlet name="leicester.plonetheme.libraryfooter"/>
   <viewlet name="leicester.plonetheme.uolfooter"/>
   </order>
-  <hidden manager="plone.portalheader" skinname="swumessfixed">
+  <hidden manager="plone.portalheader" skinname="libraryfixed">
+  <viewlet name="leicester.plonetheme.banner"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.searchbox"/>
-  <viewlet name="leicester.plonetheme.banner"/>
    <viewlet name="plone.personal_bar"/>
+   <viewlet name="leicester.plonetheme.path_bar"/>
    </hidden>
-   <hidden manager="plone.abovecontent" skinname="swumessfixed">
+   <hidden manager="plone.abovecontent" skinname="libraryfixed">
   <viewlet name="plone.path_bar"/></hidden>
-  <hidden manager="plone.portalfooter" skinname="swumessfixed">
-   <viewlet name="leicester.plonetheme.libraryfooter"/>
+  <hidden manager="plone.portalfooter" skinname="libraryfixed">
   <viewlet name="plone.footer"/>
-  <viewlet name="plone.colophon"/>
-  <viewlet name="plone.site_actions"/>
-  </hidden>
-  
-  <order manager="plone.portalheader" skinname="homemessfixed">
-  <viewlet name="plone.skip_links"/>
-  <viewlet name="plone.personal_bar"/>
-  <viewlet name="plone.app.i18n.locales.languageselector"/>
-  <viewlet name="plone.searchbox"/>
-  <viewlet name="plone.logo"/>
-   <viewlet name="plone.global_sections"/>
-   <viewlet name="leicester.plonetheme.mobilemenusearch"/>
-  <viewlet name="leicester.plonetheme.banner"/>
-  <viewlet name="leicester.plonetheme.path_bar"/>
-  </order>
-  <order manager="plone.portaltop" skinname="homemessfixed">
-   <viewlet name="plone.personal_bar"/>
-  <viewlet name="leicester.plonetheme.logo"/>
-  <viewlet name="leicester.plonetheme.searchbox"/>
-  <viewlet name="plone.header"/>
-  </order>
-  <order manager="plone.portalfooter" skinname="homemessfixed">
-  <viewlet name="leicester.plonetheme.mobileaddthis"/>
-  <viewlet name="leicester.plonetheme.uolfooter"/>
-  </order>
-  <hidden manager="plone.portalheader" skinname="homemessfixed">
-  <viewlet name="plone.logo"/>
-  <viewlet name="plone.searchbox"/>
-  <viewlet name="leicester.plonetheme.banner"/>
-   <viewlet name="plone.personal_bar"/>
-   </hidden>
-   <hidden manager="plone.abovecontent" skinname="homemessfixed">
-  <viewlet name="plone.path_bar"/></hidden>
-  <hidden manager="plone.portalfooter" skinname="homemessfixed">
    <viewlet name="leicester.plonetheme.libraryfooter"/>
-  <viewlet name="plone.footer"/>
-  <viewlet name="plone.colophon"/>
-  <viewlet name="plone.site_actions"/>
-  </hidden>
-  
-  <order manager="plone.portalheader" skinname="librarymessfixed">
-  <viewlet name="plone.skip_links"/>
-  <viewlet name="plone.personal_bar"/>
-  <viewlet name="plone.app.i18n.locales.languageselector"/>
-  <viewlet name="plone.searchbox"/>
-  <viewlet name="plone.logo"/>
-   <viewlet name="plone.global_sections"/>
-   <viewlet name="leicester.plonetheme.mobilemenusearch"/>
-  <viewlet name="leicester.plonetheme.banner"/>
-  <viewlet name="leicester.plonetheme.path_bar"/>
-  </order>
-  <order manager="plone.portaltop" skinname="librarymessfixed">
-   <viewlet name="plone.personal_bar"/>
-  <viewlet name="leicester.plonetheme.logo"/>
-  <viewlet name="leicester.plonetheme.searchbox"/>
-  <viewlet name="plone.header"/>
-  </order>
-  <order manager="plone.portalfooter" skinname="librarymessfixed">
-  <viewlet name="leicester.plonetheme.mobileaddthis"/>
-  <viewlet name="leicester.plonetheme.uolfooter"/>
-  </order>
-  <hidden manager="plone.portalheader" skinname="librarymessfixed">
-  <viewlet name="leicester.plonetheme.banner"/>
-  <viewlet name="plone.logo"/>
-  <viewlet name="plone.searchbox"/>
-   <viewlet name="plone.personal_bar"/>
-   </hidden>
-   <hidden manager="plone.abovecontent" skinname="librarymessfixed">
-  <viewlet name="plone.path_bar"/></hidden>
-  <hidden manager="plone.portalfooter" skinname="librarymessfixed">
-   <viewlet name="leicester.plonetheme.libraryfooter"/>
-  <viewlet name="plone.footer"/>
   <viewlet name="plone.colophon"/>
   <viewlet name="plone.site_actions"/>
   </hidden>

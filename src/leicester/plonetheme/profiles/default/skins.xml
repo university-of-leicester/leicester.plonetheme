@@ -148,10 +148,6 @@
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_librarysubfixed_styles"/>
 	
-	 <object name="leicester_librarysubfixed_templates"
-    meta_type="Filesystem Directory View"
-    directory="leicester.plonetheme:skins/leicester_librarysubfixed_templates"/>
-	
 		 <object name="leicester_librarysubfixed_images"
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_librarysubfixed_images"/>
@@ -232,6 +228,14 @@
 	<object name="leicester_businessfixed_images"
     meta_type="Filesystem Directory View"
     directory="leicester.plonetheme:skins/leicester_businessfixed_images"/>
+	
+	<object name="leicester_libraryfixed_styles"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_libraryfixed_styles"/>
+	
+	<object name="leicester_libraryfixed_images"
+    meta_type="Filesystem Directory View"
+    directory="leicester.plonetheme:skins/leicester_libraryfixed_images"/>
 	
 		<object name="leicester_recruitmentfixed_styles"
     meta_type="Filesystem Directory View"
@@ -444,14 +448,11 @@
      insert-after="custom"/>
  </skin-path>
  
- 
   <skin-path name="librarysubfixed" based-on="leicester.plonetheme">
   <layer name="leicester_librarysubfixed_images"
      insert-after="custom"/>
-  <layer name="leicester_librarysubfixed_templates"
-     insert-after="leicester_librarysubfixed_images"/>
   <layer name="leicester_librarysubfixed_styles"
-     insert-after="leicester_librarysubfixed_templates"/>
+     insert-after="leicester_librarysubfixed_images"/>
  </skin-path>
  
    <skin-path name="recruitmentsubfixed" based-on="leicester.plonetheme">
@@ -550,6 +551,15 @@
      insert-after="leicester_businessfixed_styles"/>
 	  <layer name="leicester_collagefixed_styles"
      insert-after="leicester_businessfixed_images"/>
+ </skin-path>
+ 
+ <skin-path name="libraryfixed" based-on="leicester.plonetheme">
+  <layer name="leicester_libraryfixed_styles"
+     insert-after="custom"/>
+	   <layer name="leicester_libraryfixed_images"
+     insert-after="leicester_libraryfixed_styles"/>
+	  <layer name="leicester_collagefixed_styles"
+     insert-after="leicester_libraryfixed_images"/>
  </skin-path>
  
   <skin-path name="recruitmentfixed" based-on="leicester.plonetheme">
