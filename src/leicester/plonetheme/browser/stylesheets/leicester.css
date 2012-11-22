@@ -4,9 +4,9 @@ body {
 	background-color:#444;
 	font-size:1em; 
 	color:#333;
-/*--smooth font rendering with properly scaled letter spacing (modern browsers)--
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;-*/
+/*--smooth font rendering with properly scaled letter spacing (modern browsers)---*/
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 h1,h2,h3,h4,h5,h6 {
 	line-height:1.45em;
@@ -194,7 +194,7 @@ dt.actionMenuHeader a#user-name, #portal-personaltools #anon-personalbar a{
 .uolheader {
 	position:absolute;
 	bottom:0;
-	background: #d7d7d7 ;/* Old browsers */
+	background: #d7d7d7 ;/*fallback*/
 	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -234,7 +234,7 @@ dl.portlet a.tile img{
 	display:none;
 	}
 dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content .eventDetails h2,.boardCommentDetails{
-	background: #d7d7d7; /* Old browsers */
+	background: #d7d7d7; /*fallback*/
 	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -253,13 +253,12 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 dl.portlet dt, div.portletAssignments div.portletHeader{
 	line-height:1.4em;
 	}
-
 dl.portlet dd.portletItem,dl.portlet dd.portletFooter,dl.portlet dd.portletFooter,dl.portletError dd {
 	border-left:1px solid #ccc; 
 	border-right:1px solid #ccc;
 	line-height:1.4em;
 	padding:0.6em 1em;
- overflow:hidden;
+    overflow:hidden;
 	}
 div.managePortletsLink,a.managePortletsFallback {
 	font-size:100%;
@@ -508,7 +507,7 @@ table td {
 	}
 table caption{
 	text-align:left;
-}
+	}
 /* ------old hacks for setting column width because kupu never could---------*/
 td.half,th.half {
 	width:49.5%!important;
@@ -706,7 +705,7 @@ div.listingBar a:hover,#content div.listingBar a:hover {
 	border-color:#205c90;
 	}
 
-/*-------Status messages--------------*/
+/*-------Status messages-(eg when an edit is saved)-------------*/
 dl.portalMessage {
 	border:1px solid #fbeed5;
 	background-color:#fcf8e3;
@@ -810,7 +809,6 @@ img.image-left-border{
 	color:#667375 !important;
 	padding:0;
 	}
-	
 #content h2 dd.image-caption, #content h3 dd.image-caption, #content h4 dd.image-caption {
 	font-size:13px; line-height:19px;}
 img.image-left, img.image-right {
@@ -911,18 +909,15 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	}
 #portal-footer ul.social li a img{
 	display:none;
-	}	 
-	
+	}	 	
 .icon-alone {
-  display: inline-block; /* Fix for clickability issue in WebKit */
-}
-
+	display: inline-block; /* Fix for clickability issue in WebKit */
+	}
 .screen-reader-text { /* Reusable, toolbox kind of class */
   position: absolute;
   top: -9999px;
   left: -9999px;
-}
-
+  }
 #portal-footer ul.social li.text{
 	margin-right:4px; 
 	font-weight:bold;
@@ -950,8 +945,8 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	font-size: 90%!important;
 	}
 .commentBody input[type="submit"].destructive{
-	font-size: 80%!important;}
-
+	font-size: 80%!important;
+	}
 .boardCommentDetails {
 	background-color:#DDD;
 	background-image:0;
@@ -1004,7 +999,6 @@ dl.toc dd, #content dl.toc dd.portletItem {
 	}
 	
 /*------ Forms -----------------*/
-
 /*--buttons like search, sumbit, canel and delete-----*/
 input[type="submit"], input[type="reset"], .reply-to-comment-button, input[type="submit"].destructive {
 	padding:6px 12px;
@@ -1075,7 +1069,6 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 .field input[type="text"][name$=".title"], input#title {
     width: 96%;
 	}
-
 /*-----drop down menus------------*/		
 #content select {
     vertical-align:bottom; font-size:1.2em;
@@ -1111,8 +1104,8 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	}
 /*-map pin icon-*/
  .calltoactionfindus a:before{
-	 content: "\e00c";
-	 }
+	content: "\e00c";
+	}
  /*magnify glass*/
  .calltoactioncourse a:before, .calltoactionexpert a:before{
 	content: "\e00e";
@@ -1127,8 +1120,8 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	 }
  /*-plain arrow-*/
  .calltoactionscholarships a:before, .calltoactionfeesfinance a:before, .calltoactionblackboard a:before {
-	 content: "\e012";
-	 font-size:110%;
+	content: "\e012";
+	font-size:110%;
 	 }
 .calltoactionprospectus a:hover:before, .calltoactionapply a:hover:before, .calltoactionopenday a:hover:before,  .calltoactionmyleicester a:hover:before, .calltoactioncourse a:hover:before, .calltoactionfeesfinance a:hover:before, .calltoactionblackboard a:hover:before, .calltoactionexpert a:hover:before, .calltoactionscholarships a:hover:before, .calltoactionfindus a:hover:before, .calltoactionleicsex a:hover:before, .calltoactionapplyphd a:hover:before, .calltoactionengage a:hover:before, .calltoactionbooknow a:hover:before{
 	color:#fff;
@@ -1230,7 +1223,7 @@ input[type="text"], input[type="password"], input[type="file"], input input[type
 	-moz-box-shadow:#c3c3c3 2px 2px 2px;
 	box-shadow:#c3c3c3 2px 2px 2px;
 	margin:5px 0 5px 10px;
-padding:3px 6px 3px 10px; 
+    padding:3px 6px 3px 10px; 
 	}
 #content p.calltoaction a:hover {
 	background: #444; /* fallback */
@@ -1377,6 +1370,7 @@ p.international:before{
 p.leicsaward:before{
 	content:"Leicester Award:";
 	}
+/*----this looks over complicated but the only way to specify a gradient and background image in the same class-------*/
 p.warning{
 	background:#ededed url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px; /* fallback */
 	background: url("++resource++leicester.plonetheme.images/warningpara.png") no-repeat 8px 8px, -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#C3C3C3)); /* Saf4+, Chrome */
@@ -1580,7 +1574,7 @@ p.greyintro {
 	display:block;
 	}	
 
-/* ------------------ALPHABET MENU-----------------------------------*/
+/* ------------------Alphabet Menu (anchor links)-----------------------------------*/
 #content ul.alphabet {
 	font-size:120%!important;
 	display:inline;
@@ -1631,6 +1625,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 	background: -o-linear-gradient(top, #828282, #444); /* Opera 11.10+ */
 	background: linear-gradient(top, #828282, #444); /* W3C */
 	}
+/*back to top arrow*/
 #content p.toparrow a:link,#content p.toparrow a:visited,#content p.toparrow a:hover {
 	font-weight:bold;
 	text-align:right;
@@ -1707,7 +1702,6 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 #content .quote p, #content .smallquote p{
 	margin-bottom:0;
 	}	
-
 /*--------------Add this plugin-------------*/
 .addthis_toolbox{
 	padding: 20px 0 0 0; 
@@ -1725,7 +1719,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
     font-size: 1.2em!important;
 	}
 
-/*--------media queries specific stuff-----*/
+/*--------Media queries specific stuff-----*/
 /*----this hides the duplicate global nav menu that is in the footer when viewed on the desktop and tablets-*/
 #portal-footer-wrapper #portal-searchbox, .mobileskip, .mobilemenu, #mobilebacktotop, .mobileaddthis, .mobilefooterextra{
 	display:none;
@@ -1776,7 +1770,7 @@ ul.alphabet li a:link,ul.alphabet li a:visited,ul.alphabet li a:hover {
 /*-neeeded for portlets within the page if I can get contentwells to work-*/
 #content dl.portlet dd {
     margin:0;
-}
+	}
 
 #content dl.portlet{
 	font-size:100%;

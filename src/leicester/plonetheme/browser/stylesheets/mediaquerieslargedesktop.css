@@ -4,7 +4,7 @@ body {
 .tabposition {
 	background: #d7d7d7 url('++resource++leicester.plonetheme.images/bannerlargescreenbg.png') no-repeat top right;
 	}
-/* for readability making the width of the site only got to 90em */
+/*-this makes the fixed width grow proportionally to the browser (1600 > monitor = 1200 fixed width)-*/
 #visual-portal-wrapper, #portal-header, #portal-footer-wrapper, #libraryfooter {
 	width: 1200px !important;
 	margin: 0px auto !important;

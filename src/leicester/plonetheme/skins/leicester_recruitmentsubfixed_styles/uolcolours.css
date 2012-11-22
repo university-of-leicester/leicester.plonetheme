@@ -1,10 +1,17 @@
 /* Recruitment sub pages (job vacancies) */
 /* --------------- Recruitment Website ----------------- */
-body {background:#EEEFF1;}
+body {
+	background:#EEEFF1;
+	}
 /* --------- highlight and outline paragraph to match site ------------ */
-.highlight-shaded {background:#999999;}
-.highlight-outline {border-color:#999999;}
+.highlight-shaded {
+	background:#999999;
+	}
+.highlight-outline {
+	border-color:#999999;
+	}
 
 /*-------so you can see the web editor log in ------*/
 #portal-personaltools {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);}
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	}

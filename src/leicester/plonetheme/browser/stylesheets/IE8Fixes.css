@@ -1,5 +1,6 @@
-/* CSS Document */
+/* CSS Document \9 is needed at the end of evry style because of TinyMCE-*/
 /*------Header tab and footer graphic as -IE 8 and lower can't cope with opacity or rounded corners--*/
+	
 #portal-footer, #portal-globalnav {
 	background:url("++resource++leicester.plonetheme.images/ie8/footerbgie.png")\9;
 	overflow:hidden\9; 
@@ -99,7 +100,6 @@
 .calltoactionleicsex a:hover{
 	background: url("++resource++leicester.plonetheme.images/ie8/leicesterexchangeshover.png") no-repeat 0 0\9;
 	}
-
 
 .calltoactionbooknow a{
 	background: url("++resource++leicester.plonetheme.images/ie8/booknow.png") no-repeat 0 0\9;

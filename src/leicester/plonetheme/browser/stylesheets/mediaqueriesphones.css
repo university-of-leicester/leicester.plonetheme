@@ -1,7 +1,8 @@
-/*h1.documentFirstHeading:before{content:"Mobiles:";}*/
+
 html {
     -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
 	}
+/*--- slightly increases the font size for all text ----*/
 body {
 	font-size:1.1em;
 	}
@@ -34,7 +35,6 @@ div#portal-column-content {
 	/*shrinks university logo to a mobile friendly size*/
 #portal-logo img{
 	height:40px;
-
 	}
 /*----this hides the global nav, login menu and search box from displaying at the top of the screen on mobiles---*/
 #portal-globalnav, #portal-searchbox, #mobilelinks, #portal-personaltools, .deskaddthis{
@@ -61,7 +61,6 @@ div#portal-column-content {
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
 	}
-	
 #mainmobilelinks a.icon-alone{font-size:200%;}
 	
 /*-----mobile search box---*/
@@ -75,7 +74,7 @@ div#portal-column-content {
 .mobilemenu	#portal-searchbox input[type="text"] {
 	width:202px;
 	}
-/*-mainlinks 'quick links' --- mobilemenu 'University A-Z, Maps' etc-*/
+/*-mainlinks indicated with three horizontal lines --- mobilemenu 'University A-Z, Maps' etc-*/
 #mainmobilelinks, .mobilemenu{
 	width: 100% !important;
 	margin:0px!important;
@@ -173,7 +172,7 @@ img.image-left, img.image-right, img.image-right-border, img.image-left-border{
 	max-width:100%;
 	padding:6px 8px 6px 12px;
 	}
-		
+/*------ increases the size of the font in tables --------------*/
 table th, table th h2,table th h3,table th h4,table th h5,table th p,table th a, table.listing th{
 	font-size:16px;
 	line-height:20px;
@@ -182,7 +181,7 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 	font-size:14px;
 	line-height:18px;
 	}
-/*-----------------------------------------------*/
+/*------------back to top arrow in footer -------------------*/
 #mobilebacktotop a{
 	display:inline;
 	}
@@ -228,8 +227,6 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 .mobileaddthis .addthis_button_tweet, .mobileaddthis .addthis_button_google_plusone{
 	margin-right:12px;
 	}
-
-	
 /*------------Footer---------------*/
 #portal-footer{
 	padding: 1em 0.6em;
@@ -255,7 +252,6 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 .collage-item {
 	margin:0!important;
 	}
-
 #collage .row_1 .three-columns-equal .block_1, #collage .row_1 .three-columns-equal .block_2, #collage .row_1 .three-columns-equal .block_3{
 	padding: 0; 
 	margin:0;
@@ -289,19 +285,7 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
     width: 94%;
 	margin-left: 3%;
 	}
-#content #collage p.buttonright, #content #collage p.buttonleft, #content #collage p.button{
-	width: 100%!important; 
-	float:none; 
-	padding: 0; 
-	margin: 0;
-	}
-#content p.button a {
-    height: auto;
-	margin: 0;
-	}
-#content #collage p.buttonright a, #content #collage p.buttonleft a{
-	margin: 10px 0;
-	}
+
 #collage .two-columns-largeright .block_2{
 	padding: 4%; 
 	margin: 10px 0 0 0;
@@ -310,17 +294,18 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 #content #collage .two-columns-largeright .block_1 .portletStaticText {
 	margin:0;
 	}
-.shadeddivider{
-	background-image:none; 
-	margin:0; 
-	background-color:#fff;
-	}
 #content #collage .rightnews{
 	display:block; 
 	text-align: left; 
 	width:100%; 
 	padding:14px 0;
 	}
+	
+#content p.bluebuttonsspotlight a, #content p.greenbuttonsspotlight a {
+    height: auto!important;
+	margin: 0 0 7px 0;
+	}
+
 	
 /*=-------------business------------------------=*/
 #collage .row_2 .two-columns-equal .block_1, #collage .row_2 .two-columns-equal .block_2 {
@@ -352,13 +337,8 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 	padding-left:14px;
 	}
 /*----------------Library homepage-----------*/	
-#collage .two-columns-largeleft .block_1 {
-    width:574px;
-}
-#collage .two-columns-largeleft .block_2 {
-    width:400px;
-}
-/*--------------Library sub page ---------------------*/
+
+/*--------------Library sub pages ---------------------*/
 #libraryfooter{
 	height: auto; 
 	overflow:hidden; 
@@ -380,6 +360,7 @@ table td, table td h2,table td h3,table td h4,table td h5,table td p,table td a{
 	padding:10px 0!important;
 	}
 /*---------- Portal pages ----------------------*/
+/*-this gets rid of the shadow graphic at the bottom of the page-*/
 #portal-columns{
 	background-image:none; 
 	padding-bottom:10px;

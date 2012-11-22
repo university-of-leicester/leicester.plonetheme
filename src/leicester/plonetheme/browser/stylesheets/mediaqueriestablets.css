@@ -1,3 +1,4 @@
+/*this will make the fixed width column flexible so it fits nicely on tablets and smaller screens*/
 body, #visual-portal-wrapper, #portal-header, #portal-footer-wrapper {
 	width: 100% !important;
 	}

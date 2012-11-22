@@ -21,7 +21,7 @@ h2 a:after{
 	display:inline-block; 
 	float:right; 
 	width:19px;
-	content: "\65";
+	content: "\e008";
 	color:#444;
 	}
 #collage {

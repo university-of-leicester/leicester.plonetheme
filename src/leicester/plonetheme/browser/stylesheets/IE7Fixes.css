@@ -22,8 +22,8 @@ body {
 #portal-footer ul.left li,#portal-footer ul.right li, #portal-footer ul.social li {
 	*list-style-type: disc;
 	}
-	#portal-footer ul.social li a img{
-	display:block;
+#portal-footer ul.social li a img{
+	*display:block;
 	}	
 
 /* ----------------Paragraph Icons---These are diferent graphics to the IE8&9 because IE7 can't do :before or :after-----------*/

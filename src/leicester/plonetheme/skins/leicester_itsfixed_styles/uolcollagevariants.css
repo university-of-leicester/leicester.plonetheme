@@ -9,7 +9,6 @@
 .template-collage_view #content h1.documentFirstHeading {
 	color:#333;
 	}
-
 #portal-globalnav{
 	margin-bottom:0;
 	}
@@ -29,15 +28,16 @@ h3.tileHeadline {
 	}
 #collage .newsicon{margin-top:20px!important;}
 .standard-topic h2:after{
-	content: "\36";
+	content: "\e00d";
 	font-size:200%;
 	}
 .portlet-static-core-services h2:after{
-	content: "\37"; 
-	font-size:270%;
+	content: "\e010"; 
+	font-size:200%;
 	}
 .portlet-static-about-it-services h2:after{
-	content: "\5c";
+	content: "\e009";
+	font-size:270%;
 	}
 /*.portlet-static-it-support h2:after{
 	content: "\34";

@@ -31,8 +31,9 @@ div.portletStaticText h1, div.portletStaticText h2, div.portletStaticText h3{
 h1, h2, h3, h4, h5, h6, p, li, ol, dd, dt, h1.documentFirstHeading, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, #portal-column-one div.managePortletsLink a:link, #portal-column-one div.managePortletsLink a:visited, #portal-column-two div.managePortletsLink a:link, #portal-column-two div.managePortletsLink a:visited, #content a:hover, #portal-column-one a:hover, #portal-column-two a:hover, #content table td a:hover, #content table th a:hover{
 	color: #fff!important;
 	}
-	
-dl.portalMessage dd{color: #444!important;}
+dl.portalMessage dd{
+	color: #444!important;
+	}
 dl.warning dt {
 	color:#b94a48!important;
 	}
@@ -223,8 +224,10 @@ body .template-manage-portlets dl.portlet dt, div.portletAssignments div.portlet
 .mobileaddthis{
 	background:transparent!important;}
 	
+/*-------removes background image of shadowy people for mobile phones-----*/
 @media screen and (min-device-width: 320px) and (max-device-width: 480px){
 #portal-columns{
 	background-image:none;
 	padding-bottom:10px!important;
-	}}
+	}
+	}

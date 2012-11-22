@@ -1,6 +1,6 @@
 <div class="mobilemenu">
     <div id="mainmobilelinks"><a href="#" class="icon-alone"><span aria-hidden="true" data-icon="&#xe022;"></span>
-  <span class="screen-reader-text">Follow us on Facebook</span></a></div>
+  <span class="screen-reader-text">Quick Links</span></a></div>
     <ul id="mobilelinks">
         <li><a title="University A-Z" href="http://www.le.ac.uk/indexes">University A-Z</a></li>
 		<li><div id="portal-searchbox">

@@ -20,7 +20,10 @@ dl.portlet dt, dl.portlet dt, div.portletAssignments div.portletHeader, #content
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#d7d7d7');/*For IE7-8-9*/ 
 	*height: 1%;/*For IE7*/ 
 	}
-#portal-breadcrumbs a{width:auto; display:inline;}
+#portal-breadcrumbs a{
+	width:auto; 
+	display:inline;
+	}
 
 /* Paragraph Icons --------IE 9 & 8---*/
 p.warning{
@@ -72,7 +75,4 @@ p.leicsaward{
 	background: #d6d6d6 url("++resource++leicester.plonetheme.images/ie/leicsawardie.png") no-repeat 0 0;
 	}
 	
-/*--------staff and student homepage----------------*/
-.shadeddivider {filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ededed', endColorstr='#ffffff');/*For IE7-8-9*/ 
-	/* height: 1%; For IE7*/ }
 	

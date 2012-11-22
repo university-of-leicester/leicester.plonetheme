@@ -1,7 +1,11 @@
 /* CSS Document */
 /*----------------Staff Magazine--Sub Pages--------------------*/
 body{
-	background:#002851 url(staffbackground.jpg) top right no-repeat;}
-.highlight-shaded {background: #002851;}
-
-.highlight-outline {border-color:#002851;}
+	background:#002851 url(staffbackground.jpg) top right no-repeat;
+	}
+.highlight-shaded {
+	background: #002851;
+	}
+.highlight-outline {
+	border-color:#002851;
+	}

@@ -111,10 +111,10 @@ hr {
     padding-left:1.2em;
     list-style: none;
     text-indent: -1.3em;
+/*replaces arrow icon font with bullet point for IE7*/
     *text-indent: 0;
     *list-style-type: disc;
 	}
-	
 #content #collage .portletStaticText ul {
 	padding-left:0.4em;
 	}

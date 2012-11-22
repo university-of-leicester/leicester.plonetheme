@@ -1,4 +1,6 @@
-/*----------------------------Aqua--------------------*/
-body, .highlight-shaded {background:#217C8F;}
+
+body, .highlight-shaded {
+	background:#217C8F;}
 /*----------highlight and outline paragraph to match site-------------*/
-.highlight-outline {border-color: #217C8F;}
+.highlight-outline {
+	border-color: #217C8F;}
